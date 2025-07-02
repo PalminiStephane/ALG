@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Découvrez nos services de soins technico-esthétiques : Jet Peel, Laser médical, Dermopigmentation, LED et plus. ALG Derma Lina Ensues la Redonne.">
+    <title>Nos Services - ALG Derma Lina</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        /* Styles spécifiques page services */
+        .services-intro {
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto 4rem;
+        }
+        
+        .service-detail {
+            padding: 4rem 0;
+            border-bottom: 1px solid rgba(139, 154, 123, 0.2);
+        }
+        
+        .service-detail:last-child {
+            border-bottom: none;
+        }
+        
+        .service-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .service-detail:nth-child(even) .service-content {
+            direction: rtl;
+        }
+        
+        .service-detail:nth-child(even) .service-text {
+            direction: ltr;
+        }
+        
+        .service-image {
+            position: relative;
+            overflow: hidden;
+            border-radius: 15px;
+            height: 400px;
+            background-color: #E8DDD4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .service-image .placeholder {
+            font-size: 4rem;
+            opacity: 0.5;
+        }
+        
+        .service-text h2 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+        }
+        
+        .service-text h3 {
+            color: var(--accent-color);
+            font-size: 1.2rem;
+            margin: 2rem 0 1rem;
+        }
+        
+        .benefits-list {
+            list-style: none;
+            margin: 1.5rem 0;
+        }
+        
+        .benefits-list li {
+            padding-left: 2rem;
+            position: relative;
+            margin-bottom: 0.8rem;
+        }
+        
+        .benefits-list li:before {
+            content: '✓';
+            position: absolute;
+            left: 0;
+            color: var(--primary-color);
+            font-weight: bold;
+        }
+        
+        .service-cta {
+            margin-top: 2rem;
+        }
+        
+        .btn-service {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 2rem;
+            border-radius: 30px;
+            text-decoration: none;
+            display: inline-block;
+            transition: var(--transition);
+        }
+        
+        .btn-service:hover {
+            background-color: var(--accent-color);
+            transform: translateY(-2px);
+        }
+        
+        /* Tarifs indicatifs */
+        .price-indicator {
+            background-color: var(--bg-light);
+            padding: 1rem 1.5rem;
+            border-radius: 10px;
+            display: inline-block;
+            margin-top: 1rem;
+            color: var(--accent-color);
+            font-weight: 500;
+        }
+        
+        @media (max-width: 768px) {
+            .service-content {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .service-detail:nth-child(even) .service-content {
+                direction: ltr;
+            }
+            
+            .service-image {
+                height: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header (identique à index.html) -->
+    <header>
+        <nav>
+            <div class="logo">
+                <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(10, 10)">
+                        <path d="M 15 50 C 15 45, 10 30, 10 20 C 10 10, 15 5, 25 5 C 35 5, 40 10, 40 20 C 40 30, 35 45, 35 50 L 32 50 L 30 45 L 20 45 L 18 50 L 15 50 Z M 25 20 L 22 35 L 28 35 L 25 20 Z" 
+                              stroke="#8B9A7B" stroke-width="2.5" fill="none"/>
+                        <path d="M 35 50 C 35 45, 40 30, 40 20 C 40 10, 45 5, 55 5 C 65 5, 70 10, 70 20 C 70 30, 65 40, 60 45 C 55 50, 50 48, 50 45 L 50 40 L 60 40 L 60 42 C 63 40, 65 35, 65 25 C 65 15, 63 10, 55 10 C 47 10, 45 15, 45 25 C 45 35, 40 45, 35 50" 
+                              stroke="#8B9A7B" stroke-width="2.5" fill="none"/>
+                        <path d="M 35 50 L 35 85 L 50 85" 
+                              stroke="#8B9A7B" stroke-width="2.5" fill="none"/>
+                        <circle cx="35" cy="50" r="2" fill="#8B9A7B"/>
+                    </g>
+                </svg>
+                <span>DERMA LINA</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html#booking" class="cta-button">Prendre RDV</a></li>
+            </ul>
+            <button class="mobile-menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li>Services</li>
+        </ul>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Nos Services</h1>
+        <p>Une gamme complète de soins technico-esthétiques médicaux pour révéler votre beauté naturelle</p>
+    </section>
+
+    <!-- Services Content -->
+    <section class="section">
+        <div class="container">
+            <div class="services-intro">
+                <p>Chez ALG Derma Lina, nous proposons des soins innovants et personnalisés, alliant technologie de pointe et approche holistique. Chaque traitement est adapté à vos besoins spécifiques pour des résultats optimaux.</p>
+            </div>
+
+            <!-- Jet Peel -->
+            <div id="jet-peel" class="service-detail">
+                <div class="service-content">
+                    <div class="service-image">
+                        <div class="placeholder">💧</div>
+                    </div>
+                    <div class="service-text">
+                        <h2>Jet Peel</h2>
+                        <p>Le Jet Peel est un soin non invasif révolutionnaire qui utilise la technologie de jet d'eau haute pression pour nettoyer, hydrater et régénérer la peau en profondeur. Sans douleur ni temps de récupération, ce traitement offre des résultats visibles dès la première séance.</p>
+                        
+                        <h3>Bénéfices</h3>
+                        <ul class="benefits-list">
+                            <li>Nettoyage en profondeur des pores</li>
+                            <li>Hydratation intense de la peau</li>
+                            <li>Stimulation de la production de collagène</li>
+                            <li>Atténuation des rides et ridules</li>
+                            <li>Éclat immédiat du teint</li>
+                            <li>Réduction des taches pigmentaires</li>
+                        </ul>
+                        
+                        <h3>Pour qui ?</h3>
+                        <p>Convient à tous les types de peau, particulièrement recommandé pour les peaux ternes, déshydratées ou présentant des signes de vieillissement.</p>
+                        
+                        <div class="price-indicator">À partir de 80€ la séance</div>
+                        
+                        <div class="service-cta">
+                            <a href="contact.html#booking" class="btn-service">Réserver ce soin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Laser Médical -->
+            <div id="laser" class="service-detail">
+                <div class="service-content">
+                    <div class="service-image">
+                        <div class="placeholder">⚡</div>
+                    </div>
+                    <div class="service-text">
+                        <h2>Épilation Laser Médical</h2>
+                        <p>Notre épilation laser médicale utilise la technologie la plus avancée pour une épilation durable, efficace et sécurisée. Adaptée à tous les phototypes de peau, elle offre des résultats rapides et durables avec un minimum d'inconfort.</p>
+                        
+                        <h3>Avantages</h3>
+                        <ul class="benefits-list">
+                            <li>Épilation définitive et durable</li>
+                            <li>Traitement rapide et précis</li>
+                            <li>Adapté à tous les types de peau</li>
+                            <li>Sans douleur grâce au système de refroidissement</li>
+                            <li>Résultats visibles dès les premières séances</li>
+                            <li>Consultation initiale offerte</li>
+                        </ul>
+                        
+                        <h3>Zones traitées</h3>
+                        <p>Visage, aisselles, maillot, jambes, dos, torse... Toutes les zones peuvent être traitées en toute sécurité.</p>
+                        
+                        <div class="price-indicator">Tarifs selon la zone - Devis gratuit</div>
+                        
+                        <div class="service-cta">
+                            <a href="contact.html#booking" class="btn-service">Consultation gratuite</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accompagnement Naturopathique -->
+            <div id="naturopathie" class="service-detail">
+                <div class="service-content">
+                    <div class="service-image">
+                        <div class="placeholder">🌿</div>
+                    </div>
+                    <div class="service-text">
+                        <h2>Accompagnement Naturopathique</h2>
+                        <p>En tant que naturopathe certifiée, je propose un accompagnement complet pour révéler votre beauté de l'intérieur. Mon approche holistique combine conseils nutritionnels, phytothérapie et techniques naturelles pour optimiser votre santé et votre bien-être.</p>
+                        
+                        <h3>Programme personnalisé</h3>
+                        <ul class="benefits-list">
+                            <li>Bilan de santé complet</li>
+                            <li>Conseils nutritionnels adaptés</li>
+                            <li>Plan alimentaire personnalisé</li>
+                            <li>Recommandations en phytothérapie</li>
+                            <li>Suivi régulier et ajustements</li>
+                            <li>Approche préventive et curative</li>
+                        </ul>
+                        
+                        <h3>Objectifs</h3>
+                        <p>Améliorer la qualité de votre peau, booster votre énergie, réguler votre poids, gérer le stress et optimiser votre santé globale.</p>
+                        
+                        <div class="price-indicator">Consultation complète : 90€</div>
+                        
+                        <div class="service-cta">
+                            <a href="contact.html#booking" class="btn-service">Prendre rendez-vous</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Photobiomodulation LED -->
+            <div id="led" class="service-detail">
+                <div class="service-content">
+                    <div class="service-image">
+                        <div class="placeholder">💫</div>
+                    </div>
+                    <div class="service-text">
+                        <h2>Photobiomodulation par LED</h2>
+                        <p>La photobiomodulation est une thérapie innovante non invasive utilisant la lumière LED pour stimuler les processus naturels de guérison et de régénération cellulaire. Cette technologie de pointe offre des résultats remarquables sans douleur ni effets secondaires.</p>
+                        
+                        <h3>Actions thérapeutiques</h3>
+                        <ul class="benefits-list">
+                            <li>Stimulation de la production de collagène</li>
+                            <li>Réduction de l'inflammation</li>
+                            <li>Accélération de la cicatrisation</li>
+                            <li>Soulagement de la douleur</li>
+                            <li>Amélioration de la circulation sanguine</li>
+                            <li>Traitement de l'acné et des imperfections</li>
+                        </ul>
+                        
+                        <h3>Applications</h3>
+                        <p>Anti-âge, traitement de l'acné, cicatrisation post-opératoire, douleurs articulaires, récupération sportive.</p>
+                        
+                        <div class="price-indicator">À partir de 60€ la séance</div>
+                        
+                        <div class="service-cta">
+                            <a href="contact.html#booking" class="btn-service">Découvrir ce soin</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dermopigmentation -->
+            <div id="dermopigmentation" class="service-detail">
+                <div class="service-content">
+                    <div class="service-image">
+                        <div class="placeholder">🎨</div>
+                    </div>
+                    <div class="service-text">
+                        <h2>Dermopigmentation</h2>
+                        <p>"Sublimer sans transformer, révéler sans masquer" - La dermopigmentation est l'art du maquillage permanent qui souligne naturellement votre beauté. Avec des pigments spécifiques et une technique médicale précise, je réalise aussi des corrections de cicatrices et reconstructions d'aréoles mammaires.</p>
+                        
+                        <h3>Prestations</h3>
+                        <ul class="benefits-list">
+                            <li>Maquillage permanent (sourcils, lèvres, eye-liner)</li>
+                            <li>Correction et camouflage de cicatrices</li>
+                            <li>Reconstruction d'aréoles mammaires</li>
+                            <li>Densification capillaire</li>
+                            <li>Pigments biocompatibles de haute qualité</li>
+                            <li>Technique médicale sécurisée</li>
+                        </ul>
+                        
+                        <h3>L'art au service de la guérison</h3>
+                        <p>Au-delà de l'esthétique, la dermopigmentation médicale aide à la reconstruction de l'image de soi après un traumatisme ou une chirurgie.</p>
+                        
+                        <div class="price-indicator">Sur devis personnalisé</div>
+                        
+                        <div class="service-cta">
+                            <a href="contact.html#booking" class="btn-service">Consultation gratuite</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Accompagnement Parentalité -->
+            <div id="parentalite" class="service-detail">
+                <div class="service-content">
+                    <div class="service-image">
+                        <div class="placeholder">👶</div>
+                    </div>
+                    <div class="service-text">
+                        <h2>Accompagnement à la Parentalité</h2>
+                        <p>En tant qu'infirmière puéricultrice, je propose des ateliers conviviaux en petits groupes pour accompagner les parents dans cette belle aventure. Un espace d'échange chaleureux autour d'une boisson et d'un goûter pour aborder sereinement les défis de la parentalité.</p>
+                        
+                        <h3>Thèmes abordés</h3>
+                        <ul class="benefits-list">
+                            <li>Allaitement maternel et artificiel</li>
+                            <li>Sommeil de bébé et rituels apaisants</li>
+                            <li>Diversification alimentaire et premiers repas</li>
+                            <li>Développement psychomoteur de l'enfant</li>
+                            <li>Acquisition de la propreté</li>
+                            <li>Gestion des émotions et des pleurs</li>
+                        </ul>
+                        
+                        <h3>Format des ateliers</h3>
+                        <p>Groupes de 6 parents maximum, 2h d'échange dans une ambiance conviviale, conseils personnalisés et support écrit fourni.</p>
+                        
+                        <div class="price-indicator">45€ par atelier - Forfaits disponibles</div>
+                        
+                        <div class="service-cta">
+                            <a href="contact.html#booking" class="btn-service">S'inscrire à un atelier</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2>Prête à prendre soin de vous ?</h2>
+        <p>Réservez votre consultation personnalisée pour découvrir le traitement adapté à vos besoins</p>
+        <a href="contact.html#booking" class="btn-primary" style="background-color: white; color: #8B9A7B;">Réserver maintenant</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>ALG Derma Lina</h3>
+                    <p>Soins technico-esthétiques médicaux par Caroline Vedda, infirmière spécialisée.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Nos Services</h3>
+                    <ul>
+                        <li><a href="#jet-peel">Jet Peel</a></li>
+                        <li><a href="#laser">Épilation Laser</a></li>
+                        <li><a href="#dermopigmentation">Dermopigmentation</a></li>
+                        <li><a href="#parentalite">Parentalité</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p>📞 06 35 56 58 62<br>
+                    📧 contact@algdermalina.fr<br>
+                    📍 Ensues la Redonne, PACA</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ALG Derma Lina. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

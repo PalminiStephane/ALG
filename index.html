@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ALG Derma Lina - Soins technico-esthétiques médicaux à Ensues la Redonne. Jet Peel, épilation laser, dermopigmentation et accompagnement naturopathique par Caroline Vedda.">
+    <meta name="keywords" content="soins esthétiques médicaux, jet peel, épilation laser, dermopigmentation, naturopathie, Ensues la Redonne">
+    <title>ALG Derma Lina - Soins Technico-Esthétiques Médicaux | Accueil</title>
+    
+    <!-- CSS commun à toutes les pages -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        /* Styles spécifiques à la page d'accueil */
+        .hero {
+            background: linear-gradient(135deg, #FAF9F7 0%, #E8DDD4 50%, #FAF9F7 100%);
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .hero-content {
+            text-align: center;
+            z-index: 1;
+            animation: fadeInUp 1s ease;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 200;
+            color: #2C3E2C;
+            margin-bottom: 1.5rem;
+            letter-spacing: 3px;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            color: #2C3E2C;
+            opacity: 0.8;
+            margin-bottom: 2.5rem;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn-primary, .btn-secondary {
+            padding: 1rem 2.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+        }
+        
+        .btn-primary {
+            background-color: #8B9A7B;
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: #D4A574;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            color: #8B9A7B;
+            border: 2px solid #8B9A7B;
+        }
+        
+        .btn-secondary:hover {
+            background-color: #8B9A7B;
+            color: white;
+        }
+        
+        /* Section services aperçu */
+        .services-preview {
+            padding: 5rem 5%;
+            background-color: #FFFFFF;
+        }
+        
+        .services-preview h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 200;
+            color: #8B9A7B;
+            margin-bottom: 3rem;
+            letter-spacing: 2px;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .service-card {
+            background-color: #FAF9F7;
+            border-radius: 15px;
+            padding: 2.5rem;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .service-card h3 {
+            font-size: 1.5rem;
+            color: #2C3E2C;
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+        
+        .service-card p {
+            color: #2C3E2C;
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+        
+        /* Section témoignages */
+        .testimonials {
+            padding: 5rem 5%;
+            background-color: #FAF9F7;
+        }
+        
+        .testimonials h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 200;
+            color: #8B9A7B;
+            margin-bottom: 3rem;
+            letter-spacing: 2px;
+        }
+        
+        .testimonial-slider {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .testimonial {
+            background-color: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+        
+        .testimonial p {
+            font-style: italic;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #2C3E2C;
+            margin-bottom: 2rem;
+        }
+        
+        .testimonial-author {
+            font-weight: 500;
+            color: #8B9A7B;
+        }
+        
+        /* Call to action */
+        .cta-section {
+            background: linear-gradient(135deg, #8B9A7B, #D4A574);
+            padding: 4rem 5%;
+            text-align: center;
+            color: white;
+        }
+        
+        .cta-section h2 {
+            font-size: 2.5rem;
+            font-weight: 200;
+            margin-bottom: 1.5rem;
+            letter-spacing: 2px;
+        }
+        
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .services-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(10, 10)">
+                        <path d="M 15 50 C 15 45, 10 30, 10 20 C 10 10, 15 5, 25 5 C 35 5, 40 10, 40 20 C 40 30, 35 45, 35 50 L 32 50 L 30 45 L 20 45 L 18 50 L 15 50 Z M 25 20 L 22 35 L 28 35 L 25 20 Z" 
+                              stroke="#8B9A7B" stroke-width="2.5" fill="none"/>
+                        <path d="M 35 50 C 35 45, 40 30, 40 20 C 40 10, 45 5, 55 5 C 65 5, 70 10, 70 20 C 70 30, 65 40, 60 45 C 55 50, 50 48, 50 45 L 50 40 L 60 40 L 60 42 C 63 40, 65 35, 65 25 C 65 15, 63 10, 55 10 C 47 10, 45 15, 45 25 C 45 35, 40 45, 35 50" 
+                              stroke="#8B9A7B" stroke-width="2.5" fill="none"/>
+                        <path d="M 35 50 L 35 85 L 50 85" 
+                              stroke="#8B9A7B" stroke-width="2.5" fill="none"/>
+                        <circle cx="35" cy="50" r="2" fill="#8B9A7B"/>
+                    </g>
+                </svg>
+                <span>DERMA LINA</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html#booking" class="cta-button">Prendre RDV</a></li>
+            </ul>
+            <button class="mobile-menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Révélez votre beauté naturelle</h1>
+            <p>Soins technico-esthétiques médicaux innovants alliant expertise médicale et approche holistique</p>
+            <div class="hero-buttons">
+                <a href="contact.html#booking" class="btn-primary">Réserver une consultation</a>
+                <a href="services.html" class="btn-secondary">Découvrir nos services</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <h2>Nos Services</h2>
+        <div class="services-grid">
+            <a href="services.html#jet-peel" class="service-card">
+                <div class="service-icon">💧</div>
+                <h3>Jet Peel</h3>
+                <p>Soin non invasif pour nettoyer, hydrater et régénérer votre peau en profondeur.</p>
+            </a>
+            <a href="services.html#laser" class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Laser Médical</h3>
+                <p>Épilation durable et sécurisée pour tous types de peaux.</p>
+            </a>
+            <a href="services.html#dermopigmentation" class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>Dermopigmentation</h3>
+                <p>Maquillage permanent et tatouage médical reconstructeur.</p>
+            </a>
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="services.html" class="btn-secondary">Voir tous nos services</a>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>Témoignages</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <p>"Caroline est une professionnelle exceptionnelle. Son approche médicale combinée à sa douceur fait toute la différence. Les résultats du Jet Peel sont incroyables !"</p>
+                <div class="testimonial-author">- Marie L.</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <h2>Prête à révéler votre beauté ?</h2>
+        <p>Prenez rendez-vous dès aujourd'hui pour une consultation personnalisée</p>
+        <a href="contact.html#booking" class="btn-primary" style="background-color: white; color: #8B9A7B;">Réserver maintenant</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>ALG Derma Lina</h3>
+                    <p>Soins technico-esthétiques médicaux par Caroline Vedda, infirmière spécialisée.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="tarifs.html">Tarifs</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact</h3>
+                    <p>📞 06 35 56 58 62<br>
+                    📧 contact@algdermalina.fr<br>
+                    📍 Ensues la Redonne, PACA</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ALG Derma Lina. Tous droits réservés. | <a href="mentions-legales.html">Mentions légales</a> | <a href="politique-confidentialite.html">Politique de confidentialité</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CSS externe pour toutes les pages -->
+    <link rel="stylesheet" href="css/common.css">
+    
+    <script src="js/main.js"></script>
+</body>
+</html>

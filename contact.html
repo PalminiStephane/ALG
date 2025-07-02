@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contactez ALG Derma Lina pour réserver votre consultation. Caroline Vedda, infirmière spécialisée en soins technico-esthétiques à Ensues la Redonne.">
+    <title>Contact & Réservation - ALG Derma Lina</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+    <style>
+        /* Styles spécifiques page contact */
+        .contact-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .contact-info {
+            background-color: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+        }
+        
+        .contact-info h2 {
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+        }
+        
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 2rem;
+        }
+        
+        .info-item .icon {
+            font-size: 1.5rem;
+            margin-right: 1.5rem;
+            color: var(--accent-color);
+            min-width: 30px;
+        }
+        
+        .info-item h3 {
+            color: var(--primary-color);
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .info-item p {
+            color: var(--text-dark);
+            opacity: 0.8;
+        }
+        
+        /* Formulaire de réservation */
+        #booking {
+            background-color: var(--bg-light);
+            padding: 5rem 5%;
+        }
+        
+        .booking-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .booking-form {
+            background-color: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: var(--shadow);
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+        
+        .form-group label {
+            display: block;
+            color: var(--text-dark);
+            font-weight: 400;
+            margin-bottom: 0.5rem;
+            letter-spacing: 0.5px;
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 1rem;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            font-size: 1rem;
+            transition: border-color 0.3s ease;
+            background-color: var(--bg-light);
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            background-color: white;
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        .submit-button {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 3rem;
+            border: none;
+            border-radius: 30px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            letter-spacing: 1px;
+            display: block;
+            margin: 2rem auto 0;
+        }
+        
+        .submit-button:hover {
+            background-color: var(--accent-color);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+        
+        /* Map Section */
+        .map-section {
+            margin-top: 4rem;
+            border-radius: 15px;
+            overflow: hidden;
+            height: 400px;
+            background-color: #E8DDD4;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        /* Hours */
+        .hours-table {
+            width: 100%;
+            margin-top: 1rem;
+        }
+        
+        .hours-table tr {
+            display: flex;
+            justify-content: space-between;
+            padding: 0.5rem 0;
+            border-bottom: 1px solid rgba(0,0,0,0.1);
+        }
+        
+        .hours-table tr:last-child {
+            border-bottom: none;
+        }
+        
+        /* Success/Error Messages */
+        .alert {
+            padding: 1rem 1.5rem;
+            border-radius: 8px;
+            margin-bottom: 2rem;
+            animation: fadeInUp 0.5s ease;
+        }
+        
+        .alert-success {
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        
+        .alert-error {
+            background-color: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        
+        @media (max-width: 768px) {
+            .contact-container {
+                grid-template-columns: 1fr;
+                gap: 2rem;
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-info,
+            .booking-form {
+                padding: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo">
+                <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g transform="translate(10, 10)">
+                        <path d="M 15 50 C 15 45, 10 30, 10 20 C 10 10, 15 5, 25 5 C 35 5, 40 10, 40 20 C 40 30, 35 45, 35 50 L 32 50 L 30 45 L 20 45 L 18 50 L 15 50 Z M 25 20 L 22 35 L 28 35 L 25 20 Z" 
+                              stroke="#8B9A7B" stroke-width="2.5" fill="none"/>
+                        <path d="M 35 50 C 35 45, 40 30, 40 20 C 40 10, 45 5, 55 5 C 65 5, 70 10, 70 20 C 70 30, 65 40, 60 45 C 55 50, 50 48, 50 45 L 50 40 L 60 40 L 60 42 C 63 40, 65 35, 65 25 C 65 15, 63 10, 55 10 C 47 10, 45 15, 45 25 C 45 35, 40 45, 35 50" 
+                              stroke="#8B9A7B" stroke-width="2.5" fill="none"/>
+                        <path d="M 35 50 L 35 85 L 50 85" 
+                              stroke="#8B9A7B" stroke-width="2.5" fill="none"/>
+                        <circle cx="35" cy="50" r="2" fill="#8B9A7B"/>
+                    </g>
+                </svg>
+                <span>DERMA LINA</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="tarifs.html">Tarifs</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="#booking" class="cta-button">Prendre RDV</a></li>
+            </ul>
+            <button class="mobile-menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li>Contact</li>
+        </ul>
+    </div>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Contact & Réservation</h1>
+        <p>Prenez rendez-vous pour votre consultation personnalisée</p>
+    </section>
+
+    <!-- Contact Information -->
+    <section class="section">
+        <div class="container">
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h2>Informations de contact</h2>
+                    
+                    <div class="info-item">
+                        <div class="icon">📞</div>
+                        <div>
+                            <h3>Téléphone</h3>
+                            <p>06 35 56 58 62</p>
+                            <p style="font-size: 0.9rem;">Disponible du lundi au vendredi</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="icon">📧</div>
+                        <div>
+                            <h3>Email</h3>
+                            <p>contact@algdermalina.fr</p>
+                            <p style="font-size: 0.9rem;">Réponse sous 24-48h</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="icon">📍</div>
+                        <div>
+                            <h3>Adresse</h3>
+                            <p>Ensues la Redonne</p>
+                            <p>Provence-Alpes-Côte d'Azur</p>
+                            <p style="font-size: 0.9rem;">Adresse exacte communiquée lors de la prise de RDV</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="icon">🕒</div>
+                        <div>
+                            <h3>Horaires d'ouverture</h3>
+                            <table class="hours-table">
+                                <tr>
+                                    <td>Lundi - Vendredi</td>
+                                    <td>9h00 - 18h00</td>
+                                </tr>
+                                <tr>
+                                    <td>Samedi</td>
+                                    <td>Sur rendez-vous</td>
+                                </tr>
+                                <tr>
+                                    <td>Dimanche</td>
+                                    <td>Fermé</td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="map-section">
+                    <p style="color: #8B9A7B; font-size: 1.2rem;">Carte interactive</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Booking Form -->
+    <section id="booking">
+        <div class="booking-container">
+            <h2 class="text-center mb-3" style="color: var(--primary-color);">Réserver votre consultation</h2>
+            
+            <!-- Messages de succès/erreur -->
+            <?php if(isset($_GET['success']) && $_GET['success'] == 1): ?>
+            <div class="alert alert-success">
+                Votre demande de réservation a été envoyée avec succès ! Nous vous contacterons dans les plus brefs délais.
+            </div>
+            <?php endif; ?>
+            
+            <?php if(isset($_GET['error']) && $_GET['error'] == 1): ?>
+            <div class="alert alert-error">
+                Une erreur s'est produite. Veuillez réessayer ou nous contacter directement par téléphone.
+            </div>
+            <?php endif; ?>
+            
+            <form class="booking-form" action="process_booking.php" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Nom complet *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Téléphone *</label>
+                        <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}" placeholder="0612345678">
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service souhaité *</label>
+                        <select id="service" name="service" required>
+                            <option value="">Sélectionnez un service</option>
+                            <option value="jet-peel">Jet Peel</option>
+                            <option value="laser">Épilation Laser Médical</option>
+                            <option value="naturopathie">Accompagnement Naturopathique</option>
+                            <option value="led">Photobiomodulation LED</option>
+                            <option value="dermopigmentation">Dermopigmentation</option>
+                            <option value="parentalite">Accompagnement à la Parentalité</option>
+                            <option value="consultation">Consultation générale</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="date">Date souhaitée *</label>
+                        <input type="date" id="date" name="date" required min="<?php echo date('Y-m-d'); ?>">
+                    </div>
+                    <div class="form-group">
+                        <label for="time">Créneau horaire préféré *</label>
+                        <select id="time" name="time" required>
+                            <option value="">Sélectionnez un créneau</option>
+                            <option value="09:00-10:00">9h00 - 10h00</option>
+                            <option value="10:00-11:00">10h00 - 11h00</option>
+                            <option value="11:00-12:00">11h00 - 12h00</option>
+                            <option value="14:00-15:00">14h00 - 15h00</option>
+                            <option value="15:00-16:00">15h00 - 16h00</option>
+                            <option value="16:00-17:00">16h00 - 17h00</option>
+                            <option value="17:00-18:00">17h00 - 18h00</option>
+                        </select>
+                    </div>
+                </div>
+                
+                <div class="form-group">
+                    <label for="message">Message ou informations complémentaires</label>
+                    <textarea id="message" name="message" placeholder="Décrivez vos besoins, vos attentes ou toute information utile..."></textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label style="display: flex; align-items: center; cursor: pointer;">
+                        <input type="checkbox" name="consent" required style="width: auto; margin-right: 10px;">
+                        J'accepte que mes données soient utilisées pour traiter ma demande de rendez-vous *
+                    </label>
+                </div>
+                
+                <button type="submit" class="submit-button">Envoyer ma demande de réservation</button>
+                
+                <p style="text-align: center; margin-top: 1.5rem; opacity: 0.7; font-size: 0.9rem;">
+                    * Champs obligatoires - Nous vous confirmerons votre rendez-vous dans les 24 à 48 heures
+                </p>
+            </form>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="section" style="background-color: white;">
+        <div class="container">
+            <h2 class="text-center mb-3" style="color: var(--primary-color);">Questions fréquentes</h2>
+            
+            <div style="max-width: 800px; margin: 0 auto;">
+                <details style="margin-bottom: 1rem; padding: 1.5rem; background-color: var(--bg-light); border-radius: 10px;">
+                    <summary style="cursor: pointer; font-weight: 500; color: var(--primary-color);">Comment se déroule la première consultation ?</summary>
+                    <p style="margin-top: 1rem;">La première consultation dure environ 45 minutes. Nous discutons de vos besoins, je réalise un diagnostic personnalisé et nous établissons ensemble un plan de traitement adapté.</p>
+                </details>
+                
+                <details style="margin-bottom: 1rem; padding: 1.5rem; background-color: var(--bg-light); border-radius: 10px;">
+                    <summary style="cursor: pointer; font-weight: 500; color: var(--primary-color);">Les soins sont-ils remboursés ?</summary>
+                    <p style="margin-top: 1rem;">Les soins esthétiques ne sont généralement pas remboursés par la Sécurité sociale. Cependant, certaines mutuelles peuvent prendre en charge une partie des soins. N'hésitez pas à vous renseigner auprès de votre mutuelle.</p>
+                </details>
+                
+                <details style="margin-bottom: 1rem; padding: 1.5rem; background-color: var(--bg-light); border-radius: 10px;">
+                    <summary style="cursor: pointer; font-weight: 500; color: var(--primary-color);">Quelle est la politique d'annulation ?</summary>
+                    <p style="margin-top: 1rem;">Les rendez-vous peuvent être annulés ou reportés jusqu'à 24h à l'avance. Au-delà, la consultation pourra être facturée.</p>
+                </details>
+                
+                <details style="margin-bottom: 1rem; padding: 1.5rem; background-color: var(--bg-light); border-radius: 10px;">
+                    <summary style="cursor: pointer; font-weight: 500; color: var(--primary-color);">Quels sont les moyens de paiement acceptés ?</summary>
+                    <p style="margin-top: 1rem;">Nous acceptons les paiements en espèces, par chèque et par carte bancaire. Le règlement s'effectue à la fin de chaque séance.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <h3>ALG Derma Lina</h3>
+                    <p>Soins technico-esthétiques médicaux par Caroline Vedda, infirmière spécialisée.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Navigation</h3>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="tarifs.html">Tarifs</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact rapide</h3>
+                    <p>📞 06 35 56 58 62<br>
+                    📧 contact@algdermalina.fr<br>
+                    📍 Ensues la Redonne, PACA</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook">📘</a>
+                        <a href="#" aria-label="Instagram">📷</a>
+                        <a href="#" aria-label="LinkedIn">💼</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 ALG Derma Lina. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>

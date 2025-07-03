@@ -3,387 +3,579 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez nos services de soins technico-esthétiques : Jet Peel, Laser médical, Dermopigmentation, LED et plus. ALG Derma Lina Ensues la Redonne.">
-    <title>Nos Services - ALG Derma Lina</title>
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="description" content="ALG Derma Lina - Soins technico-esthétiques médicaux à Ensuès-la-Redonne. Jet Peel, épilation laser, dermopigmentation et accompagnement naturopathique par Caroline Vedda.">
+    <meta name="keywords" content="soins esthétiques médicaux, jet peel, épilation laser, dermopigmentation, naturopathie, Marseille">
+    <title>ALG Derma Lina - Soins Technico-Esthétiques Médicaux | Accueil</title>
     
     <style>
-        /* Styles spécifiques page services */
-        .services-intro {
-            text-align: center;
-            max-width: 800px;
-            margin: 0 auto 4rem;
+        /* Reset et Base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
         
-        .service-detail {
-            padding: 4rem 0;
-            border-bottom: 1px solid rgba(139, 154, 123, 0.2);
+        :root {
+            --primary-color: #8B9A7B;
+            --secondary-color: #E8DDD4;
+            --accent-color: #D4A574;
+            --text-dark: #2C3E2C;
+            --text-light: #FFFFFF;
+            --bg-light: #FAF9F7;
+            --shadow: 0 4px 20px rgba(0,0,0,0.1);
+            --transition: all 0.3s ease;
         }
         
-        .service-detail:last-child {
-            border-bottom: none;
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background-color: var(--bg-light);
         }
         
-        .service-content {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 4rem;
+        /* Header */
+        header {
+            background-color: var(--text-light);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+            box-shadow: var(--shadow);
+            transition: var(--transition);
+        }
+        
+        nav {
+            display: flex;
+            justify-content: space-between;
             align-items: center;
+            padding: 1rem 5%;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 1.3rem;
+            font-weight: 300;
+            letter-spacing: 3px;
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        .logo img {
+            width: 40px;
+            height: 48px;
+            margin-right: 15px;
+        }
+        
+        .nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            align-items: center;
+        }
+        
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-weight: 300;
+            transition: var(--transition);
+            letter-spacing: 0.5px;
+            position: relative;
+        }
+        
+        .nav-links a:hover,
+        .nav-links a.active {
+            color: var(--primary-color);
+        }
+        
+        .nav-links a.active::after {
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 100%;
+            height: 2px;
+            background-color: var(--primary-color);
+        }
+        
+        .cta-button {
+            background-color: var(--primary-color);
+            color: var(--text-light) !important;
+            padding: 0.8rem 2rem;
+            border-radius: 30px;
+            transition: var(--transition);
+        }
+        
+        .cta-button:hover {
+            background-color: var(--accent-color) !important;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+        
+        .mobile-menu-toggle {
+            display: none;
+            background: none;
+            border: none;
+            cursor: pointer;
+            font-size: 1.5rem;
+            color: var(--text-dark);
+        }
+        
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #FAF9F7 0%, #E8DDD4 50%, #FAF9F7 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+            padding-top: 80px;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            width: 200px;
+            height: 240px;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 50Q10 30 10 20Q10 5 25 5Q40 5 40 20Q40 30 25 50M30 25L20 25M20 25L25 40L30 25M25 50Q55 30 55 20Q55 5 70 5Q85 5 85 20Q85 30 75 40Q65 50 55 45L55 35L70 35M25 50L25 85L45 85' stroke='%238B9A7B' stroke-width='2' fill='none' opacity='0.1'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-size: contain;
+            top: 10%;
+            right: 5%;
+            animation: float 20s ease-in-out infinite;
+        }
+        
+        .hero::after {
+            content: '';
+            position: absolute;
+            width: 150px;
+            height: 180px;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 50Q10 30 10 20Q10 5 25 5Q40 5 40 20Q40 30 25 50M30 25L20 25M20 25L25 40L30 25M25 50Q55 30 55 20Q55 5 70 5Q85 5 85 20Q85 30 75 40Q65 50 55 45L55 35L70 35M25 50L25 85L45 85' stroke='%23D4A574' stroke-width='1.5' fill='none' opacity='0.08'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-size: contain;
+            bottom: 10%;
+            left: 5%;
+            animation: float 20s ease-in-out infinite reverse;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translate(0, 0) rotate(0deg); }
+            33% { transform: translate(30px, -30px) rotate(120deg); }
+            66% { transform: translate(-20px, 20px) rotate(240deg); }
+        }
+        
+        .hero-content {
+            text-align: center;
+            z-index: 1;
+            animation: fadeInUp 1s ease;
+            max-width: 800px;
+            padding: 0 2rem;
+        }
+        
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 200;
+            color: var(--text-dark);
+            margin-bottom: 1.5rem;
+            letter-spacing: 3px;
+        }
+        
+        .hero p {
+            font-size: 1.3rem;
+            color: var(--text-dark);
+            opacity: 0.8;
+            margin-bottom: 2.5rem;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 1.5rem;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        
+        .btn-primary, .btn-secondary {
+            padding: 1rem 2.5rem;
+            border-radius: 30px;
+            text-decoration: none;
+            transition: var(--transition);
+            display: inline-block;
+            font-size: 1.1rem;
+            letter-spacing: 0.5px;
+        }
+        
+        .btn-primary {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        .btn-primary:hover {
+            background-color: var(--accent-color);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow);
+        }
+        
+        .btn-secondary {
+            background-color: transparent;
+            color: var(--primary-color);
+            border: 2px solid var(--primary-color);
+        }
+        
+        .btn-secondary:hover {
+            background-color: var(--primary-color);
+            color: white;
+        }
+        
+        /* Services Preview */
+        .services-preview {
+            padding: 5rem 5%;
+            background-color: white;
+        }
+        
+        .services-preview h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 200;
+            color: var(--primary-color);
+            margin-bottom: 3rem;
+            letter-spacing: 2px;
+        }
+        
+        .services-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
             max-width: 1200px;
             margin: 0 auto;
         }
         
-        .service-detail:nth-child(even) .service-content {
-            direction: rtl;
-        }
-        
-        .service-detail:nth-child(even) .service-text {
-            direction: ltr;
-        }
-        
-        .service-image {
+        .service-card {
+            background-color: var(--bg-light);
+            border-radius: 15px;
+            padding: 2.5rem;
+            text-align: center;
+            transition: var(--transition);
+            cursor: pointer;
+            text-decoration: none;
+            color: inherit;
+            display: block;
             position: relative;
             overflow: hidden;
-            border-radius: 15px;
-            height: 400px;
-            background-color: #E8DDD4;
-            display: flex;
-            align-items: center;
-            justify-content: center;
         }
         
-        .service-image .placeholder {
-            font-size: 4rem;
-            opacity: 0.5;
-        }
-        
-        .service-text h2 {
-            color: var(--primary-color);
-            margin-bottom: 1.5rem;
-        }
-        
-        .service-text h3 {
-            color: var(--accent-color);
-            font-size: 1.2rem;
-            margin: 2rem 0 1rem;
-        }
-        
-        .benefits-list {
-            list-style: none;
-            margin: 1.5rem 0;
-        }
-        
-        .benefits-list li {
-            padding-left: 2rem;
-            position: relative;
-            margin-bottom: 0.8rem;
-        }
-        
-        .benefits-list li:before {
-            content: '✓';
+        .service-card::before {
+            content: '';
             position: absolute;
+            top: 0;
             left: 0;
+            width: 100%;
+            height: 3px;
+            background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover::before {
+            transform: scaleX(1);
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--shadow);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+        
+        .service-card:hover .service-icon {
+            transform: scale(1.1);
+        }
+        
+        .service-card h3 {
+            font-size: 1.5rem;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+        
+        .service-card p {
+            color: var(--text-dark);
+            opacity: 0.8;
+            line-height: 1.6;
+        }
+        
+        /* Testimonials */
+        .testimonials {
+            padding: 5rem 5%;
+            background-color: var(--bg-light);
+        }
+        
+        .testimonials h2 {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: 200;
             color: var(--primary-color);
-            font-weight: bold;
+            margin-bottom: 3rem;
+            letter-spacing: 2px;
         }
         
-        .service-cta {
-            margin-top: 2rem;
+        .testimonial-slider {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
         }
         
-        .btn-service {
-            background-color: var(--primary-color);
+        .testimonial {
+            background-color: white;
+            padding: 3rem;
+            border-radius: 15px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+        }
+        
+        .testimonial p {
+            font-style: italic;
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: var(--text-dark);
+            margin-bottom: 2rem;
+        }
+        
+        .testimonial-author {
+            font-weight: 500;
+            color: var(--primary-color);
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            padding: 4rem 5%;
+            text-align: center;
             color: white;
-            padding: 1rem 2rem;
-            border-radius: 30px;
+        }
+        
+        .cta-section h2 {
+            font-size: 2.5rem;
+            font-weight: 200;
+            margin-bottom: 1.5rem;
+            letter-spacing: 2px;
+        }
+        
+        .cta-section p {
+            font-size: 1.2rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+        }
+        
+        .cta-section .btn-primary {
+            background-color: white;
+            color: var(--primary-color);
+        }
+        
+        .cta-section .btn-primary:hover {
+            background-color: var(--bg-light);
+        }
+        
+        /* Footer */
+        footer {
+            background-color: var(--text-dark);
+            color: var(--text-light);
+            padding: 3rem 5% 1rem;
+        }
+        
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 3rem;
+            margin-bottom: 2rem;
+        }
+        
+        .footer-column h3 {
+            color: var(--accent-color);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+        
+        .footer-column ul {
+            list-style: none;
+        }
+        
+        .footer-column ul li {
+            margin-bottom: 0.5rem;
+        }
+        
+        .footer-column a {
+            color: var(--text-light);
             text-decoration: none;
-            display: inline-block;
+            opacity: 0.8;
             transition: var(--transition);
         }
         
-        .btn-service:hover {
-            background-color: var(--accent-color);
-            transform: translateY(-2px);
-        }
-        
-        /* Tarifs indicatifs */
-        .price-indicator {
-            background-color: var(--bg-light);
-            padding: 1rem 1.5rem;
-            border-radius: 10px;
-            display: inline-block;
-            margin-top: 1rem;
+        .footer-column a:hover {
+            opacity: 1;
             color: var(--accent-color);
-            font-weight: 500;
         }
         
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            font-size: 1.5rem;
+        }
+        
+        .footer-bottom {
+            border-top: 1px solid rgba(255,255,255,0.1);
+            padding-top: 2rem;
+            text-align: center;
+            opacity: 0.7;
+            font-size: 0.9rem;
+        }
+        
+        /* Responsive */
         @media (max-width: 768px) {
-            .service-content {
+            .nav-links {
+                display: none;
+                position: absolute;
+                top: 100%;
+                left: 0;
+                width: 100%;
+                background-color: var(--text-light);
+                flex-direction: column;
+                padding: 2rem;
+                box-shadow: var(--shadow);
+            }
+            
+            .nav-links.active {
+                display: flex;
+            }
+            
+            .mobile-menu-toggle {
+                display: block;
+            }
+            
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            .hero p {
+                font-size: 1.1rem;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .services-grid {
                 grid-template-columns: 1fr;
-                gap: 2rem;
             }
             
-            .service-detail:nth-child(even) .service-content {
-                direction: ltr;
+            .footer-grid {
+                grid-template-columns: 1fr;
+                text-align: center;
             }
             
-            .service-image {
-                height: 250px;
+            .social-links {
+                justify-content: center;
             }
         }
     </style>
 </head>
 <body>
-    <!-- Header (identique à index.html) -->
+    <!-- Header -->
     <header>
         <nav>
-            <div class="logo">
-                <svg viewBox="0 0 100 120" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <g transform="translate(10, 10)">
-                        <path d="M 15 50 C 15 45, 10 30, 10 20 C 10 10, 15 5, 25 5 C 35 5, 40 10, 40 20 C 40 30, 35 45, 35 50 L 32 50 L 30 45 L 20 45 L 18 50 L 15 50 Z M 25 20 L 22 35 L 28 35 L 25 20 Z" 
-                              stroke="#8B9A7B" stroke-width="2.5" fill="none"/>
-                        <path d="M 35 50 C 35 45, 40 30, 40 20 C 40 10, 45 5, 55 5 C 65 5, 70 10, 70 20 C 70 30, 65 40, 60 45 C 55 50, 50 48, 50 45 L 50 40 L 60 40 L 60 42 C 63 40, 65 35, 65 25 C 65 15, 63 10, 55 10 C 47 10, 45 15, 45 25 C 45 35, 40 45, 35 50" 
-                              stroke="#8B9A7B" stroke-width="2.5" fill="none"/>
-                        <path d="M 35 50 L 35 85 L 50 85" 
-                              stroke="#8B9A7B" stroke-width="2.5" fill="none"/>
-                        <circle cx="35" cy="50" r="2" fill="#8B9A7B"/>
-                    </g>
-                </svg>
+            <a href="index.html" class="logo">
+                <img src="data:image/svg+xml,%3Csvg viewBox='0 0 100 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 50Q10 30 10 20Q10 5 25 5Q40 5 40 20Q40 30 25 50M30 25L20 25M20 25L25 40L30 25M25 50Q55 30 55 20Q55 5 70 5Q85 5 85 20Q85 30 75 40Q65 50 55 45L55 35L70 35M25 50L25 85L45 85' stroke='%238B9A7B' stroke-width='3' fill='none'/%3E%3C/svg%3E" alt="ALG Logo">
                 <span>DERMA LINA</span>
-            </div>
+            </a>
             <ul class="nav-links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="index.html" class="active">Accueil</a></li>
+                <li><a href="services.html">Services</a></li>
                 <li><a href="about.html">À propos</a></li>
                 <li><a href="tarifs.html">Tarifs</a></li>
                 <li><a href="blog.html">Blog</a></li>
                 <li><a href="contact.html">Contact</a></li>
                 <li><a href="contact.html#booking" class="cta-button">Prendre RDV</a></li>
             </ul>
-            <button class="mobile-menu-toggle">☰</button>
+            <button class="mobile-menu-toggle" aria-label="Menu">☰</button>
         </nav>
     </header>
 
-    <!-- Breadcrumb -->
-    <div class="breadcrumb">
-        <ul>
-            <li><a href="index.html">Accueil</a></li>
-            <li>Services</li>
-        </ul>
-    </div>
-
-    <!-- Page Header -->
-    <section class="page-header">
-        <h1>Nos Services</h1>
-        <p>Une gamme complète de soins technico-esthétiques médicaux pour révéler votre beauté naturelle</p>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Révélez votre beauté naturelle</h1>
+            <p>Soins technico-esthétiques médicaux innovants alliant expertise médicale et approche holistique</p>
+            <div class="hero-buttons">
+                <a href="contact.html#booking" class="btn-primary">Réserver une consultation</a>
+                <a href="services.html" class="btn-secondary">Découvrir nos services</a>
+            </div>
+        </div>
     </section>
 
-    <!-- Services Content -->
-    <section class="section">
-        <div class="container">
-            <div class="services-intro">
-                <p>Chez ALG Derma Lina, nous proposons des soins innovants et personnalisés, alliant technologie de pointe et approche holistique. Chaque traitement est adapté à vos besoins spécifiques pour des résultats optimaux.</p>
-            </div>
+    <!-- Services Preview -->
+    <section class="services-preview">
+        <h2>Nos Services</h2>
+        <div class="services-grid">
+            <a href="services.html#jet-peel" class="service-card">
+                <div class="service-icon">💧</div>
+                <h3>Jet Peel</h3>
+                <p>Soin non invasif pour nettoyer, hydrater et régénérer votre peau en profondeur.</p>
+            </a>
+            <a href="services.html#laser" class="service-card">
+                <div class="service-icon">⚡</div>
+                <h3>Laser Médical</h3>
+                <p>Épilation durable et sécurisée pour tous types de peaux.</p>
+            </a>
+            <a href="services.html#dermopigmentation" class="service-card">
+                <div class="service-icon">🎨</div>
+                <h3>Dermopigmentation</h3>
+                <p>Maquillage permanent et tatouage médical reconstructeur.</p>
+            </a>
+        </div>
+        <div style="text-align: center; margin-top: 3rem;">
+            <a href="services.html" class="btn-secondary">Voir tous nos services</a>
+        </div>
+    </section>
 
-            <!-- Jet Peel -->
-            <div id="jet-peel" class="service-detail">
-                <div class="service-content">
-                    <div class="service-image">
-                        <div class="placeholder">💧</div>
-                    </div>
-                    <div class="service-text">
-                        <h2>Jet Peel</h2>
-                        <p>Le Jet Peel est un soin non invasif révolutionnaire qui utilise la technologie de jet d'eau haute pression pour nettoyer, hydrater et régénérer la peau en profondeur. Sans douleur ni temps de récupération, ce traitement offre des résultats visibles dès la première séance.</p>
-                        
-                        <h3>Bénéfices</h3>
-                        <ul class="benefits-list">
-                            <li>Nettoyage en profondeur des pores</li>
-                            <li>Hydratation intense de la peau</li>
-                            <li>Stimulation de la production de collagène</li>
-                            <li>Atténuation des rides et ridules</li>
-                            <li>Éclat immédiat du teint</li>
-                            <li>Réduction des taches pigmentaires</li>
-                        </ul>
-                        
-                        <h3>Pour qui ?</h3>
-                        <p>Convient à tous les types de peau, particulièrement recommandé pour les peaux ternes, déshydratées ou présentant des signes de vieillissement.</p>
-                        
-                        <div class="price-indicator">À partir de 80€ la séance</div>
-                        
-                        <div class="service-cta">
-                            <a href="contact.html#booking" class="btn-service">Réserver ce soin</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Laser Médical -->
-            <div id="laser" class="service-detail">
-                <div class="service-content">
-                    <div class="service-image">
-                        <div class="placeholder">⚡</div>
-                    </div>
-                    <div class="service-text">
-                        <h2>Épilation Laser Médical</h2>
-                        <p>Notre épilation laser médicale utilise la technologie la plus avancée pour une épilation durable, efficace et sécurisée. Adaptée à tous les phototypes de peau, elle offre des résultats rapides et durables avec un minimum d'inconfort.</p>
-                        
-                        <h3>Avantages</h3>
-                        <ul class="benefits-list">
-                            <li>Épilation définitive et durable</li>
-                            <li>Traitement rapide et précis</li>
-                            <li>Adapté à tous les types de peau</li>
-                            <li>Sans douleur grâce au système de refroidissement</li>
-                            <li>Résultats visibles dès les premières séances</li>
-                            <li>Consultation initiale offerte</li>
-                        </ul>
-                        
-                        <h3>Zones traitées</h3>
-                        <p>Visage, aisselles, maillot, jambes, dos, torse... Toutes les zones peuvent être traitées en toute sécurité.</p>
-                        
-                        <div class="price-indicator">Tarifs selon la zone - Devis gratuit</div>
-                        
-                        <div class="service-cta">
-                            <a href="contact.html#booking" class="btn-service">Consultation gratuite</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Accompagnement Naturopathique -->
-            <div id="naturopathie" class="service-detail">
-                <div class="service-content">
-                    <div class="service-image">
-                        <div class="placeholder">🌿</div>
-                    </div>
-                    <div class="service-text">
-                        <h2>Accompagnement Naturopathique</h2>
-                        <p>En tant que naturopathe certifiée, je propose un accompagnement complet pour révéler votre beauté de l'intérieur. Mon approche holistique combine conseils nutritionnels, phytothérapie et techniques naturelles pour optimiser votre santé et votre bien-être.</p>
-                        
-                        <h3>Programme personnalisé</h3>
-                        <ul class="benefits-list">
-                            <li>Bilan de santé complet</li>
-                            <li>Conseils nutritionnels adaptés</li>
-                            <li>Plan alimentaire personnalisé</li>
-                            <li>Recommandations en phytothérapie</li>
-                            <li>Suivi régulier et ajustements</li>
-                            <li>Approche préventive et curative</li>
-                        </ul>
-                        
-                        <h3>Objectifs</h3>
-                        <p>Améliorer la qualité de votre peau, booster votre énergie, réguler votre poids, gérer le stress et optimiser votre santé globale.</p>
-                        
-                        <div class="price-indicator">Consultation complète : 90€</div>
-                        
-                        <div class="service-cta">
-                            <a href="contact.html#booking" class="btn-service">Prendre rendez-vous</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Photobiomodulation LED -->
-            <div id="led" class="service-detail">
-                <div class="service-content">
-                    <div class="service-image">
-                        <div class="placeholder">💫</div>
-                    </div>
-                    <div class="service-text">
-                        <h2>Photobiomodulation par LED</h2>
-                        <p>La photobiomodulation est une thérapie innovante non invasive utilisant la lumière LED pour stimuler les processus naturels de guérison et de régénération cellulaire. Cette technologie de pointe offre des résultats remarquables sans douleur ni effets secondaires.</p>
-                        
-                        <h3>Actions thérapeutiques</h3>
-                        <ul class="benefits-list">
-                            <li>Stimulation de la production de collagène</li>
-                            <li>Réduction de l'inflammation</li>
-                            <li>Accélération de la cicatrisation</li>
-                            <li>Soulagement de la douleur</li>
-                            <li>Amélioration de la circulation sanguine</li>
-                            <li>Traitement de l'acné et des imperfections</li>
-                        </ul>
-                        
-                        <h3>Applications</h3>
-                        <p>Anti-âge, traitement de l'acné, cicatrisation post-opératoire, douleurs articulaires, récupération sportive.</p>
-                        
-                        <div class="price-indicator">À partir de 60€ la séance</div>
-                        
-                        <div class="service-cta">
-                            <a href="contact.html#booking" class="btn-service">Découvrir ce soin</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Dermopigmentation -->
-            <div id="dermopigmentation" class="service-detail">
-                <div class="service-content">
-                    <div class="service-image">
-                        <div class="placeholder">🎨</div>
-                    </div>
-                    <div class="service-text">
-                        <h2>Dermopigmentation</h2>
-                        <p>"Sublimer sans transformer, révéler sans masquer" - La dermopigmentation est l'art du maquillage permanent qui souligne naturellement votre beauté. Avec des pigments spécifiques et une technique médicale précise, je réalise aussi des corrections de cicatrices et reconstructions d'aréoles mammaires.</p>
-                        
-                        <h3>Prestations</h3>
-                        <ul class="benefits-list">
-                            <li>Maquillage permanent (sourcils, lèvres, eye-liner)</li>
-                            <li>Correction et camouflage de cicatrices</li>
-                            <li>Reconstruction d'aréoles mammaires</li>
-                            <li>Densification capillaire</li>
-                            <li>Pigments biocompatibles de haute qualité</li>
-                            <li>Technique médicale sécurisée</li>
-                        </ul>
-                        
-                        <h3>L'art au service de la guérison</h3>
-                        <p>Au-delà de l'esthétique, la dermopigmentation médicale aide à la reconstruction de l'image de soi après un traumatisme ou une chirurgie.</p>
-                        
-                        <div class="price-indicator">Sur devis personnalisé</div>
-                        
-                        <div class="service-cta">
-                            <a href="contact.html#booking" class="btn-service">Consultation gratuite</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Accompagnement Parentalité -->
-            <div id="parentalite" class="service-detail">
-                <div class="service-content">
-                    <div class="service-image">
-                        <div class="placeholder">👶</div>
-                    </div>
-                    <div class="service-text">
-                        <h2>Accompagnement à la Parentalité</h2>
-                        <p>En tant qu'infirmière puéricultrice, je propose des ateliers conviviaux en petits groupes pour accompagner les parents dans cette belle aventure. Un espace d'échange chaleureux autour d'une boisson et d'un goûter pour aborder sereinement les défis de la parentalité.</p>
-                        
-                        <h3>Thèmes abordés</h3>
-                        <ul class="benefits-list">
-                            <li>Allaitement maternel et artificiel</li>
-                            <li>Sommeil de bébé et rituels apaisants</li>
-                            <li>Diversification alimentaire et premiers repas</li>
-                            <li>Développement psychomoteur de l'enfant</li>
-                            <li>Acquisition de la propreté</li>
-                            <li>Gestion des émotions et des pleurs</li>
-                        </ul>
-                        
-                        <h3>Format des ateliers</h3>
-                        <p>Groupes de 6 parents maximum, 2h d'échange dans une ambiance conviviale, conseils personnalisés et support écrit fourni.</p>
-                        
-                        <div class="price-indicator">45€ par atelier - Forfaits disponibles</div>
-                        
-                        <div class="service-cta">
-                            <a href="contact.html#booking" class="btn-service">S'inscrire à un atelier</a>
-                        </div>
-                    </div>
-                </div>
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <h2>Témoignages</h2>
+        <div class="testimonial-slider">
+            <div class="testimonial">
+                <p>"Caroline est une professionnelle exceptionnelle. Son approche médicale combinée à sa douceur fait toute la différence. Les résultats du Jet Peel sont incroyables !"</p>
+                <div class="testimonial-author">- Marie L.</div>
             </div>
         </div>
     </section>
 
     <!-- CTA Section -->
     <section class="cta-section">
-        <h2>Prête à prendre soin de vous ?</h2>
-        <p>Réservez votre consultation personnalisée pour découvrir le traitement adapté à vos besoins</p>
-        <a href="contact.html#booking" class="btn-primary" style="background-color: white; color: #8B9A7B;">Réserver maintenant</a>
+        <h2>Prête à révéler votre beauté ?</h2>
+        <p>Prenez rendez-vous dès aujourd'hui pour une consultation personnalisée</p>
+        <a href="contact.html#booking" class="btn-primary">Réserver maintenant</a>
     </section>
 
     <!-- Footer -->
@@ -395,19 +587,19 @@
                     <p>Soins technico-esthétiques médicaux par Caroline Vedda, infirmière spécialisée.</p>
                 </div>
                 <div class="footer-column">
-                    <h3>Nos Services</h3>
+                    <h3>Navigation</h3>
                     <ul>
-                        <li><a href="#jet-peel">Jet Peel</a></li>
-                        <li><a href="#laser">Épilation Laser</a></li>
-                        <li><a href="#dermopigmentation">Dermopigmentation</a></li>
-                        <li><a href="#parentalite">Parentalité</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="tarifs.html">Tarifs</a></li>
+                        <li><a href="blog.html">Blog</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
                     <h3>Contact</h3>
                     <p>📞 06 35 56 58 62<br>
                     📧 contact@algdermalina.fr<br>
-                    📍 Ensues la Redonne, PACA</p>
+                    📍 Ensuès-la-Redonne, PACA</p>
                 </div>
                 <div class="footer-column">
                     <h3>Suivez-nous</h3>
@@ -419,11 +611,65 @@
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2024 ALG Derma Lina. Tous droits réservés.</p>
+                <p>&copy; 2024 ALG Derma Lina. Tous droits réservés. | <a href="mentions-legales.html" style="color: white; opacity: 0.8;">Mentions légales</a> | <a href="politique-confidentialite.html" style="color: white; opacity: 0.8;">Politique de confidentialité</a></p>
             </div>
         </div>
     </footer>
 
-    <script src="js/main.js"></script>
+    <script>
+        // Mobile menu toggle
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileToggle = document.querySelector('.mobile-menu-toggle');
+            const navLinks = document.querySelector('.nav-links');
+            
+            if (mobileToggle) {
+                mobileToggle.addEventListener('click', function() {
+                    navLinks.classList.toggle('active');
+                    this.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
+                });
+            }
+            
+            // Close mobile menu when clicking outside
+            document.addEventListener('click', function(event) {
+                if (!event.target.closest('nav') && navLinks && navLinks.classList.contains('active')) {
+                    navLinks.classList.remove('active');
+                    if (mobileToggle) mobileToggle.textContent = '☰';
+                }
+            });
+        });
+
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    const headerOffset = 100;
+                    const elementPosition = target.getBoundingClientRect().top;
+                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+
+                    window.scrollTo({
+                        top: offsetPosition,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Header scroll effect
+        let lastScroll = 0;
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('header');
+            const currentScroll = window.pageYOffset;
+            
+            if (currentScroll > 100) {
+                header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
+            } else {
+                header.style.boxShadow = '0 4px 20px rgba(0,0,0,0.1)';
+            }
+            
+            lastScroll = currentScroll;
+        });
+    </script>
 </body>
 </html>

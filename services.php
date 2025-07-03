@@ -504,24 +504,7 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <nav>
-            <a href="index.html" class="logo">
-                <img src="data:image/svg+xml,%3Csvg viewBox='0 0 100 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 50Q10 30 10 20Q10 5 25 5Q40 5 40 20Q40 30 25 50M30 25L20 25M20 25L25 40L30 25M25 50Q55 30 55 20Q55 5 70 5Q85 5 85 20Q85 30 75 40Q65 50 55 45L55 35L70 35M25 50L25 85L45 85' stroke='%238B9A7B' stroke-width='3' fill='none'/%3E%3C/svg%3E" alt="ALG Logo">
-                <span>DERMA LINA</span>
-            </a>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Accueil</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">À propos</a></li>
-                <li><a href="tarifs.html">Tarifs</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="contact.html#booking" class="cta-button">Prendre RDV</a></li>
-            </ul>
-            <button class="mobile-menu-toggle" aria-label="Menu">☰</button>
-        </nav>
-    </header>
+<?php include "partials/header.php"; ?>
 
     <!-- Hero Section -->
     <section class="hero">
@@ -529,8 +512,8 @@
             <h1>Révélez votre beauté naturelle</h1>
             <p>Soins technico-esthétiques médicaux innovants alliant expertise médicale et approche holistique</p>
             <div class="hero-buttons">
-                <a href="contact.html#booking" class="btn-primary">Réserver une consultation</a>
-                <a href="services.html" class="btn-secondary">Découvrir nos services</a>
+                <a href="contact.php#booking" class="btn-primary">Réserver une consultation</a>
+                <a href="services.php" class="btn-secondary">Découvrir nos services</a>
             </div>
         </div>
     </section>
@@ -539,24 +522,24 @@
     <section class="services-preview">
         <h2>Nos Services</h2>
         <div class="services-grid">
-            <a href="services.html#jet-peel" class="service-card">
+            <a href="services.php#jet-peel" class="service-card">
                 <div class="service-icon">💧</div>
                 <h3>Jet Peel</h3>
                 <p>Soin non invasif pour nettoyer, hydrater et régénérer votre peau en profondeur.</p>
             </a>
-            <a href="services.html#laser" class="service-card">
+            <a href="services.php#laser" class="service-card">
                 <div class="service-icon">⚡</div>
                 <h3>Laser Médical</h3>
                 <p>Épilation durable et sécurisée pour tous types de peaux.</p>
             </a>
-            <a href="services.html#dermopigmentation" class="service-card">
+            <a href="services.php#dermopigmentation" class="service-card">
                 <div class="service-icon">🎨</div>
                 <h3>Dermopigmentation</h3>
                 <p>Maquillage permanent et tatouage médical reconstructeur.</p>
             </a>
         </div>
         <div style="text-align: center; margin-top: 3rem;">
-            <a href="services.html" class="btn-secondary">Voir tous nos services</a>
+            <a href="services.php" class="btn-secondary">Voir tous nos services</a>
         </div>
     </section>
 
@@ -575,7 +558,7 @@
     <section class="cta-section">
         <h2>Prête à révéler votre beauté ?</h2>
         <p>Prenez rendez-vous dès aujourd'hui pour une consultation personnalisée</p>
-        <a href="contact.html#booking" class="btn-primary">Réserver maintenant</a>
+        <a href="contact.php#booking" class="btn-primary">Réserver maintenant</a>
     </section>
 
     <!-- Footer -->
@@ -589,87 +572,10 @@
                 <div class="footer-column">
                     <h3>Navigation</h3>
                     <ul>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="about.html">À propos</a></li>
-                        <li><a href="tarifs.html">Tarifs</a></li>
-                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="about.php">À propos</a></li>
+                        <li><a href="tarifs.php">Tarifs</a></li>
+                        <li><a href="blog.php">Blog</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h3>Contact</h3>
-                    <p>📞 06 35 56 58 62<br>
-                    📧 contact@algdermalina.fr<br>
-                    📍 Ensuès-la-Redonne, PACA</p>
-                </div>
-                <div class="footer-column">
-                    <h3>Suivez-nous</h3>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook">📘</a>
-                        <a href="#" aria-label="Instagram">📷</a>
-                        <a href="#" aria-label="LinkedIn">💼</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 ALG Derma Lina. Tous droits réservés. | <a href="mentions-legales.html" style="color: white; opacity: 0.8;">Mentions légales</a> | <a href="politique-confidentialite.html" style="color: white; opacity: 0.8;">Politique de confidentialité</a></p>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // Mobile menu toggle
-        document.addEventListener('DOMContentLoaded', function() {
-            const mobileToggle = document.querySelector('.mobile-menu-toggle');
-            const navLinks = document.querySelector('.nav-links');
-            
-            if (mobileToggle) {
-                mobileToggle.addEventListener('click', function() {
-                    navLinks.classList.toggle('active');
-                    this.textContent = navLinks.classList.contains('active') ? '✕' : '☰';
-                });
-            }
-            
-            // Close mobile menu when clicking outside
-            document.addEventListener('click', function(event) {
-                if (!event.target.closest('nav') && navLinks && navLinks.classList.contains('active')) {
-                    navLinks.classList.remove('active');
-                    if (mobileToggle) mobileToggle.textContent = '☰';
-                }
-            });
-        });
-
-        // Smooth scrolling
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                const target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    const headerOffset = 100;
-                    const elementPosition = target.getBoundingClientRect().top;
-                    const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-                    window.scrollTo({
-                        top: offsetPosition,
-                        behavior: 'smooth'
-                    });
-                }
-            });
-        });
-
-        // Header scroll effect
-        let lastScroll = 0;
-        window.addEventListener('scroll', function() {
-            const header = document.querySelector('header');
-            const currentScroll = window.pageYOffset;
-            
-            if (currentScroll > 100) {
-                header.style.boxShadow = '0 2px 20px rgba(0,0,0,0.1)';
-            } else {
-                header.style.boxShadow = '0 4px 20px rgba(0,0,0,0.1)';
-            }
-            
-            lastScroll = currentScroll;
-        });
-    </script>
-</body>
-</html>

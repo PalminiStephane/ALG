@@ -173,20 +173,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Redirection avec message de succès
         session_start();
         $_SESSION['booking_success'] = true;
-        header('Location: index.html?success=1#booking');
+        header('Location: index.php?success=1#booking');
         exit();
         
     } else {
         // Gestion des erreurs
         session_start();
         $_SESSION['booking_errors'] = $errors;
-        header('Location: index.html?error=1#booking');
+        header('Location: index.php?error=1#booking');
         exit();
     }
     
 } else {
     // Si accès direct au fichier sans formulaire
-    header('Location: index.html');
+    header('Location: index.php');
     exit();
 }
 

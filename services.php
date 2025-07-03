@@ -6,6 +6,7 @@
     <meta name="description" content="Découvrez toutes les prestations d'ALG Derma Lina : Jet Peel, épilation laser, dermopigmentation, photobiomodulation LED, naturopathie et accompagnement à la parentalité.">
     <title>Nos Services - ALG Derma Lina</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
 <?php include "partials/header.php"; ?>

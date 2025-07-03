@@ -637,7 +637,7 @@
                             <h3>Horaires d'ouverture</h3>
                             <table class="hours-table">
                                 <tr>
-                                    <td>Lundi - Vendredi</td>
+                                    <td>Lundi - Vendredi&nbsp;</td>
                                     <td>9h00 - 18h00</td>
                                 </tr>
                                 <tr>

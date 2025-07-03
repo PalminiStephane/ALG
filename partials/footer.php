@@ -30,7 +30,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2024 ALG Derma Lina. Tous droits réservés. | <a href="mentions-legales.php" style="color: white; opacity: 0.8;">Mentions légales</a> | <a href="politique-confidentialite.php" style="color: white; opacity: 0.8;">Politique de confidentialité</a></p>
+            <p>&copy; 2025 ALG Derma Lina. Tous droits réservés. | <a href="mentions-legales.php" style="color: white; opacity: 0.8;">Mentions légales</a> | <a href="politique-confidentialite.php" style="color: white; opacity: 0.8;">Politique de confidentialité</a></p>
         </div>
     </div>
 </footer>

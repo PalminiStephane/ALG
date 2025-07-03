@@ -6,6 +6,7 @@
     <meta name="description" content="Tarifs des soins technico-esthétiques ALG Derma Lina à Ensuès-la-Redonne. Consultez nos prix et forfaits avantageux.">
     <title>Tarifs - ALG Derma Lina</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
     <style>
         /* Import des styles de base */

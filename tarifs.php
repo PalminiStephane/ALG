@@ -1,7 +1,12 @@
-<title>Tarifs - ALG Derma Lina</title>
-    
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Tarifs des soins technico-esthétiques ALG Derma Lina à Ensuès-la-Redonne. Consultez nos prix et forfaits avantageux.">
+    <title>Tarifs - ALG Derma Lina</title>
     <link rel="stylesheet" href="css/style.css">
-    
+
     <style>
         /* Import des styles de base */
         * {
@@ -872,28 +877,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-grid">
-                <div class="footer-column">
-                    <h3>ALG Derma Lina</h3>
-                    <p>Soins technico-esthétiques médicaux par Caroline Vedda, infirmière spécialisée.</p>
-                </div>
-                <div class="footer-column">
-                    <h3>Navigation</h3>
-                    <ul>
-                        <li><a href="services.php">Services</a></li>
-                        <li><a href="about.php">À propos</a></li>
-                        <li><a href="tarifs.php">Tarifs</a></li>
-                        <li><a href="blog.php">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
 <?php include "partials/footer.php"; ?>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tarifs des soins technico-esthétiques ALG Derma Lina à Ensuès-la-Redonne. Consultez nos prix et forfaits avantageux.">
-    <title>Tarifs - ALG Derma Lina</title
+</body>
+</html>

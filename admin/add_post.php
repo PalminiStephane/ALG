@@ -1,6 +1,11 @@
 <?php
 require_once '../db.php';
+require_once '../config.php';
 session_start();
+if (empty($_SESSION['admin_logged_in'])) {
+    header('Location: login.php');
+    exit;
+}
 $message = '';
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = trim($_POST['title']);

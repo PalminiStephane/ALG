@@ -114,7 +114,7 @@ document.querySelectorAll('.service-card, .service-detail, .testimonial').forEac
 });
 
 // Active navigation highlighting
-const currentPage = window.location.pathname.split('/').pop() || 'index.html';
+const currentPage = window.location.pathname.split('/').pop() || 'index.php';
 document.querySelectorAll('.nav-links a').forEach(link => {
     if (link.getAttribute('href') === currentPage) {
         link.classList.add('active');

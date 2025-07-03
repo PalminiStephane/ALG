@@ -593,29 +593,12 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <nav>
-            <a href="index.html" class="logo">
-                <img src="data:image/svg+xml,%3Csvg viewBox='0 0 100 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 50Q10 30 10 20Q10 5 25 5Q40 5 40 20Q40 30 25 50M30 25L20 25M20 25L25 40L30 25M25 50Q55 30 55 20Q55 5 70 5Q85 5 85 20Q85 30 75 40Q65 50 55 45L55 35L70 35M25 50L25 85L45 85' stroke='%238B9A7B' stroke-width='3' fill='none'/%3E%3C/svg%3E" alt="ALG Logo">
-                <span>DERMA LINA</span>
-            </a>
-            <ul class="nav-links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html" class="active">À propos</a></li>
-                <li><a href="tarifs.html">Tarifs</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-                <li><a href="contact.html#booking" class="cta-button">Prendre RDV</a></li>
-            </ul>
-            <button class="mobile-menu-toggle" aria-label="Menu">☰</button>
-        </nav>
-    </header>
+<?php include "partials/header.php"; ?>
 
     <!-- Breadcrumb -->
     <div class="breadcrumb">
         <ul>
-            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.php">Accueil</a></li>
             <li>À propos</li>
         </ul>
     </div>
@@ -785,47 +768,7 @@
     <section class="cta-section">
         <h2>Rencontrons-nous</h2>
         <p>Je serais ravie de vous accueillir et de créer ensemble votre programme beauté personnalisé</p>
-        <a href="contact.html#booking" class="btn-primary">Prendre rendez-vous</a>
+        <a href="contact.php#booking" class="btn-primary">Prendre rendez-vous</a>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-grid">
-                <div class="footer-column">
-                    <h3>ALG Derma Lina</h3>
-                    <p>Soins technico-esthétiques médicaux par Caroline Vedda, infirmière spécialisée.</p>
-                </div>
-                <div class="footer-column">
-                    <h3>Navigation</h3>
-                    <ul>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="about.html">À propos</a></li>
-                        <li><a href="tarifs.html">Tarifs</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
-                    <h3>Contact</h3>
-                    <p>📞 06 35 56 58 62<br>
-                    📧 contact@algdermalina.fr<br>
-                    📍 Ensuès-la-Redonne, PACA</p>
-                </div>
-                <div class="footer-column">
-                    <h3>Suivez-nous</h3>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook">📘</a>
-                        <a href="#" aria-label="Instagram">📷</a>
-                        <a href="#" aria-label="LinkedIn">💼</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 ALG Derma Lina. Tous droits réservés.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-</body>
-</html>
+<?php include "partials/footer.php"; ?>

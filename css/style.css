@@ -341,3 +341,8 @@ footer {
     max-width: 600px;
     margin: 0 auto;
 }
+/* Alert messages */
+.alert{padding:1rem 1.5rem;border-radius:8px;margin-bottom:1rem;}
+.alert-success{background:#d4edda;color:#155724;}
+.alert-error{background:#f8d7da;color:#721c24;}
+

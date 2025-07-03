@@ -1,3 +1,4 @@
+<?php session_start(); ?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -579,29 +580,12 @@
 </head>
 <body>
     <!-- Header -->
-    <header>
-        <nav>
-            <a href="index.html" class="logo">
-                <img src="data:image/svg+xml,%3Csvg viewBox='0 0 100 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 50Q10 30 10 20Q10 5 25 5Q40 5 40 20Q40 30 25 50M30 25L20 25M20 25L25 40L30 25M25 50Q55 30 55 20Q55 5 70 5Q85 5 85 20Q85 30 75 40Q65 50 55 45L55 35L70 35M25 50L25 85L45 85' stroke='%238B9A7B' stroke-width='3' fill='none'/%3E%3C/svg%3E" alt="ALG Logo">
-                <span>DERMA LINA</span>
-            </a>
-            <ul class="nav-links">
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">À propos</a></li>
-                <li><a href="tarifs.html">Tarifs</a></li>
-                <li><a href="blog.html">Blog</a></li>
-                <li><a href="contact.html" class="active">Contact</a></li>
-                <li><a href="#booking" class="cta-button">Prendre RDV</a></li>
-            </ul>
-            <button class="mobile-menu-toggle" aria-label="Menu">☰</button>
-        </nav>
-    </header>
+<?php include "partials/header.php"; ?>
 
     <!-- Breadcrumb -->
     <div class="breadcrumb">
         <ul>
-            <li><a href="index.html">Accueil</a></li>
+            <li><a href="index.php">Accueil</a></li>
             <li>Contact</li>
         </ul>
     </div>
@@ -752,6 +736,45 @@
         </div>
     </section>
 
+    <!-- Contact Form -->
+    <section class="contact-form-section" id="contact-form">
+        <div class="booking-container">
+            <h2>Contactez-nous</h2>
+            <?php
+                $error = $_SESSION['contact_error'] ?? '';
+                $success = !empty($_SESSION['contact_success']);
+                $_SESSION['contact_error'] = $_SESSION['contact_success'] = null;
+                $a = rand(1,9);
+                $b = rand(1,9);
+                $_SESSION['captcha_answer'] = $a + $b;
+            ?>
+            <?php if($success): ?>
+                <div class="alert alert-success">Message envoyé !</div>
+            <?php elseif($error): ?>
+                <div class="alert alert-error"><?php echo $error; ?></div>
+            <?php endif; ?>
+            <form action="php/contact_form.php" method="POST" class="booking-form">
+                <div class="form-group">
+                    <label for="cname">Nom</label>
+                    <input type="text" id="cname" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="cemail">Email</label>
+                    <input type="email" id="cemail" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="cmessage">Message</label>
+                    <textarea id="cmessage" name="message" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="captcha">Combien font <?php echo $a; ?> + <?php echo $b; ?> ?</label>
+                    <input type="text" id="captcha" name="captcha" required>
+                </div>
+                <button type="submit" class="submit-button">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
     <!-- FAQ Section -->
     <section class="faq-section">
         <div class="container">
@@ -792,33 +815,10 @@
                 <div class="footer-column">
                     <h3>Navigation</h3>
                     <ul>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="about.html">À propos</a></li>
-                        <li><a href="tarifs.html">Tarifs</a></li>
-                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="about.php">À propos</a></li>
+                        <li><a href="tarifs.php">Tarifs</a></li>
+                        <li><a href="blog.php">Blog</a></li>
                     </ul>
                 </div>
                 <div class="footer-column">
-                    <h3>Contact rapide</h3>
-                    <p>📞 06 35 56 58 62<br>
-                    📧 contact@algdermalina.fr<br>
-                    📍 Ensuès-la-Redonne, PACA</p>
-                </div>
-                <div class="footer-column">
-                    <h3>Suivez-nous</h3>
-                    <div class="social-links">
-                        <a href="#" aria-label="Facebook">📘</a>
-                        <a href="#" aria-label="Instagram">📷</a>
-                        <a href="#" aria-label="LinkedIn">💼</a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2024 ALG Derma Lina. Tous droits réservés.</p>
-            </div>
-        </div>
-    </footer>
-
-    <script src="js/main.js"></script>
-</body>
-</html>

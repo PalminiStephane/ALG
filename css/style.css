@@ -346,3 +346,20 @@ footer {
 .alert-success{background:#d4edda;color:#155724;}
 .alert-error{background:#f8d7da;color:#721c24;}
 
+
+/* Services Page */
+.services-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+.service-item img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.service-item h2 {
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+}

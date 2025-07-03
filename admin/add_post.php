@@ -11,7 +11,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $title = trim($_POST['title']);
     $content = trim($_POST['content']);
     if ($title && $content) {
-        $stmt = $db->prepare("INSERT INTO posts (title, content, created_at) VALUES (?, ?, datetime('now'))");
+        // created_at is automatically set by the DB to the current timestamp
+        // so we simply omit it from the INSERT statement
+        $stmt = $db->prepare("INSERT INTO posts (title, content) VALUES (?, ?)");
         $stmt->execute([$title, $content]);
         $message = 'Article ajouté';
     } else {

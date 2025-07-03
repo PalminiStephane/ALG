@@ -115,8 +115,11 @@ document.querySelectorAll('.service-card, .service-detail, .testimonial').forEac
 
 // Active navigation highlighting
 const currentPage = window.location.pathname.split('/').pop() || 'index.php';
+const normalizedCurrent = currentPage.replace(/\.php$/, '');
 document.querySelectorAll('.nav-links a').forEach(link => {
-    if (link.getAttribute('href') === currentPage) {
+    const href = link.getAttribute('href');
+    const normalizedHref = href.split('/').pop().replace(/\.php$/, '');
+    if (normalizedHref === normalizedCurrent) {
         link.classList.add('active');
     }
 });

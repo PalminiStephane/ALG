@@ -803,22 +803,4 @@
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-grid">
-                <div class="footer-column">
-                    <h3>ALG Derma Lina</h3>
-                    <p>Soins technico-esthétiques médicaux par Caroline Vedda, infirmière spécialisée.</p>
-                </div>
-                <div class="footer-column">
-                    <h3>Navigation</h3>
-                    <ul>
-                        <li><a href="services.php">Services</a></li>
-                        <li><a href="about.php">À propos</a></li>
-                        <li><a href="tarifs.php">Tarifs</a></li>
-                        <li><a href="blog.php">Blog</a></li>
-                    </ul>
-                </div>
-                <div class="footer-column">
+<?php include "partials/footer.php"; ?>

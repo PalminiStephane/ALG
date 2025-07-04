@@ -146,14 +146,15 @@ if (phoneInput) {
 const testimonials = document.querySelectorAll('.testimonial');
 if (testimonials.length > 1) {
     let currentTestimonial = 0;
+    const track = document.querySelector('.testimonial-track');
     const prevButton = document.querySelector('.testimonial-nav.prev');
     const nextButton = document.querySelector('.testimonial-nav.next');
     let autoAdvance;
 
     function showTestimonial(index) {
-        testimonials.forEach((testimonial, i) => {
-            testimonial.style.display = i === index ? 'block' : 'none';
-        });
+        if (track) {
+            track.style.transform = `translateX(-${index * 100}%)`;
+        }
     }
 
     function nextTestimonial() {

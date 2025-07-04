@@ -341,7 +341,22 @@
             max-width: 800px;
             margin: 0 auto;
             text-align: center;
+            position: relative;
         }
+
+        .testimonial-nav {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            font-size: 2rem;
+            color: var(--primary-color);
+            cursor: pointer;
+        }
+
+        .testimonial-nav.prev { left: -40px; }
+        .testimonial-nav.next { right: -40px; }
         
         .testimonial {
             background-color: white;
@@ -552,6 +567,16 @@
                 <p>"Caroline est une professionnelle exceptionnelle. Son approche médicale combinée à sa douceur fait toute la différence. Les résultats du Jet Peel sont incroyables !"</p>
                 <div class="testimonial-author">- Marie L.</div>
             </div>
+            <div class="testimonial">
+                <p>"J'ai trouvé un véritable accompagnement personnalisé. Caroline met tout en œuvre pour notre confort."</p>
+                <div class="testimonial-author">- Jean P.</div>
+            </div>
+            <div class="testimonial">
+                <p>"Un service de qualité et des résultats visibles dès la première séance !"</p>
+                <div class="testimonial-author">- Sophie D.</div>
+            </div>
+            <button class="testimonial-nav prev" aria-label="Précédent"><i class="fas fa-chevron-left"></i></button>
+            <button class="testimonial-nav next" aria-label="Suivant"><i class="fas fa-chevron-right"></i></button>
         </div>
     </section>
 

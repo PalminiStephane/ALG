@@ -146,23 +146,45 @@ if (phoneInput) {
 const testimonials = document.querySelectorAll('.testimonial');
 if (testimonials.length > 1) {
     let currentTestimonial = 0;
-    
+    const prevButton = document.querySelector('.testimonial-nav.prev');
+    const nextButton = document.querySelector('.testimonial-nav.next');
+    let autoAdvance;
+
     function showTestimonial(index) {
         testimonials.forEach((testimonial, i) => {
             testimonial.style.display = i === index ? 'block' : 'none';
         });
     }
-    
+
     function nextTestimonial() {
         currentTestimonial = (currentTestimonial + 1) % testimonials.length;
         showTestimonial(currentTestimonial);
     }
-    
+
+    function prevTestimonial() {
+        currentTestimonial = (currentTestimonial - 1 + testimonials.length) % testimonials.length;
+        showTestimonial(currentTestimonial);
+    }
+
+    function resetAutoAdvance() {
+        clearInterval(autoAdvance);
+        autoAdvance = setInterval(nextTestimonial, 10000);
+    }
+
     // Show first testimonial
     showTestimonial(0);
-    
-    // Auto-advance every 5 seconds
-    setInterval(nextTestimonial, 5000);
+    autoAdvance = setInterval(nextTestimonial, 10000);
+
+    if (prevButton && nextButton) {
+        prevButton.addEventListener('click', () => {
+            prevTestimonial();
+            resetAutoAdvance();
+        });
+        nextButton.addEventListener('click', () => {
+            nextTestimonial();
+            resetAutoAdvance();
+        });
+    }
 }
 
 // FAQ toggle animation

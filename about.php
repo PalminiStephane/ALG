@@ -609,7 +609,7 @@
         <div class="about-hero-content">
             <div class="about-text">
                 <h1>Caroline Vedda</h1>
-                <p>Infirmière diplômée et naturopathe certifiée, j'ai choisi de mettre mon expertise médicale au service de votre beauté et de votre bien-être.</p>
+                <p>Infirmière diplômée d’Etat spécialisée en dermopigmentation réparatrice à visée médicale et esthétique - Experte en soins du visage et épilation définitive au laser.</p>
                 <p>Installée à Ensuès-la-Redonne, dans un cadre paisible entre mer et nature, je vous accueille dans un espace dédié à votre sérénité et à votre épanouissement.</p>
                 <p>Mon approche unique allie rigueur médicale et vision holistique pour des soins personnalisés qui révèlent votre beauté naturelle.</p>
             </div>
@@ -635,38 +635,22 @@
                 
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <h3>Expérience Hospitalière</h3>
-                        <p>Plusieurs années en milieu hospitalier, développant expertise et sens du soin. Cette expérience forge mon approche rigoureuse et bienveillante.</p>
+                        <h3>Naturopathe</h3>
+                        <p>Certification en naturopathie pour une approche holistique de la santé. L'alliance parfaite entre médecine conventionnelle et médecines douces.</p>
                     </div>
-                    <div class="timeline-year">2010-2018</div>
+                    <div class="timeline-year">2016</div>
 
                 </div><div class="timeline-item">
                     <div class="timeline-content">
-                        <h3>Expérience Infirmière Liberale</h3>
-                        <p>Plusieurs années dans le liberale, développant expertise et sens du soin. Cette expérience forge mon approche rigoureuse et bienveillante.</p>
-                    </div>
-                    <div class="timeline-year">2018-2023</div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-content">
                         <h3>Diplôme d'État d'Infirmière en puériculture</h3>
-                        <p>Formation en soins infirmiers spécialisée en puériculture</p>
+                        <p>Diplômée infirmière puéricultrice, j'accompagne les familles dans le développement et la santé des tout-petits avec expertise et bienveillance.</p>
                     </div>
-                    <div class="timeline-year">2023-2024</div>
+                    <div class="timeline-year">2023</div>
                 </div>
 
                 <div class="timeline-item">
                     <div class="timeline-content">
-                        <h3>Formation en Naturopathie</h3>
-                        <p>Certification en naturopathie pour une approche holistique de la santé. L'alliance parfaite entre médecine conventionnelle et médecines douces.</p>
-                    </div>
-                    <div class="timeline-year">2025</div>
-                </div>
-                
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                        <h3>Formations Technico-Esthétiques</h3>
+                        <h3>Formation esthétique sur la dermopigmentation; l’épilation au laser; soins du visage</h3>
                         <p>Spécialisations en dermopigmentation, laser médical, et technologies esthétiques avancées. Une expertise technique au service de la beauté.</p>
                     </div>
                     <div class="timeline-year">2025</div>

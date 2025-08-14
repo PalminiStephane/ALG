@@ -232,7 +232,50 @@
             height: 100%;
             object-fit: cover;
         }
-        
+
+        /* Biography Section */
+        .bio-section {
+            padding: 5rem 5%;
+            background-color: white;
+        }
+
+        .bio-section .container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .bio-section h2 {
+            text-align: center;
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            font-weight: 200;
+            margin-bottom: 3rem;
+            letter-spacing: 2px;
+        }
+
+        .bio-section h3 {
+            color: var(--primary-color);
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-weight: 400;
+        }
+
+        .bio-section p {
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            opacity: 0.9;
+            line-height: 1.8;
+            margin-bottom: 1.5rem;
+        }
+
+        .bio-section blockquote {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            text-align: center;
+            font-style: italic;
+            margin-top: 2rem;
+        }
+
         /* Parcours Section */
         .parcours-section {
             padding: 5rem 5%;
@@ -616,6 +659,28 @@
             <div class="about-image">
                 <p style="color: #8B9A7B; font-size: 1.2rem;">Photo de Caroline Vedda</p>
             </div>
+        </div>
+    </section>
+
+    <!-- Biography Section -->
+    <section class="bio-section">
+        <div class="container">
+            <h2>Qui suis-je ?</h2>
+            <p>Je suis Caroline, 40 ans, infirmière depuis 2006. Une vocation pour moi d’exercer ce métier. Originaire de Moselle-Est, j’ai exercé dans ma région natale, puis au Luxembourg où j'ai accompagné mes patients dans leurs parcours de soins, souvent face à la maladie, la douleur, et des moments de grande vulnérabilité.</p>
+            <p>Soigner, écouter, accompagner : cela a toujours été au cœur de ma vocation. Mais après 20 ans à évoluer dans ce milieu, j’ai ressenti le besoin de prendre une autre direction, tout en restant fidèle à ce qui m’anime profondément : prendre soin des autres.</p>
+            <p>En 2016, je me forme en naturopathie, avec l’envie d’intégrer une approche plus naturelle du soin – un tournant personnel, après la naissance de mes deux premiers enfants.</p>
+            <p>En 2023, je réalise un autre rêve : devenir infirmière puéricultrice, afin d’être au plus près des tout-petits. Mais à ce moment-là, une évidence s’impose à moi : je ne me reconnais plus dans la prise en charge de la maladie. Je ressens le besoin de contribuer autrement au bien-être des personnes.</p>
+            <p>C’est lors d’un séminaire à Nice sur l’esthétique à visée médicale et esthétique que le déclic a lieu. Je découvre un univers où je peux continuer à aider, accompagner, redonner confiance – mais à travers une approche différente : celle de l’esthétique et du soin de soi.</p>
+            <p>Je me forme alors à la dermopigmentation réparatrice, aux soins du visage, à l’épilation laser, et je me prépare aujourd’hui à ouvrir mon propre espace de bien-être et d’esthétique, en septembre 2025.</p>
+
+            <h3>ALG DermaLina, une histoire de cœur</h3>
+            <p>Ce projet je ne le construis pas seule. Mon mari, qui a toujours été là pour moi, m’a encouragée dans mes moments de doute. Son soutien indéfectible m’a permis de transformer mes rêves en réalité. Ce nouveau chapitre c’est aussi grâce à lui que je l’écris aujourd’hui.</p>
+            <p>Le nom de ma société est un hommage à ce qui compte le plus pour moi : « ALG » sont les initiales de mes trois enfants qui me donnent la force d’avancer, et « Lina » à ma grand-mère qui m’a transmis le goût du soin et de l’attention à l’autre. À travers ce nom, je porte avec moi leur amour et leur énergie dans chaque soin que je réaliserai avec passion, écoute et respect.</p>
+
+            <h3>Ma mission</h3>
+            <p>Ce projet, c’est une reconversion, mais surtout une continuité : celle de mettre mes compétences au service des autres. Redonner confiance, révéler la beauté naturelle de chacun(e), accompagner un nouveau départ – voilà ce qui me porte.</p>
+            <p>Je suis fière de débuter cette nouvelle aventure. Et plus que jamais, je ferai tout pour que chaque personne qui me confie son visage et son corps reparte sereine, écoutée et valorisée.</p>
+            <blockquote>« Votre bien-être et votre satisfaction sont au cœur de ma démarche »</blockquote>
         </div>
     </section>
 

@@ -27,13 +27,15 @@
         </div>
         <div class="service-text">
             <h2>Jet Peel</h2>
-            <p>Technique non invasive alliant jet d'air et principes actifs pour nettoyer, exfolier et oxygéner la peau en profondeur. Les résultats sont visibles dès la première séance.</p>
+            <p>Dispositif révolutionnaire de régénération cutanée, 100&nbsp;% naturel et lauréat du prix de l'innovation Pierantoni 2021. Sans aiguille ni injection, il propulse un jet d'air et de solution saline pour faire pénétrer des principes actifs comme l'acide hyaluronique dans les couches profondes de la peau.</p>
             <h3>Bienfaits</h3>
             <ul class="benefits-list">
-                <li>Nettoyage intense et élimination des impuretés</li>
-                <li>Hydratation profonde et peau repulpée</li>
-                <li>Stimulation de la microcirculation cutanée</li>
+                <li>Peau repulpée, hydratée et éclatante</li>
+                <li>Correction des rides, cicatrices et autres imperfections</li>
+                <li>Stimulation de la repousse capillaire sur le cuir chevelu</li>
             </ul>
+            <h3>Déroulement</h3>
+            <p>Le soin comprend un drainage lymphatique, un peeling 100&nbsp;% naturel puis l'infusion d'actifs pour un effet GLOW immédiat.</p>
         </div>
     </div>
 </section>
@@ -44,13 +46,15 @@
             <img src="images/laser.svg" alt="Épilation laser">
         </div>
         <div class="service-text">
-            <h2>Épilation Laser Médicale</h2>
-            <p>Procédé sûr et efficace pour une épilation durable. Notre équipement de dernière génération garantit des séances rapides et adaptées à votre phototype.</p>
-            <h3>Bienfaits</h3>
+            <h2>PULSE LASER TRIO</h2>
+            <p>Le Pulse Laser Trio utilise trois longueurs d'onde et un système de refroidissement pour une épilation rapide, sûre et quasiment indolore sur tous les phototypes de peau (I à VI).</p>
+            <h3>Comment ça marche ?</h3>
+            <p>La lumière est captée par la mélanine du poil, se transforme en chaleur et détruit le follicule. Comptez 6 à 8 séances espacées de 4 à 8 semaines selon la zone.</p>
+            <h3>Précautions</h3>
             <ul class="benefits-list">
-                <li>Réduction progressive et durable de la pilosité</li>
-                <li>Confort optimal, séances quasi indolores</li>
-                <li>Convient à la majorité des types de peaux</li>
+                <li>Pas d'épilation ni d'exposition solaire le mois précédent</li>
+                <li>Raser la zone 48 à 72&nbsp;h avant la séance</li>
+                <li>Hydrater et gommer légèrement après la séance</li>
             </ul>
         </div>
     </div>
@@ -62,13 +66,13 @@
             <img src="images/dermopigmentation.svg" alt="Dermopigmentation">
         </div>
         <div class="service-text">
-            <h2>Dermopigmentation</h2>
-            <p>Maquillage permanent et tatouage médical pour corriger ou sublimer certaines zones du visage et du corps. Un résultat naturel et longue durée réalisé avec précision.</p>
+            <h2>Maquillage permanent &amp; dermopigmentation</h2>
+            <p>Révélez votre beauté au quotidien grâce à des tracés précis et personnalisés pour les sourcils, les yeux ou les lèvres. Nous réalisons également la dermopigmentation correctrice et réparatrice pour camoufler cicatrices, vergetures, vitiligo ou autres irrégularités.</p>
             <h3>Bienfaits</h3>
             <ul class="benefits-list">
-                <li>Restructure sourcils, lèvres ou contours des yeux</li>
-                <li>Camoufle cicatrices ou pertes de pigmentation</li>
-                <li>Gain de temps au quotidien</li>
+                <li>Résultat naturel et harmonieux sans effort quotidien</li>
+                <li>Pigments sur mesure respectant votre carnation</li>
+                <li>Gain de confiance et de temps chaque jour</li>
             </ul>
         </div>
     </div>

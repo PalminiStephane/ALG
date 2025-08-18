@@ -66,9 +66,9 @@
         }
         
         .logo img {
-            width: 40px;
-            height: 48px;
-            margin-right: 15px;
+            width: 100px;
+            height: auto;
+            max-width: none;
         }
         
         .nav-links {
@@ -703,7 +703,7 @@
                         <h3>Naturopathe</h3>
                         <p>Certification en naturopathie pour une approche holistique de la santé. L'alliance parfaite entre médecine conventionnelle et médecines douces.</p>
                     </div>
-                    <div class="timeline-year">2016</div>
+                    <div class="timeline-year">2006</div>
 
                 </div><div class="timeline-item">
                     <div class="timeline-content">

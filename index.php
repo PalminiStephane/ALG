@@ -65,10 +65,10 @@
         }
         
         .logo img {
-            width: 40px;
-            height: 48px;
-            margin-right: 15px;
-        }
+            width: 100px;
+            height: auto;
+            max-width: none;
+}
         
         .nav-links {
             display: flex;

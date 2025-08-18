@@ -126,7 +126,12 @@
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, #FAF9F7 0%, #E8DDD4 50%, #FAF9F7 100%);
+            background: linear-gradient(rgba(250, 249, 247, 0.4), rgba(232, 221, 212, 0.8)),
+                        url('images/tatouage_levres.png');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
             min-height: 100vh;
             display: flex;
             align-items: center;
@@ -141,7 +146,7 @@
             position: absolute;
             width: 200px;
             height: 240px;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 50Q10 30 10 20Q10 5 25 5Q40 5 40 20Q40 30 25 50M30 25L20 25M20 25L25 40L30 25M25 50Q55 30 55 20Q55 5 70 5Q85 5 85 20Q85 30 75 40Q65 50 55 45L55 35L70 35M25 50L25 85L45 85' stroke='%238B9A7B' stroke-width='2' fill='none' opacity='0.1'/%3E%3C/svg%3E");
+            background-image: url("images/logo/ALG3.png");
             background-repeat: no-repeat;
             background-size: contain;
             top: 10%;
@@ -154,7 +159,7 @@
             position: absolute;
             width: 150px;
             height: 180px;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 140' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M25 50Q10 30 10 20Q10 5 25 5Q40 5 40 20Q40 30 25 50M30 25L20 25M20 25L25 40L30 25M25 50Q55 30 55 20Q55 5 70 5Q85 5 85 20Q85 30 75 40Q65 50 55 45L55 35L70 35M25 50L25 85L45 85' stroke='%23D4A574' stroke-width='1.5' fill='none' opacity='0.08'/%3E%3C/svg%3E");
+            background-image: url("images/logo/ALG3.png");
             background-repeat: no-repeat;
             background-size: contain;
             bottom: 10%;

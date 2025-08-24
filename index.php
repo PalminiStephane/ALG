@@ -146,7 +146,7 @@
             position: absolute;
             width: 200px;
             height: 240px;
-            background-image: url("images/logo/ALG3.png");
+            background-image: url("images/logo/ALG.png");
             background-repeat: no-repeat;
             background-size: contain;
             top: 10%;
@@ -157,9 +157,9 @@
         .hero::after {
             content: '';
             position: absolute;
-            width: 150px;
-            height: 180px;
-            background-image: url("images/logo/ALG3.png");
+            width: 180px;
+            height: 220px;
+            background-image: url("images/logo/ALG.png");
             background-repeat: no-repeat;
             background-size: contain;
             bottom: 10%;

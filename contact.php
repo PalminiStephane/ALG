@@ -274,10 +274,13 @@
             border-radius: 15px;
             overflow: hidden;
             height: 400px;
-            background-color: #E8DDD4;
-            display: flex;
-            align-items: center;
-            justify-content: center;
+        }
+
+        .map-section iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            display: block;
         }
         
         /* Booking Section */
@@ -675,7 +678,13 @@
                 </div>
                 
                 <div class="map-section">
-                    <p style="color: #8B9A7B; font-size: 1.2rem;">Carte interactive</p>
+                    <iframe
+                        src="https://www.google.com/maps?q=43.3557186,5.2075135&hl=fr&z=16&output=embed"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        title="Localisation de ALG Derma Lina"
+                    ></iframe>
                 </div>
             </div>
         </div>

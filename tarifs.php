@@ -613,10 +613,10 @@
     <!-- Tarifs Section -->
     <section class="tarifs-section">
         <div class="container">
-            <div class="tarifs-intro">
-                <p>Chez ALG Derma Lina, nous pratiquons des tarifs transparents et adaptés à la qualité de nos soins. Découvrez nos différentes prestations et forfaits avantageux.</p>
-            </div>
-
+        <div class="tarifs-intro">
+            <p>Chez ALG Derma Lina, nous pratiquons des tarifs transparents et adaptés à la qualité de nos soins. Découvrez nos différentes prestations et forfaits avantageux.</p>
+        </div>
+<?php /*
             <!-- Soins du Visage -->
             <div class="pricing-category">
                 <h2>Soins du Visage</h2>
@@ -869,14 +869,91 @@
         <div class="container">
             <h2>Conditions et Modalités</h2>
             
-            <div class="conditions-content">
-                <div class="condition-item">
-                    <h3>Offres spéciales</h3>
-                    <p>-10% pour les étudiants et demandeurs d'emploi sur présentation d'un justificatif. Parrainage : 10% de réduction pour vous et votre filleul(e) sur le prochain soin.</p>
-                </div>
+        <div class="conditions-content">
+            <div class="condition-item">
+                <h3>Offres spéciales</h3>
+                <p>-10% pour les étudiants et demandeurs d'emploi sur présentation d'un justificatif. Parrainage : 10% de réduction pour vous et votre filleul(e) sur le prochain soin.</p>
             </div>
         </div>
-    </section>
+    </div>
+</section>
+*/ ?>
+
+        <div class="pricing-category">
+            <h2>Soins du Visage</h2>
+
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Consultation personnalisée</h3>
+                    <p class="description">Conseillée pour un 1er RDV, déduite des soins</p>
+                    <div class="price"><span class="currency">€</span>35</div>
+                    <p class="price-info">30 min – un diagnostic sera effectué pour identifier les besoins de votre peau</p>
+                </div>
+            </div>
+
+            <div class="price-table">
+                <h3>Jet Peel – Tarifs par zone</h3>
+                <table>
+                    <tr><td>Visage + cou (45 à 60 min)</td><td>150€</td><td>Cure de 6 séances : 750€</td></tr>
+                    <tr><td>Décolleté (40 min)</td><td>100€</td><td>Cure de 6 séances : 500€</td></tr>
+                    <tr><td>Mains (40 min)</td><td>100€</td><td>Cure de 6 séances : 500€</td></tr>
+                    <tr><td>Cuir chevelu (45 min)</td><td>150€</td><td>Cure de 6 séances : 750€</td></tr>
+                    <tr><td>Lèvre supérieure + menton (30 min)</td><td>75€</td><td>Cure de 6 séances : 375€</td></tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="pricing-category">
+            <h2>Pulse Laser TRIO</h2>
+
+            <div class="tarifs-intro">
+                <p>Consultation personnalisée avant les séances, permettant d’identifier d’éventuelles contre indications, répondre aux questions, donner des conseils pré et post séances, établir un devis et signer les consentements.</p>
+                <p>Lors de cette consultation ne pas épiler / raser la zone pour que je puisse analyser le poil et faire un essai. Cette consultation est sans engagement.</p>
+            </div>
+
+            <div class="price-table">
+                <h3>Épilation Femme corps</h3>
+                <table>
+                    <tr><td>Aisselles</td><td>45€</td></tr>
+                    <tr><td>Avant bras</td><td>90€</td></tr>
+                    <tr><td>Bras entier</td><td>130€</td></tr>
+                    <tr><td>Demi jambes</td><td>140€</td></tr>
+                    <tr><td>Cuisses</td><td>140€</td></tr>
+                    <tr><td>Jambes entières</td><td>260€</td></tr>
+                    <tr><td>Maillot classique</td><td>50€</td></tr>
+                    <tr><td>Maillot échancré</td><td>80€</td></tr>
+                    <tr><td>Maillot intégral (+SIF offert)</td><td>120€</td></tr>
+                    <tr><td>SIF</td><td>40€</td></tr>
+                    <tr><td>Orteils</td><td>30€</td></tr>
+                </table>
+            </div>
+
+            <div class="price-table">
+                <h3>Épilation Homme</h3>
+                <table>
+                    <tr><td>Dos</td><td>190€</td></tr>
+                    <tr><td>Torse</td><td>120€</td></tr>
+                    <tr><td>Ventre</td><td>120€</td></tr>
+                    <tr><td>Torse + ventre</td><td>210€</td></tr>
+                    <tr><td>Ligne ombilicale</td><td>30€</td></tr>
+                </table>
+            </div>
+
+            <div class="price-table">
+                <h3>Forfaits</h3>
+                <table>
+                    <tr><td>Maillot brésilien + aisselles</td><td>110€</td></tr>
+                    <tr><td>Maillot intégral + aisselles</td><td>140€</td></tr>
+                    <tr><td>Demi jambes + Maillot brésilien</td><td>190€</td></tr>
+                    <tr><td>Maillot + aisselles + demi jambes</td><td>220€</td></tr>
+                    <tr><td>Maillot + jambe entière</td><td>280€</td></tr>
+                    <tr><td>Maillot + aisselles + jambe entière</td><td>330€</td></tr>
+                    <tr><td>Aisselles + jambe entière</td><td>280€</td></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+</section>
 
 <?php include "partials/footer.php"; ?>
 </body>

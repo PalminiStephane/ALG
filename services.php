@@ -712,7 +712,7 @@
 </section>
 
 <section class="service-cta" style="text-align:center; padding:4rem 0;">
-    <a href="contact.php#booking" class="btn-service">Prendre rendez-vous</a>
+    <a href="tel:+33635565862" class="btn-service">Prendre rendez-vous</a>
 </section>
 
 <?php include "partials/footer.php"; ?>

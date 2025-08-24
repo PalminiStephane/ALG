@@ -124,6 +124,11 @@
             color: var(--text-dark);
         }
         
+        #booking .cta-button {
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+        }
         /* Breadcrumb */
         .breadcrumb {
             padding: 1rem 5%;
@@ -952,6 +957,12 @@
                 </table>
             </div>
         </div>
+    </div>
+</section>
+
+<section id="booking">
+    <div class="booking-container">
+        <a href="tel:+33635565862" class="cta-button">Réserver votre consultation</a>
     </div>
 </section>
 

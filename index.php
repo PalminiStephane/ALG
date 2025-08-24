@@ -541,7 +541,7 @@
             <h1>Révélez votre beauté naturelle</h1>
             <p>Soins technico-esthétiques médicaux innovants alliant expertise médicale et approche holistique</p>
             <div class="hero-buttons">
-                <a href="contact.php#booking" class="btn-primary">Réserver une consultation</a>
+                <a href="tel:+33635565862" class="btn-primary">Réserver une consultation</a>
                 <a href="services.php" class="btn-secondary">Découvrir nos services</a>
             </div>
         </div>
@@ -599,7 +599,7 @@
     <section class="cta-section">
         <h2>Prête à révéler votre beauté ?</h2>
         <p>Prenez rendez-vous dès aujourd'hui pour une consultation personnalisée</p>
-        <a href="contact.php#booking" class="btn-primary">Réserver maintenant</a>
+        <a href="tel:+33635565862" class="btn-primary">Réserver maintenant</a>
     </section>
 
     <!-- Footer -->

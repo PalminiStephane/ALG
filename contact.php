@@ -283,7 +283,13 @@
             font-weight: 200;
             margin-bottom: 3rem;
         }
-        
+
+        #booking .cta-button {
+            display: block;
+            width: fit-content;
+            margin: 0 auto;
+        }
+
         .booking-form {
             background-color: white;
             padding: 3rem;
@@ -608,26 +614,26 @@
                         <div class="icon">📞</div>
                         <div>
                             <h3>Téléphone</h3>
-                            <p>06 35 56 58 62</p>
+                            <p><a href="tel:+33635565862">06 35 56 58 62</a></p>
                             <p style="font-size: 0.9rem;">Disponible du lundi au vendredi</p>
                         </div>
                     </div>
-                    
+
                     <div class="info-item">
                         <div class="icon">📧</div>
                         <div>
                             <h3>Email</h3>
-                            <p>contact@algdermalina.fr</p>
+                            <p><a href="mailto:contact@algdermalina.fr">contact@algdermalina.fr</a></p>
                             <p style="font-size: 0.9rem;">Réponse sous 24-48h</p>
                         </div>
                     </div>
-                    
+
                     <div class="info-item">
                         <div class="icon">📍</div>
                         <div>
                             <h3>Adresse</h3>
-                            <p>Ensuès-la-Redonne</p>
-                            <p>Provence-Alpes-Côte d'Azur</p>
+                            <p><a href="https://www.google.com/maps?q=Ensu%C3%A8s-la-Redonne" target="_blank" rel="noopener">Ensuès-la-Redonne</a></p>
+                            <p><a href="https://www.google.com/maps?q=Ensu%C3%A8s-la-Redonne" target="_blank" rel="noopener">Provence-Alpes-Côte d'Azur</a></p>
                             <p style="font-size: 0.9rem;">Adresse exacte communiquée lors de la prise de RDV</p>
                         </div>
                     </div>

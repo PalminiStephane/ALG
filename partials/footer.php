@@ -31,7 +31,7 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 ALG DermaLina. Tous droits réservés. | <a href="mentions-legales.php" style="color: white; opacity: 0.8;">Mentions légales</a> | <a href="politique-confidentialite.php" style="color: white; opacity: 0.8;">Politique de confidentialité</a></p>
+            <p>&copy; 2025 ALG DermaLina. Tous droits réservés. | <a href="mentions-legales.php" style="color: white; opacity: 0.8;">Mentions légales</a> | <a href="politique-confidentialite.php" style="color: white; opacity: 0.8;">Politique de confidentialité</a> | développé avec ♥ par <a href="https://dev2ls.fr" target="_blank" style="color: white; opacity: 0.8;">dev2ls</a></p>
         </div>
     </div>
 </footer>

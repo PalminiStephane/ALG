@@ -9,7 +9,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     if ($captcha != ($_SESSION['captcha_answer'] ?? '')) {
         $_SESSION['contact_error'] = 'Captcha incorrect';
     } elseif ($name && $email && $message) {
-        $to = 'contact@algdermalina.fr';
+        $to = 'alg.dermalina@gmail.com';
         $subject = 'Nouveau message de contact';
         $body = "Nom: $name\nEmail: $email\n\n$message";
         mail($to, $subject, $body, "From: $email");

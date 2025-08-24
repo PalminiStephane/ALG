@@ -638,7 +638,7 @@
                         <div class="icon">📧</div>
                         <div>
                             <h3>Email</h3>
-                            <p><a href="mailto:contact@algdermalina.fr">contact@algdermalina.fr</a></p>
+                            <p><a href="mailto:alg.dermalina@gmail.com">alg.dermalina@gmail.com</a></p>
                             <p style="font-size: 0.9rem;">Réponse sous 24-48h</p>
                         </div>
                     </div>
@@ -647,9 +647,8 @@
                         <div class="icon">📍</div>
                         <div>
                             <h3>Adresse</h3>
-                            <p><a href="https://www.google.com/maps?q=Ensu%C3%A8s-la-Redonne" target="_blank" rel="noopener">Ensuès-la-Redonne</a></p>
-                            <p><a href="https://www.google.com/maps?q=Ensu%C3%A8s-la-Redonne" target="_blank" rel="noopener">Provence-Alpes-Côte d'Azur</a></p>
-                            <p style="font-size: 0.9rem;">Adresse exacte communiquée lors de la prise de RDV</p>
+                            <p><a href="https://www.google.fr/maps/place/11A+Av.+de+la+Vierge,+13820+Ensu%C3%A8s-la-Redonne/@43.3557196,5.2068698,19z/data=!3m1!4b1!4m6!3m5!1s0x12c9dd42cb11a485:0xd24b13302518f489!8m2!3d43.3557186!4d5.2075135!16s%2Fg%2F11c4zz4mdw?entry=ttu&g_ep=EgoyMDI1MDgxOS4wIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener">11A Av. de la Vierge <br>13820 Ensuès-la-Redonne</a></p>
+                            <p style="font-size: 0.9rem;">L'entrée se trouve à gauche<br> du batiment au 1er étage</p>
                         </div>
                     </div>
                     

@@ -158,8 +158,13 @@
         }
         
         .breadcrumb a {
-            color: var(--primary-color);
+            color: var(--text-dark);
             text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .breadcrumb a:hover {
+            color: var(--accent-color);
         }
         
         /* Page Header */
@@ -187,6 +192,16 @@
         /* Contact Section */
         .contact-section {
             padding: 5rem 5%;
+        }
+
+        .contact-section a {
+            color: var(--text-dark);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .contact-section a:hover {
+            color: var(--accent-color);
         }
         
         .container {

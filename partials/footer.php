@@ -16,9 +16,11 @@
             </div>
             <div class="footer-column">
                 <h3>Contact</h3>
-                <p>📞 06 35 56 58 62<br>
-                📧 alg.dermalina@gmail.com<br>
-                📍 Ensuès-la-Redonne, PACA</p>
+                <p>
+                    📞 <a href="tel:0635565862">06 35 56 58 62</a><br>
+                    📧 <a href="mailto:alg.dermalina@gmail.com">alg.dermalina@gmail.com</a><br>
+                    📍 <a href="https://www.google.com/maps?q=11A+Av.+de+la+Vierge+13820+Ensu%C3%A8s-la-Redonne" target="_blank">11A Av. de la Vierge  13820 Ensuès-la-Redonne</a>
+                </p>
             </div>
             <div class="footer-column">
                 <h3>Suivez-nous</h3>

@@ -19,7 +19,7 @@
                 <p>
                     📞 <a href="tel:0635565862">06 35 56 58 62</a><br>
                     📧 <a href="mailto:alg.dermalina@gmail.com">alg.dermalina@gmail.com</a><br>
-                    📍 <a href="https://www.google.com/maps?q=11A+Av.+de+la+Vierge+13820+Ensu%C3%A8s-la-Redonne" target="_blank">11A Av. de la Vierge  13820 Ensuès-la-Redonne</a>
+                    📍 <a href="https://www.google.com/maps?q=11A+Av.+de+la+Vierge+13820+Ensu%C3%A8s-la-Redonne" target="_blank">11A Av. de la Vierge<br>13820 Ensuès-la-Redonne</a>
                 </p>
             </div>
             <div class="footer-column">
@@ -31,7 +31,8 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 ALG DermaLina. Tous droits réservés. | <a href="mentions-legales.php" style="color: white; opacity: 0.8;">Mentions légales</a> | <a href="politique-confidentialite.php" style="color: white; opacity: 0.8;">Politique de confidentialité</a> | développé avec ♥ par <a href="https://dev2ls.fr" target="_blank" style="color: white; opacity: 0.8;">dev2ls</a></p>
+            <p>&copy; 2025 ALG DermaLina. Tous droits réservés. | <a href="mentions-legales.php" style="color: white; opacity: 0.8;">Mentions légales</a> | <a href="politique-confidentialite.php" style="color: white; opacity: 0.8;">Politique de confidentialité</a></p>
+            <p>Développé avec ♥ par <a href="https://dev2ls.fr" target="_blank" style="color: white; opacity: 0.8;">dev2ls</a> 🚀</p>
         </div>
     </div>
 </footer>

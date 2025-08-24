@@ -661,7 +661,12 @@
         </div>
     </section>
 
-    <!-- Booking Form -->
+    <section id="booking">
+        <div class="booking-container">
+            <a href="tel:+33635565862" class="cta-button">Réserver votre consultation</a>
+        </div>
+    </section>
+    <!-- Booking Form 
     <section id="booking">
         <div class="booking-container">
             <h2>Réserver votre consultation</h2>
@@ -736,6 +741,7 @@
             </form>
         </div>
     </section>
+    -->
 
     <!-- Contact Form -->
     <section class="contact-form-section" id="contact-form">

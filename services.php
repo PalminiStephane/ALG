@@ -489,6 +489,12 @@
             opacity: 0.8;
             line-height: 1.8;
         }
+        .service-image img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
         
         /* Footer */
         footer {

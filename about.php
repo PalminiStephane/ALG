@@ -657,7 +657,7 @@
                 <p>Mon approche unique allie rigueur médicale et vision holistique pour des soins personnalisés qui révèlent votre beauté naturelle.</p>
             </div>
             <div class="about-image">
-                <p style="color: #8B9A7B; font-size: 1.2rem;">Photo de Caroline Vedda</p>
+                <img src="images/cabinetALG.png" alt="Photo de Caroline Vedda">
             </div>
         </div>
     </section>

@@ -590,9 +590,13 @@
             .forfait-card.popular {
                 transform: scale(1);
             }
-            
+
             .price {
                 font-size: 1.5rem;
+            }
+
+            .price-table td:last-child {
+                white-space: normal;
             }
         }
     </style>

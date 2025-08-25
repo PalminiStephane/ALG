@@ -126,8 +126,8 @@
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(250, 249, 247, 0.4), rgba(232, 221, 212, 0.8)),
-                        url('images/tatouage_levres.png');
+            background: linear-gradient(rgba(250, 249, 247, 0.1), rgba(232, 221, 212, 0.8)),
+                        url('images/cabinetALG.png');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;

@@ -606,7 +606,7 @@
 <section id="jet-peel" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/jet-peel.svg" alt="Jet Peel">
+            <img src="images/jetpeel.png" alt="Jet Peel">
         </div>
         <div class="service-text">
             <h2>Jet Peel</h2>
@@ -624,7 +624,7 @@
 <section id="laser" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/laser.svg" alt="Épilation laser">
+            <img src="images/epilation.png" alt="Épilation laser">
         </div>
         <div class="service-text">
             <h2>Épilation Laser Médicale</h2>
@@ -642,7 +642,7 @@
 <section id="dermopigmentation" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/dermopigmentation.svg" alt="Dermopigmentation">
+            <img src="images/dermopigmentation.png" alt="Dermopigmentation">
         </div>
         <div class="service-text">
             <h2>Dermopigmentation</h2>
@@ -660,7 +660,7 @@
 <section id="led" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/led.svg" alt="Photobiomodulation LED">
+            <img src="images/cicatrice.png" alt="Photobiomodulation LED">
         </div>
         <div class="service-text">
             <h2>Photobiomodulation LED</h2>
@@ -678,7 +678,7 @@
 <section id="naturopathie" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/naturopathie.svg" alt="Naturopathie">
+            <img src="images/naturopathie.jpg" alt="Naturopathie">
         </div>
         <div class="service-text">
             <h2>Naturopathie</h2>
@@ -696,7 +696,7 @@
 <section id="parentalite" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/parentalite.svg" alt="Accompagnement à la parentalité">
+            <img src="images/parentalite.jpg" alt="Accompagnement à la parentalité">
         </div>
         <div class="service-text">
             <h2>Accompagnement à la parentalité</h2>

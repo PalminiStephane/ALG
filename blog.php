@@ -598,7 +598,6 @@ $posts = $db->query("SELECT * FROM posts ORDER BY created_at DESC")->fetchAll(PD
 <?php include 'partials/header.php'; ?>
 <section class="section">
     <div class="container">
-        <h1 class="text-center mb-3">Blog</h1>
         <?php foreach($posts as $post): ?>
             <article class="blog-card" style="margin-bottom:2rem;">
                 <div class="blog-content">

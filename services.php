@@ -634,12 +634,12 @@
         </div>
         <div class="service-text">
             <h2>Épilation Laser Médicale</h2>
-            <p>Procédé sûr et efficace pour une épilation durable. Notre équipement de dernière génération garantit des séances rapides et adaptées à votre phototype.</p>
+            <p>Procédé sûr et efficace pour une épilation durable. Equipement de pointe utilisé. Garantit un traitement rapide et moins douloureux grâce à un système de refroidissement de contact intégré.</p>
             <h3>Bienfaits</h3>
             <ul class="benefits-list">
                 <li>Réduction progressive et durable de la pilosité</li>
-                <li>Confort optimal, séances quasi indolores</li>
-                <li>Convient à la majorité des types de peaux</li>
+                <li>Confort optimal, séances indolores</li>
+                <li>Convient à tout types de peaux</li>
             </ul>
         </div>
     </div>

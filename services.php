@@ -655,7 +655,7 @@
             <p>Techniques de tatouage aux pigments destinées à embellir ou à corriger certaines zones du visage et du corps.</p>
             <div class="sub-services">
                 <div class="sub-service">
-                    <img src="images/ALGlevres.png" alt="Maquillage permanent" class="kingkong">
+                    <img src="images/dermopigmentation.png" alt="Maquillage permanent - Dermopigmentation BNJ" class="kingkong">
                     <h3>Maquillage permanent</h3>
                     <p>Formée par Myriam Duguay, dotée de ses décennies d'expérience et d'expertise pour une technique esthétique qui redessine et sublime durablement les sourcils, yeux ou lèvres. Et ceci pour un résultat naturel, harmonieux et pratique au quotidien qui vous fera gagner du temps chaque jour. Ce sont des pigments organiques de haute technologie qui sont implantés dans les couches superficielles de la peau.</p>
                     <h4>Bienfaits</h4>
@@ -666,7 +666,7 @@
                     </ul>
                 </div>
                 <div class="sub-service">
-                    <img src="images/cicatrice.png" alt="Dermopigmentation correctrice" class="kingkong">
+                    <img src="images/cicatrice.png" alt="Dermopigmentation correctrice (cicatrice)" class="kingkong">
                     <h3>Dermopigmentation correctrice / réparatrice</h3>
                     <p>Elle a pour but de camoufler des cicatrices, des vergitures, des taches ou de reconstruire l'alvéole mamméenne. Après une chirurgie ayant l'expertise médicale dans ma profession d'infirmière, vous garantissez une hygiène irréprochable dans mes soins et un haut niveau d'exigence qualitative.</p>
                     <h4>Bienfaits</h4>

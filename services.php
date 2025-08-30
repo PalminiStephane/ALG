@@ -652,7 +652,7 @@
         </div>
         <div class="service-text">
             <h2>Dermopigmentation correctrice / réparatrice</h2>
-            <p>Techniques de tatouage aux pigments destinées à embellir ou à corriger certaines zones du visage et du corps. Elle a pour but de camoufler des cicatrices, des vergetures, des taches ou de reconstruire l'aréole mammaire. Après une chirurgie, ayant l'expertise médicale dans ma profession d'infirmière, vous garantissez une hygiène irréprochable dans mes soins et un haut niveau d'exigence qualitative.</p>
+            <p>Elle a pour but de camoufler des cicatrices, des vergetures, des taches ou de reconstruire l'aréole mammaire après une chirurgie. Ayant l'expertise médicale dans ma profession d'infirmière, je vous garantis une hygiène irréprochable dans mes soins et un haut niveau d'exigence qualitative.</p>
             <h3>Bienfaits</h3>
             <ul class="benefits-list">
                 <li>Atténue cicatrices et imperfections</li>
@@ -670,7 +670,7 @@
         </div>
         <div class="service-text">
             <h2>Maquillage permanent</h2>
-            <p>Formée par Myriam Duguay, dotée de ses décennies d'expérience et d'expertise pour une technique esthétique qui redessine et sublime durablement les sourcils, yeux ou lèvres. Et ceci pour un résultat naturel, harmonieux et pratique au quotidien qui vous fera gagner du temps chaque jour. Ce sont des pigments organiques de haute technologie qui sont implantés dans les couches superficielles de la peau.</p>
+            <p>Formée par Myriam Dugelay, dotée de ses décennies d'expérience et d'expertise. Technique esthétique qui redessine et sublime durablement les sourcils, yeux ou lèvres. Et ceci pour un résultat naturel, harmonieux et pratique au quotidien qui vous fera gagner du temps chaque jour. Ce sont des pigments organiques de haute technologie qui sont implantés dans les couches superficielles de la peau.</p>
             <h3>Bienfaits</h3>
             <ul class="benefits-list">
                 <li>Résultat naturel et longue durée</li>

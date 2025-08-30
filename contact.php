@@ -650,8 +650,8 @@
                         <div class="icon">📍</div>
                         <div>
                             <h3>Adresse</h3>
-                            <p><a href="https://www.google.com/maps?q=11A+Av.+de+la+Vierge+13820+Ensu%C3%A8s-la-Redonne" target="_blank" rel="noopener">11A Av. de la Vierge <br>13820 Ensuès-la-Redonne</a></p>
-                            <p style="font-size: 0.9rem;">L'entrée se trouve à gauche<br> du batiment au 1er étage</p>
+                            <p><a href="https://www.google.com/maps?q=11A+Av.+de+la+Vierge+13820+Ensu%C3%A8s-la-Redonne" target="_blank" rel="noopener">Espace Santé <br>11A Av. de la Vierge <br>13820 Ensuès-la-Redonne</a></p>
+                            <p style="font-size: 0.9rem;">L'entrée se trouve à gauche<br> du batiment au 1er étage<br> Parking derrière le labo / kiné</p>
                         </div>
                     </div>
                     

@@ -648,35 +648,35 @@
 <section id="dermopigmentation" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/dermopigmentation.png" alt="Dermopigmentation">
+            <img src="images/cicatrice.png" alt="Dermopigmentation correctrice et réparatrice">
         </div>
         <div class="service-text">
-            <h2>Dermopigmentation</h2>
-            <p>Techniques de tatouage aux pigments destinées à embellir ou à corriger certaines zones du visage et du corps.</p>
-            <div class="sub-services">
-                <div class="sub-service">
-                    <img src="images/dermopigmentation.png" alt="Maquillage permanent - Dermopigmentation BNJ" class="kingkong">
-                    <h3>Maquillage permanent</h3>
-                    <p>Formée par Myriam Duguay, dotée de ses décennies d'expérience et d'expertise pour une technique esthétique qui redessine et sublime durablement les sourcils, yeux ou lèvres. Et ceci pour un résultat naturel, harmonieux et pratique au quotidien qui vous fera gagner du temps chaque jour. Ce sont des pigments organiques de haute technologie qui sont implantés dans les couches superficielles de la peau.</p>
-                    <h4>Bienfaits</h4>
-                    <ul class="benefits-list">
-                        <li>Résultat naturel et longue durée</li>
-                        <li>Sourcils et lèvres toujours nets</li>
-                        <li>Gain de temps chaque matin</li>
-                    </ul>
-                </div>
-                <div class="sub-service">
-                    <img src="images/cicatrice.png" alt="Dermopigmentation correctrice (cicatrice)" class="kingkong">
-                    <h3>Dermopigmentation correctrice / réparatrice</h3>
-                    <p>Elle a pour but de camoufler des cicatrices, des vergitures, des taches ou de reconstruire l'alvéole mamméenne. Après une chirurgie ayant l'expertise médicale dans ma profession d'infirmière, vous garantissez une hygiène irréprochable dans mes soins et un haut niveau d'exigence qualitative.</p>
-                    <h4>Bienfaits</h4>
-                    <ul class="benefits-list">
-                        <li>Atténue cicatrices et imperfections</li>
-                        <li>Rééquilibre la pigmentation de la peau</li>
-                        <li>Améliore la confiance en soi</li>
-                    </ul>
-                </div>
-            </div>
+            <h2>Dermopigmentation correctrice / réparatrice</h2>
+            <p>Techniques de tatouage aux pigments destinées à embellir ou à corriger certaines zones du visage et du corps. Elle a pour but de camoufler des cicatrices, des vergetures, des taches ou de reconstruire l'aréole mammaire. Après une chirurgie, ayant l'expertise médicale dans ma profession d'infirmière, vous garantissez une hygiène irréprochable dans mes soins et un haut niveau d'exigence qualitative.</p>
+            <h3>Bienfaits</h3>
+            <ul class="benefits-list">
+                <li>Atténue cicatrices et imperfections</li>
+                <li>Rééquilibre la pigmentation de la peau</li>
+                <li>Améliore la confiance en soi</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="maquillage-permanent" class="service-detail">
+    <div class="service-content">
+        <div class="service-image">
+            <img src="images/dermopigmentation.png" alt="Maquillage permanent">
+        </div>
+        <div class="service-text">
+            <h2>Maquillage permanent</h2>
+            <p>Formée par Myriam Duguay, dotée de ses décennies d'expérience et d'expertise pour une technique esthétique qui redessine et sublime durablement les sourcils, yeux ou lèvres. Et ceci pour un résultat naturel, harmonieux et pratique au quotidien qui vous fera gagner du temps chaque jour. Ce sont des pigments organiques de haute technologie qui sont implantés dans les couches superficielles de la peau.</p>
+            <h3>Bienfaits</h3>
+            <ul class="benefits-list">
+                <li>Résultat naturel et longue durée</li>
+                <li>Sourcils et lèvres toujours nets</li>
+                <li>Gain de temps chaque matin</li>
+            </ul>
         </div>
     </div>
 </section>

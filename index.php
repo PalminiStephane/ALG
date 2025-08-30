@@ -540,6 +540,7 @@
         <div class="hero-content">
             <h1>Révélez votre beauté naturelle</h1>
             <p>Soins technico-esthétiques médicaux innovants alliant expertise médicale et approche holistique</p>
+            <p>Technologie alternative aux injections et à la chirurgie</p>
             <div class="hero-buttons">
                 <a href="tel:+33635565862" class="btn-primary">Réserver une consultation</a>
                 <a href="services.php" class="btn-secondary">Découvrir nos services</a>

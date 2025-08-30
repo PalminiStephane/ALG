@@ -602,7 +602,7 @@
 
 <section class="page-header">
     <h1>Nos Services</h1>
-    <p>Une offre complète de soins technico-esthétiques et d'accompagnements personnalisés pour votre bien-être.</p>
+    <p>Une offre complète aux soins d'une experte de l'esthétique et d'accompagnements personnalisés pour votre bien-être.</p>
 </section>
 
 <section class="services-intro">
@@ -616,7 +616,7 @@
         </div>
         <div class="service-text">
             <h2>Jet Peel</h2>
-            <p>Technique non invasive alliant jet d'air et principes actifs pour nettoyer, exfolier et oxygéner la peau en profondeur. Les résultats sont visibles dès la première séance.</p>
+            <p>Technique non invasive, avec un appareil anti-âge révolutionnaire qui combine pression énergétique pour nettoyer, exfolier et oxygéner la peau en profondeur. Cette technologie hybride permet de faire pénétrer des principes actifs dans les couches profondes de la peau pour une revitalisation naturelle.</p>
             <h3>Bienfaits</h3>
             <ul class="benefits-list">
                 <li>Nettoyage intense et élimination des impuretés</li>

@@ -209,7 +209,43 @@
             opacity: 0.9;
             line-height: 1.8;
         }
-        
+
+        .launch-offers {
+            background-color: var(--secondary-color);
+            padding: 2rem;
+            border-radius: 10px;
+            text-align: center;
+            margin: 3rem 0;
+            box-shadow: var(--shadow);
+        }
+
+        .launch-offers h2 {
+            color: var(--primary-color);
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+
+        .launch-offers ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .launch-offers li {
+            margin: 0.5rem 0;
+        }
+
+        .launch-offers .highlight {
+            color: var(--accent-color);
+            font-weight: 600;
+        }
+
+        .launch-offers .validity {
+            margin-top: 1rem;
+            font-style: italic;
+            opacity: 0.8;
+        }
+
         /* Pricing Cards */
         .pricing-category {
             margin-bottom: 5rem;
@@ -624,6 +660,16 @@
         <div class="container">
         <div class="tarifs-intro">
             <p>Chez ALG Derma Lina, nous pratiquons des tarifs transparents et adaptés à la qualité de nos soins. Découvrez nos différentes prestations et forfaits avantageux.</p>
+        </div>
+
+        <div class="launch-offers">
+            <h2>Offres de lancement</h2>
+            <ul>
+                <li><span class="highlight">JetPeel visage + cou</span> : 90€ au lieu de 150€</li>
+                <li>Pour deux zones réservées : <span class="highlight">-20%</span> sur toutes les séances</li>
+                <li>Pour trois zones réservées : <span class="highlight">-30%</span> sur toutes les séances</li>
+            </ul>
+            <p class="validity">Offre valable du 1<sup>er</sup> au 30 septembre pour un bilan réservé pendant cette période.</p>
         </div>
 <?php /*
             <!-- Soins du Visage -->

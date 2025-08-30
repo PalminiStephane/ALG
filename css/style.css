@@ -465,6 +465,13 @@ footer {
     box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
+.kingkong {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
 .sub-service h3 {
     color: var(--primary-color);
     margin-bottom: 1rem;

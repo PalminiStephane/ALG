@@ -451,6 +451,31 @@ footer {
     font-weight: bold;
 }
 
+.sub-services {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+}
+
+.sub-service {
+    background-color: var(--bg-light);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.sub-service h3 {
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+}
+
+.sub-service h4 {
+    color: var(--accent-color);
+    margin: 1.5rem 0 1rem;
+    font-size: 1.1rem;
+}
+
 .service-cta {
     margin-top: 2rem;
 }
@@ -493,5 +518,9 @@ footer {
 
     .service-image {
         height: 250px;
+    }
+
+    .sub-services {
+        grid-template-columns: 1fr;
     }
 }

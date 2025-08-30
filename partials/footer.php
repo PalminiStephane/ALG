@@ -3,7 +3,7 @@
         <div class="footer-grid">
             <div class="footer-column">
                 <h3>ALG DermaLina</h3>
-                <p>Soins technico-esthétiques médicaux par Caroline Vedda, infirmière spécialisée.</p>
+                <p>Centre de soins expert en esthétiques. Caroline Vedda, infirmière spécialisée.</p>
             </div>
             <div class="footer-column">
                 <h3>Navigation</h3>

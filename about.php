@@ -671,7 +671,7 @@
             <p>En 2016, je me forme en naturopathie, avec l’envie d’intégrer une approche plus naturelle du soin – un tournant personnel, après la naissance de mes deux premiers enfants.</p>
             <p>En 2023, je réalise un autre rêve : devenir infirmière puéricultrice, afin d’être au plus près des tout-petits. Mais à ce moment-là, une évidence s’impose à moi : je ne me reconnais plus dans la prise en charge de la maladie. Je ressens le besoin de contribuer autrement au bien-être des personnes.</p>
             <p>C’est lors d’un séminaire à Nice sur l’esthétique à visée médicale et esthétique que le déclic a lieu. Je découvre un univers où je peux continuer à aider, accompagner, redonner confiance – mais à travers une approche différente : celle de l’esthétique et du soin de soi.</p>
-            <p>Je me forme alors à la dermopigmentation réparatrice, aux soins du visage, à l’épilation laser, et je me prépare aujourd’hui à ouvrir mon propre espace de bien-être et d’esthétique, en septembre 2025.</p>
+            <p>Je me forme alors à la dermopigmentation réparatrice,au maquillage permanent, aux soins du visage, à l’épilation laser, et je me prépare aujourd’hui à ouvrir mon propre espace de bien-être et d’esthétique, en septembre 2025.</p>
 
             <h3>ALG DermaLina, une histoire de cœur</h3>
             <p>Ce projet je ne le construis pas seule. Mon mari, qui a toujours été là pour moi, m’a encouragée dans mes moments de doute. Son soutien indéfectible m’a permis de transformer mes rêves en réalité. Ce nouveau chapitre c’est aussi grâce à lui que je l’écris aujourd’hui.</p>
@@ -695,7 +695,7 @@
                         <h3>Diplôme d'État d'Infirmière</h3>
                         <p>Formation initiale en soins infirmiers. Une base solide pour comprendre le corps humain et ses besoins.</p>
                     </div>
-                    <div class="timeline-year">2010</div>
+                    <div class="timeline-year">2006</div>
                 </div>
                 
                 <div class="timeline-item">
@@ -703,7 +703,7 @@
                         <h3>Naturopathe</h3>
                         <p>Certification en naturopathie pour une approche holistique de la santé. L'alliance parfaite entre médecine conventionnelle et médecines douces.</p>
                     </div>
-                    <div class="timeline-year">2006</div>
+                    <div class="timeline-year">2016</div>
 
                 </div><div class="timeline-item">
                     <div class="timeline-content">

@@ -684,7 +684,7 @@
 <section id="led" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/cicatrice.png" alt="Photobiomodulation LED">
+            <img src="images/photobiomodulationLED.png" alt="Photobiomodulation LED">
         </div>
         <div class="service-text">
             <h2>Photobiomodulation LED</h2>

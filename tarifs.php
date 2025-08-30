@@ -670,6 +670,9 @@
                 <li>Pour trois zones réservées : <span class="highlight">-30%</span> sur toutes les séances</li>
             </ul>
             <p class="validity">Offre valable du 1<sup>er</sup> au 30 septembre pour un bilan réservé pendant cette période.</p>
+            <div class="booking-container">
+                <a href="tel:+33635565862" class="cta-button">Réserver maintenant</a>
+            </div>
         </div>
 <?php /*
             <!-- Soins du Visage -->

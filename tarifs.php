@@ -894,9 +894,9 @@
             <div class="pricing-grid">
                 <div class="price-card">
                     <h3>Consultation personnalisée</h3>
-                    <p class="description">Conseillée pour un 1er RDV, déduite des soins</p>
-                    <div class="price"><span class="currency">€</span>35</div>
-                    <p class="price-info">30 min – un diagnostic sera effectué pour identifier les besoins de votre peau</p>
+                    <p class="description">pour répondre à vos questions, sélectionner vos besoins et mettre en place les protocoles adaptés</p>
+                    <div class="price"><span class="currency"></span>OFFERTE !</div>
+                    <p class="price-info">30 min </p>
                 </div>
             </div>
 

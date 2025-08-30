@@ -3,7 +3,8 @@
         <div class="footer-grid">
             <div class="footer-column">
                 <h3>ALG DermaLina</h3>
-                <p>Centre de soins expert en esthétiques. Caroline Vedda, infirmière spécialisée.</p>
+                <p>Centre de soins expert en esthétiques</p>
+                <p>Caroline Vedda, infirmière spécialisée</p>
             </div>
             <div class="footer-column">
                 <h3>Navigation</h3>

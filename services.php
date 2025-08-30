@@ -651,7 +651,7 @@
             <img src="images/cicatrice.png" alt="Dermopigmentation correctrice et réparatrice">
         </div>
         <div class="service-text">
-            <h2>Dermopigmentation correctrice / réparatrice</h2>
+            <h2>Dermopigmentation correctrice/réparatrice</h2>
             <p>Elle a pour but de camoufler des cicatrices, des vergetures, des taches ou de reconstruire l'aréole mammaire après une chirurgie. Ayant l'expertise médicale dans ma profession d'infirmière, je vous garantis une hygiène irréprochable dans mes soins et un haut niveau d'exigence qualitative.</p>
             <h3>Bienfaits</h3>
             <ul class="benefits-list">
@@ -688,12 +688,14 @@
         </div>
         <div class="service-text">
             <h2>Photobiomodulation LED</h2>
-            <p>Traitement par lumière froide qui stimule la régénération cellulaire et apaise les tissus. Différentes longueurs d'onde ciblent les problématiques telles que le vieillissement cutané ou l'acné.</p>
+            <p>Technique innovante qui utilise une lumière émise par des LED. Totalement indolore et agit au coeur des cellules pour stimuler leur fonctionnement naturel.</p>
             <h3>Bienfaits</h3>
             <ul class="benefits-list">
-                <li>Accélère la cicatrisation et réduit les rougeurs</li>
-                <li>Améliore la fermeté et la texture de la peau</li>
-                <li>Procure un effet relaxant et indolore</li>
+                <li>La régénération et la réparation des tissus</li>
+                <li>La réduction de l'inflammation</li>
+                <li>Le soulagement de certaines douleurs</li>
+                <li>L'amélioration de la circulation, de la fermeté et de la texture de la peau</li>
+                <li>Améliore la cicatrisation et élimine les rougeurs</li>
             </ul>
         </div>
     </div>

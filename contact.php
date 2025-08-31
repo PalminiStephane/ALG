@@ -679,7 +679,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                             <table class="hours-table">
                                 <tr>
                                     <td>Lundi - Vendredi&nbsp;</td>
-                                    <td>9h00 - 18h00</td>
+                                    <td>9h00 - 19h30</td>
                                 </tr>
                                 <tr>
                                     <td>Samedi</td>
@@ -690,6 +690,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                                     <td>Fermé</td>
                                 </tr>
                             </table>
+                            <p style="font-size: 0.8rem;">Le centre est ouvert sur rendez-vous, ainsi les horaires sont modulables selon vos disponibilités.</p>
                         </div>
                     </div>
                 </div>

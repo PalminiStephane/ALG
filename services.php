@@ -1,9 +1,22 @@
+<?php
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+$base_url = $protocol . '://' . $_SERVER['HTTP_HOST'];
+$canonical = $base_url . $_SERVER['REQUEST_URI'];
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Découvrez toutes les prestations d'ALG Derma Lina : Jet Peel, épilation laser, dermopigmentation, photobiomodulation LED, naturopathie et accompagnement à la parentalité.">
+    <meta name="keywords" content="Jet Peel, épilation laser, dermopigmentation, photobiomodulation, naturopathie, parentalité">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
+    <meta property="og:title" content="Nos Services - ALG Derma Lina">
+    <meta property="og:description" content="Découvrez toutes les prestations d'ALG Derma Lina : Jet Peel, épilation laser, dermopigmentation, photobiomodulation LED, naturopathie et accompagnement à la parentalité.">
+    <meta property="og:image" content="<?= htmlspecialchars($base_url . '/images/logo/ALG6.png', ENT_QUOTES); ?>">
+    <meta property="og:url" content="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
+    <meta property="og:type" content="website">
     <meta name="theme-color" content="#8B9A7B">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 

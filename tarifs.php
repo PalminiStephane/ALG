@@ -688,7 +688,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             </ul>
             <p class="validity">Offre valable du 1<sup>er</sup> au 30 septembre pour un bilan réservé pendant cette période.</p>
             <div class="booking-container">
-                <a href="tel:+33635565862" class="cta-button">Réserver maintenant</a>
+                <a href="tel:+33635565862" class="cta-button">Réserver</a>
             </div>
         </div>
 <?php /*

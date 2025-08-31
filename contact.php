@@ -650,7 +650,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                         <div>
                             <h3>Téléphone</h3>
                             <p><a href="tel:+33635565862">06 35 56 58 62</a></p>
-                            <p style="font-size: 0.9rem;">Disponible du lundi au vendredi</p>
+                            <p style="font-size: 0.9rem;">Disponible du lundi au samedi</p>
                         </div>
                     </div>
 
@@ -678,12 +678,8 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                             <h3>Horaires d'ouverture</h3>
                             <table class="hours-table">
                                 <tr>
-                                    <td>Lundi - Vendredi&nbsp;</td>
+                                    <td>Lundi - Samedi&nbsp;</td>
                                     <td>9h00 - 19h30</td>
-                                </tr>
-                                <tr>
-                                    <td>Samedi</td>
-                                    <td>Sur rendez-vous</td>
                                 </tr>
                                 <tr>
                                     <td>Dimanche</td>
@@ -837,7 +833,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             <div class="faq-container">
                 <details>
                     <summary>Comment se déroule la première consultation ?</summary>
-                    <p>La première consultation dure environ 45 minutes. Nous discutons de vos besoins, je réalise un diagnostic personnalisé et nous établissons ensemble un plan de traitement adapté.</p>
+                    <p>La première consultation dure environ 30 minutes. Nous discutons de vos besoins, je réalise un diagnostic personnalisé et nous établissons ensemble un plan de traitement adapté.</p>
                 </details>
                 
                 <details>

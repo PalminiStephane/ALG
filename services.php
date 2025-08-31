@@ -514,7 +514,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         }
 
         .services-intro {
-            margin: 1rem,auto;
+            padding: 1rem;
             text-align: center;
         }
         

@@ -52,7 +52,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         /* Header */
         header {
             background-color: var(--text-light);
-            position: fixed;
+            position: sticky;
             width: 100%;
             top: 0;
             z-index: 1000;
@@ -153,7 +153,6 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             justify-content: center;
             position: relative;
             overflow: hidden;
-            padding-top: 80px;
         }
         
         .hero::before {

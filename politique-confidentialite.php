@@ -1,8 +1,22 @@
+<?php
+$protocol = (!empty($_SERVER['HTTPS']) && $_SERVER['HTTPS'] !== 'off') ? 'https' : 'http';
+$base_url = $protocol . '://' . $_SERVER['HTTP_HOST'];
+$canonical = $base_url . $_SERVER['REQUEST_URI'];
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Politique de confidentialité d'ALG Derma Lina concernant la gestion des données personnelles.">
+    <meta name="keywords" content="politique de confidentialité, données personnelles, ALG Derma Lina">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
+    <meta property="og:title" content="Politique de confidentialité - ALG Derma Lina">
+    <meta property="og:description" content="Politique de confidentialité d'ALG Derma Lina concernant la gestion des données personnelles.">
+    <meta property="og:image" content="<?= htmlspecialchars($base_url . '/images/logo/ALG6.png', ENT_QUOTES); ?>">
+    <meta property="og:url" content="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
+    <meta property="og:type" content="website">
     <meta name="theme-color" content="#8B9A7B">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 

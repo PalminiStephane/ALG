@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Découvrez Caroline Vedda, infirmière et naturopathe certifiée. ALG Derma Lina à Ensuès-la-Redonne, expertise médicale et approche holistique.">
+    <meta name="theme-color" content="#8B9A7B">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
     <title>À propos - Caroline Vedda | ALG Derma Lina</title>
     
     <link rel="stylesheet" href="css/style.css">

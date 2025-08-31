@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Contactez ALG Derma Lina pour réserver votre consultation. Caroline Vedda, infirmière spécialisée en soins technico-esthétiques à Ensuès-la-Redonne.">
+    <meta name="theme-color" content="#8B9A7B">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
     <title>Contact & Réservation - ALG Derma Lina</title>
     
     <link rel="stylesheet" href="css/style.css">

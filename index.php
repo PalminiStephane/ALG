@@ -7,8 +7,8 @@
     <meta name="keywords" content="soins esthétiques médicaux, jet peel, épilation laser, dermopigmentation, naturopathie, Marseille">
     <title>ALG Derma Lina - Soins Technico-Esthétiques Médicaux | Accueil</title>
     
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
 </head>
 <body>
     <!-- Header -->

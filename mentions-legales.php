@@ -156,10 +156,27 @@
     <div class="container">
         <h2>Éditeur du site</h2>
         <p>ALG Derma Lina - Caroline Vedda<br>Ensuès-la-Redonne, France</p>
+
+        <h2>Directrice de publication</h2>
+        <p>Caroline Vedda</p>
+
+        <h2>Développement du site</h2>
+        <p>Dev2ls - Stéphane Palmini<br>13820 Ensuès-la-Redonne, France</p>
+
         <h2>Hébergement</h2>
         <p>Ce site est hébergé par OVH.</p>
+
         <h2>Propriété intellectuelle</h2>
         <p>L'ensemble des contenus présents sur ce site est la propriété exclusive d'ALG Derma Lina. Toute reproduction est interdite sans autorisation préalable.</p>
+
+        <h2>Responsabilité</h2>
+        <p>L'éditeur du site ne peut être tenu responsable des dommages directs ou indirects résultant de l'accès ou de l'utilisation du site.</p>
+
+        <h2>Données personnelles</h2>
+        <p>Les informations recueillies via les formulaires sont destinées à l'usage d'ALG Derma Lina. Pour plus d'informations, consultez notre politique de confidentialité.</p>
+
+        <h2>Liens externes</h2>
+        <p>Ce site peut contenir des liens vers d'autres sites. ALG Derma Lina n'est pas responsable du contenu de ces sites externes.</p>
     </div>
 </section>
 <?php include 'partials/footer.php'; ?>

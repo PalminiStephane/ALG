@@ -155,12 +155,29 @@
 </section>
 <section class="section">
     <div class="container">
+        <h2>Responsable du traitement</h2>
+        <p>ALG Derma Lina - Caroline Vedda<br>Ensuès-la-Redonne, France</p>
+
         <h2>Données collectées</h2>
-        <p>Nous collectons uniquement les informations nécessaires au traitement de vos demandes et à la prise de rendez-vous.</p>
-        <h2>Utilisation des données</h2>
-        <p>Vos données ne sont utilisées que pour vous contacter et assurer le suivi de nos prestations. Elles ne sont jamais revendues à des tiers.</p>
+        <p>Les données collectées via les formulaires de contact et de prise de rendez-vous comprennent vos nom, prénom, coordonnées et toute information nécessaire à votre demande.</p>
+
+        <h2>Finalité de la collecte</h2>
+        <p>Ces informations sont utilisées uniquement pour répondre à vos demandes, planifier les rendez-vous et assurer le suivi des prestations.</p>
+
+        <h2>Conservation des données</h2>
+        <p>Les données sont conservées pendant une durée maximale de 3 ans à compter du dernier contact, sauf obligation légale contraire.</p>
+
+        <h2>Partage des données</h2>
+        <p>Les données ne sont en aucun cas vendues ni communiquées à des tiers sans votre consentement, sauf obligation légale.</p>
+
+        <h2>Cookies</h2>
+        <p>Des cookies peuvent être utilisés pour améliorer votre expérience de navigation. Vous pouvez configurer votre navigateur pour les refuser.</p>
+
+        <h2>Sécurité</h2>
+        <p>Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos données contre l'accès, la modification ou la destruction non autorisés.</p>
+
         <h2>Vos droits</h2>
-        <p>Conformément à la réglementation en vigueur, vous disposez d'un droit d'accès, de rectification et de suppression de vos données en nous contactant.</p>
+        <p>Conformément à la réglementation, vous disposez d'un droit d'accès, de rectification, d'opposition et de suppression de vos données. Pour exercer ces droits, contactez-nous.</p>
     </div>
 </section>
 <?php include 'partials/footer.php'; ?>

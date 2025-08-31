@@ -554,7 +554,7 @@ $posts = $db->query("SELECT * FROM posts ORDER BY created_at DESC")->fetchAll(PD
         }
         
         /* Responsive */
-        @media (max-width: 768px) {
+        @media (max-width: 865px) {
             .nav-links {
                 display: none;
                 position: absolute;

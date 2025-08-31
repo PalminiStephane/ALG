@@ -606,7 +606,8 @@
 </section>
 
 <section class="services-intro">
-    <p>Caroline Vedda met son expertise médicale et son approche holistique au service de votre beauté naturelle. Chaque prestation est réalisée dans le respect de votre peau et de vos besoins spécifiques.</p>
+    <p>Caroline Vedda met son expertise médicale et son approche holistique au service de votre beauté naturelle.</p>
+    <p> Chaque prestation est réalisée dans le respect de votre peau et de vos besoins spécifiques.</p>
 </section>
 
 <section id="jet-peel" class="service-detail">

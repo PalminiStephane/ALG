@@ -15,7 +15,7 @@ if (!$post) { die('Article introuvable'); }
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <title><?php echo htmlspecialchars($post['title']); ?></title>
-    <link rel="icon" type="image/png" href="./images/logo/ALG3.png">
+    <link rel="icon" type="image/png" href="./images/logo/ALG6.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>

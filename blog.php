@@ -11,7 +11,7 @@ $posts = $db->query("SELECT * FROM posts ORDER BY created_at DESC")->fetchAll(PD
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <title>Blog - ALG Derma Lina</title>
-    <link rel="icon" type="image/png" href="./images/logo/ALG3.png">
+    <link rel="icon" type="image/png" href="./images/logo/ALG6.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>

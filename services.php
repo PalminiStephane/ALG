@@ -515,6 +515,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 
         .services-intro {
             margin: 2rem;
+            text-align: center;
         }
         
         /* Footer */

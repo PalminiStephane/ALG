@@ -969,11 +969,20 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             <div class="price-table">
                 <h3>Jet Peel – Tarifs par zone</h3>
                 <table>
-                    <tr><td>Visage + cou (45 à 60 min)</td><td>150€</td><td>Cure de 6 séances : 750€</td></tr>
-                    <tr><td>Décolleté (40 min)</td><td>100€</td><td>Cure de 6 séances : 500€</td></tr>
-                    <tr><td>Mains (40 min)</td><td>100€</td><td>Cure de 6 séances : 500€</td></tr>
-                    <tr><td>Cuir chevelu (45 min)</td><td>150€</td><td>Cure de 6 séances : 750€</td></tr>
-                    <tr><td>Lèvre supérieure + menton (30 min)</td><td>75€</td><td>Cure de 6 séances : 375€</td></tr>
+                <thead>
+                        <tr>
+                            <th></th>
+                            <th>Une séance</th>
+                            <th>Cure 6 séances</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>Visage + cou (45 à 60 min)</td><td>150€</td><td>750€</td></tr>
+                        <tr><td>Décolleté (40 min)</td><td>100€</td><td>500€</td></tr>
+                        <tr><td>Mains (40 min)</td><td>100€</td><td>500€</td></tr>
+                        <tr><td>Cuir chevelu (45 min)</td><td>150€</td><td>750€</td></tr>
+                        <tr><td>Lèvre supérieure + menton (30 min)</td><td>75€</td><td>375€</td></tr>
+                    </tbody>
                 </table>
             </div>
         </div>

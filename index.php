@@ -9,7 +9,7 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
     <title>ALG Derma Lina - Soins Technico-Esthétiques Médicaux | Accueil</title>
-
+    <link rel="icon" type="image/png" href="./images/logo/ALG3.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         /* Reset et Base */

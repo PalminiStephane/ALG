@@ -15,3 +15,15 @@
         <button class="mobile-menu-toggle" aria-label="Menu">☰</button>
     </nav>
 </header>
+
+<!-- Ensure the mobile menu toggle stays above the navigation drawer -->
+<style>
+    .nav-links {
+        z-index: 1000;
+    }
+
+    .mobile-menu-toggle {
+        position: relative;
+        z-index: 1001;
+    }
+</style>

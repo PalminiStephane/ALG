@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://algdermalina.fr/sitemap.xml

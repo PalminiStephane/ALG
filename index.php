@@ -87,12 +87,6 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     "currenciesAccepted": "EUR",
     "paymentAccepted": ["Cash", "Credit Card"],
     
-    "medicalSpecialty": [
-        "Dermopigmentation",
-        "Esthétique médicale",
-        "Naturopathie"
-    ],
-    
     "serviceArea": {
         "@type": "GeoCircle",
         "geoMidpoint": {

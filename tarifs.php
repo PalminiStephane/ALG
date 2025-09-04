@@ -683,8 +683,12 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             <h2>Offres de lancement</h2>
             <ul>
                 <li><span class="highlight">JetPeel visage + cou</span> : 90€ au lieu de 150€</li>
-                <li>Pour deux zones réservées : <span class="highlight">-20%</span> sur toutes les séances</li>
-                <li>Pour trois zones réservées : <span class="highlight">-30%</span> sur toutes les séances</li>
+                <li><span class="highlight">Épilation Laser</span>
+                    <ul>
+                        <li>Pour deux zones réservées : <span class="highlight">-20%</span> sur toutes les séances</li>
+                        <li>Pour trois zones réservées : <span class="highlight">-30%</span> sur toutes les séances</li>
+                    </ul>
+                </li>
             </ul>
             <p class="validity">Offre valable du 1<sup>er</sup> au 30 septembre pour un bilan réservé pendant cette période.</p>
             <div class="booking-container">

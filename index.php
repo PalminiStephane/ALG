@@ -38,6 +38,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     "url": "https://algdermalina.fr",
     "logo": "https://algdermalina.fr/images/logo/ALG6.png",
     "image": "https://algdermalina.fr/images/ALGlevres.png",
+    "telephone": "+33-6-35-56-58-62",
     
     "address": {
         "@type": "PostalAddress",

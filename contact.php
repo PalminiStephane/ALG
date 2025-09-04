@@ -843,7 +843,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                 
                 <details>
                     <summary>Quelle est la politique d'annulation ?</summary>
-                    <p>Les rendez-vous peuvent être annulés ou reportés jusqu'à 24h/48h à l'avance.</p>
+                    <p>Les rendez-vous peuvent être annulés ou reportés jusqu'à 24/48h à l'avance.</p>
                 </details>
                 
                 <details>

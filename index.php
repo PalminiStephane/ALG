@@ -9,16 +9,184 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="ALG Derma Lina - Soins technico-esthétiques médicaux à Ensuès-la-Redonne. Jet Peel, épilation laser, dermopigmentation et accompagnement naturopathique par Caroline Vedda.">
-    <meta name="keywords" content="soins esthétiques médicaux, jet peel, épilation laser, dermopigmentation, naturopathie, Marseille">
+    <meta name="keywords" content="soins esthétiques médicaux, jet peel, épilation laser, dermopigmentation, naturopathie, Marseille, Ensuès-la-Redonne, Martigues, Bouches-du-Rhône">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
     <meta property="og:title" content="ALG Derma Lina | Dermopigmentation & Soins Esthétiques Médicaux à Ensuès-la-Redonne">
     <meta property="og:description" content="ALG Derma Lina - Soins technico-esthétiques médicaux à Ensuès-la-Redonne. Jet Peel, épilation laser, dermopigmentation et accompagnement naturopathique par Caroline Vedda.">
     <meta property="og:image" content="<?= htmlspecialchars($base_url . '/images/logo/ALG6.png', ENT_QUOTES); ?>">
     <meta property="og:url" content="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
-    <meta property="og:type" content="website">
     <meta name="theme-color" content="#8B9A7B">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta property="og:site_name" content="ALG Derma Lina">
+    <meta property="og:locale" content="fr_FR">
+    <meta property="og:type" content="business.business">
+    <meta property="business:contact_data:locality" content="Ensuès-la-Redonne">
+    <meta property="business:contact_data:region" content="Provence-Alpes-Côte d'Azur">
+    <meta property="business:contact_data:postal_code" content="13820">
+    <meta property="business:contact_data:country_name" content="France">
+    <meta name="geo.region" content="FR-13">
+    <meta name="geo.placename" content="Ensuès-la-Redonne">
+    <meta name="geo.position" content="43.355655;5.207106">
+    <meta name="ICBM" content="43.355655, 5.207106">
+    <script type="application/ld+json">
+    {
+    "@context": "https://schema.org",
+    "@type": "MedicalBusiness",
+    "name": "ALG Derma Lina",
+    "description": "ALG Derma Lina - Soins technico-esthétiques médicaux à Ensuès-la-Redonne. Jet Peel, épilation laser, dermopigmentation et accompagnement naturopathique par Caroline Vedda.",
+    "url": "https://algdermalina.fr",
+    "logo": "https://algdermalina.fr/images/logo/ALG6.png",
+    "image": "https://algdermalina.fr/images/ALGlevres.png",
+    
+    "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "11A avenue de la Vierge",
+        "addressLocality": "Ensuès-la-Redonne",
+        "postalCode": "13820",
+        "addressRegion": "Provence-Alpes-Côte d'Azur",
+        "addressCountry": "FR"
+    },
+    
+    "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "43.355655",
+        "longitude": "5.207106"
+    },
+    
+    "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+33-6-35-56-58-62",
+        "contactType": "customer service",
+        "availableLanguage": "French"
+    },
+    
+    "openingHoursSpecification": [
+        {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+            "Monday",
+            "Tuesday", 
+            "Wednesday",
+            "Thursday",
+            "Friday"
+        ],
+        "opens": "09:00",
+        "closes": "19:30"
+        },
+        {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": "Saturday",
+        "opens": "09:00",
+        "closes": "19:30"
+        }
+    ],
+    
+    "priceRange": "€€",
+    "currenciesAccepted": "EUR",
+    "paymentAccepted": ["Cash", "Credit Card"],
+    
+    "medicalSpecialty": [
+        "Dermopigmentation",
+        "Esthétique médicale",
+        "Naturopathie"
+    ],
+    
+    "serviceArea": {
+        "@type": "GeoCircle",
+        "geoMidpoint": {
+        "@type": "GeoCoordinates",
+        "latitude": "43.355655",
+        "longitude": "5.207106"
+        },
+        "geoRadius": "30000"
+    },
+    
+    "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Services ALG Derma Lina",
+        "itemListElement": [
+        {
+            "@type": "Offer",
+            "itemOffered": {
+            "@type": "Service",
+            "name": "Dermopigmentation réparatrice",
+            "description": "Tatouage médical reconstructeur pour cicatrices, vergetures, aréoles mammaires"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+            "@type": "Service", 
+            "name": "Épilation laser définitive",
+            "description": "Épilation durable et sécurisée pour tous types de peaux"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+            "@type": "Service",
+            "name": "Soins Jet Peel",
+            "description": "Technologie anti-âge non invasive pour nettoyer et régénérer la peau"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+            "@type": "Service",
+            "name": "Maquillage permanent",
+            "description": "Redessine et sublime sourcils, yeux et lèvres durablement"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+            "@type": "Service",
+            "name": "Photobiomodulation LED",
+            "description": "Luminothérapie pour stimuler le fonctionnement cellulaire naturel"
+            }
+        },
+        {
+            "@type": "Offer",
+            "itemOffered": {
+            "@type": "Service",
+            "name": "Accompagnement naturopathique",
+            "description": "Approche holistique pour rééquilibrer l'organisme naturellement"
+            }
+        }
+        ]
+    },
+    
+    "founder": {
+        "@type": "Person",
+        "name": "Caroline Vedda",
+        "jobTitle": "Infirmière diplômée d'État spécialisée en dermopigmentation",
+        "description": "Infirmière depuis 2006, spécialisée en dermopigmentation réparatrice à visée médicale et esthétique",
+        "knowsAbout": [
+        "Dermopigmentation",
+        "Épilation laser",
+        "Soins esthétiques médicaux",
+        "Naturopathie",
+        "Puériculture"
+        ]
+    },
+    
+    "areaServed": [
+        "Ensuès-la-Redonne",
+        "Marseille", 
+        "Aix-en-Provence",
+        "Martigues",
+        "Carry-le-Rouet",
+        "Sausset-les-Pins",
+        "Châteauneuf-les-Martigues"
+    ],
+    
+    "sameAs": [
+        "https://www.instagram.com/ALG_DermaLina",
+        "https://www.facebook.com/ALGdermalina"
+    ]
+    }
+    </script>
 
     <title>ALG Derma Lina | Dermopigmentation & Soins Esthétiques Médicaux à Ensuès-la-Redonne</title>
     <link rel="icon" type="image/png" href="./images/logo/ALG6.png">

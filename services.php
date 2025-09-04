@@ -8,11 +8,11 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez toutes les prestations d'ALG Derma Lina : Jet Peel, épilation laser, dermopigmentation, photobiomodulation LED, naturopathie et accompagnement à la parentalité.">
+    <meta name="description" content="Découvrez toutes les prestations d'ALG Derma Lina à Ensuès-la-Redonne : Jet Peel, épilation laser, dermopigmentation, photobiomodulation LED, naturopathie et accompagnement à la parentalité.">
     <meta name="keywords" content="Jet Peel, épilation laser, dermopigmentation, photobiomodulation, naturopathie, parentalité">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
-    <meta property="og:title" content="Nos Services - ALG Derma Lina">
+    <meta property="og:title" content="Dermopigmentation, Épilation Laser & Soins Anti-Âge | ALG Derma Lina Ensuès">
     <meta property="og:description" content="Découvrez toutes les prestations d'ALG Derma Lina : Jet Peel, épilation laser, dermopigmentation, photobiomodulation LED, naturopathie et accompagnement à la parentalité.">
     <meta property="og:image" content="<?= htmlspecialchars($base_url . '/images/logo/ALG6.png', ENT_QUOTES); ?>">
     <meta property="og:url" content="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
@@ -20,7 +20,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     <meta name="theme-color" content="#8B9A7B">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <title>Nos Services - ALG Derma Lina</title>
+    <title>Dermopigmentation, Épilation Laser & Soins Anti-Âge | ALG Derma Lina Ensuès</title>
     <link rel="icon" type="image/png" href="./images/logo/ALG6.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -634,7 +634,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 <section id="jet-peel" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/jetpeel.png" alt="Jet Peel">
+            <img src="images/jetpeel.png" alt="Jet Peel Ensuès-la-Redonne">
         </div>
         <div class="service-text">
             <h2>Jet Peel</h2>
@@ -652,7 +652,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 <section id="laser" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/epilation.png" alt="Épilation laser">
+            <img src="images/epilation.png" alt="Épilation laser Ensuès-la-Redonne">
         </div>
         <div class="service-text">
             <h2>Épilation Laser Médicale</h2>
@@ -670,7 +670,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 <section id="dermopigmentation" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/cicatrice.png" alt="Dermopigmentation correctrice et réparatrice">
+            <img src="images/cicatrice.png" alt="Dermopigmentation correctrice et réparatrice à Ensuès-la-Redonne">
         </div>
         <div class="service-text">
             <h2>Dermopigmentation correctrice/réparatrice</h2>
@@ -688,7 +688,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 <section id="maquillage-permanent" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/dermopigmentation.png" alt="Maquillage permanent">
+            <img src="images/dermopigmentation.png" alt="Maquillage permanent Ensuès-la-Redonne">
         </div>
         <div class="service-text">
             <h2>Maquillage permanent</h2>
@@ -706,7 +706,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 <section id="led" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/photobiomodulationLED.png" alt="Photobiomodulation LED">
+            <img src="images/photobiomodulationLED.png" alt="Photobiomodulation LED Ensuès-la-Redonne">
             <div class="coming-soon">Bientôt disponible</div>
         </div>
         <div class="service-text">
@@ -727,7 +727,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 <section id="naturopathie" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/naturopathie.jpg" alt="Naturopathie">
+            <img src="images/naturopathie.jpg" alt="Naturopathie Ensuès-la-Redonne">
         </div>
         <div class="service-text">
             <h2>Naturopathie</h2>
@@ -745,7 +745,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 <section id="parentalite" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/parentalite.jpg" alt="Accompagnement à la parentalité">
+            <img src="images/parentalite.jpg" alt="Accompagnement à la parentalité Ensuès-la-Redonne">
         </div>
         <div class="service-text">
             <h2>Accompagnement à la parentalité</h2>

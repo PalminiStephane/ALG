@@ -12,7 +12,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     <meta name="keywords" content="soins esthétiques médicaux, jet peel, épilation laser, dermopigmentation, naturopathie, Marseille">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
-    <meta property="og:title" content="ALG Derma Lina - Soins Technico-Esthétiques Médicaux | Accueil">
+    <meta property="og:title" content="ALG Derma Lina | Dermopigmentation & Soins Esthétiques Médicaux à Ensuès-la-Redonne">
     <meta property="og:description" content="ALG Derma Lina - Soins technico-esthétiques médicaux à Ensuès-la-Redonne. Jet Peel, épilation laser, dermopigmentation et accompagnement naturopathique par Caroline Vedda.">
     <meta property="og:image" content="<?= htmlspecialchars($base_url . '/images/logo/ALG6.png', ENT_QUOTES); ?>">
     <meta property="og:url" content="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
@@ -20,7 +20,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     <meta name="theme-color" content="#8B9A7B">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <title>ALG Derma Lina - Soins Technico-Esthétiques Médicaux | Accueil</title>
+    <title>ALG Derma Lina | Dermopigmentation & Soins Esthétiques Médicaux à Ensuès-la-Redonne</title>
     <link rel="icon" type="image/png" href="./images/logo/ALG6.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>

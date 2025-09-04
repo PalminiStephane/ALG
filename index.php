@@ -167,7 +167,10 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         "Épilation laser",
         "Soins esthétiques médicaux",
         "Naturopathie",
-        "Puériculture"
+        "Puériculture",
+        "Jet Peel",
+        "Photobiomodulation LED",
+        "Maquillage permanent"
         ]
     },
     

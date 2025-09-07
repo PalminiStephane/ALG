@@ -187,7 +187,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     </script>
 
     <title>ALG Derma Lina | Dermopigmentation & Soins Esthétiques Médicaux à Ensuès-la-Redonne</title>
-    <link rel="icon" type="image/png" href="./images/logo/ALG6.png">
+    <link rel="icon" type="image/png" href="./images/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         /* Reset et Base */

@@ -761,7 +761,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 </section>
 
 <section class="service-cta" style="text-align:center; padding:4rem 0;">
-    <a href="tel:+33635565862" class="btn-service">Prendre rendez-vous</a>
+    <a href="https://www.planity.com/alg-dermalina-13820-ensues-la-redonne" class="btn-service">Prendre rendez-vous</a>
 </section>
 
 <?php include "partials/footer.php"; ?>

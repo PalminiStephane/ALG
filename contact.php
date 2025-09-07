@@ -706,7 +706,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 
     <section id="booking">
         <div class="booking-container">
-            <a href="tel:+33635565862" class="cta-button">Réserver votre consultation</a>
+            <a href="https://www.planity.com/alg-dermalina-13820-ensues-la-redonne" class="cta-button">Réserver votre consultation</a>
         </div>
     </section>
     <!-- Booking Form 

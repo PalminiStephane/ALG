@@ -692,7 +692,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             </ul>
             <p class="validity">Offre valable du 1<sup>er</sup> au 30 septembre pour un bilan réservé pendant cette période.</p>
             <div class="booking-container">
-                <a href="tel:+33635565862" class="cta-button">Réserver</a>
+                <a href="https://www.planity.com/alg-dermalina-13820-ensues-la-redonne" class="cta-button">Réserver</a>
             </div>
         </div>
 <?php /*
@@ -1045,7 +1045,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 
 <section id="booking">
     <div class="booking-container">
-        <a href="tel:+33635565862" class="cta-button">Réserver votre consultation</a>
+        <a href="https://www.planity.com/alg-dermalina-13820-ensues-la-redonne" class="cta-button">Réserver votre consultation</a>
     </div>
 </section>
 

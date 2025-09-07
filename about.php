@@ -835,7 +835,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     <section class="cta-section">
         <h2>Rencontrons-nous</h2>
         <p>Je serais ravie de vous accueillir et de créer ensemble votre programme beauté personnalisé</p>
-        <a href="tel:+33635565862" class="btn-primary">Prendre rendez-vous</a>
+        <a href="https://www.planity.com/alg-dermalina-13820-ensues-la-redonne" class="btn-primary">Prendre rendez-vous</a>
     </section>
 
 <?php include "partials/footer.php"; ?>

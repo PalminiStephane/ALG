@@ -674,7 +674,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                 <p>Mon approche unique allie rigueur médicale et vision holistique pour des soins personnalisés qui révèlent votre beauté naturelle.</p>
             </div>
             <div class="about-image">
-                <img src="images/cabinetALG.png" alt="Photo de Caroline Vedda Ensuès-la-Redonne">
+                <img src="images/carolineVedda.jpg" alt="Photo de Caroline Vedda Ensuès-la-Redonne">
             </div>
         </div>
     </section>

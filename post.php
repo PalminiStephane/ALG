@@ -212,7 +212,7 @@ $description = mb_substr(strip_tags($post['content']), 0, 160);
         
         .container {
             max-width: 1200px;
-            margin: 0 auto;
+            margin: 6rem auto;
         }
 
         .post-image {

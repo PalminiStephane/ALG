@@ -353,6 +353,10 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             font-weight: 500;
             white-space: nowrap;
         }
+
+        .section {
+            padding: 10rem 5% 5rem;
+        }
         
         /* Forfaits */
         .forfaits-section {

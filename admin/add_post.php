@@ -48,8 +48,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <?php if ($message): ?>
         <p><?= htmlspecialchars($message) ?></p>
     <?php endif; ?>
-    <form method="post" enctype="multipart/form-data">
-        <div class="form-group">
+    <form method="post">
+        <form method="post" enctype="multipart/form-data">
             <label for="title">Titre</label>
             <input type="text" id="title" name="title" required>
         </div>

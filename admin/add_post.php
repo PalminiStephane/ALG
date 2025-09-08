@@ -13,14 +13,19 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $imagePath = '';
 
     if (!empty($_FILES['image']['name'])) {
-        $uploadDir = '../images/blog/';
+        $uploadDir = __DIR__ . '/../images/blog/';
         if (!is_dir($uploadDir)) {
             mkdir($uploadDir, 0777, true);
         }
         $filename = time() . '_' . preg_replace('/[^a-zA-Z0-9._-]/', '_', $_FILES['image']['name']);
         $target = $uploadDir . $filename;
-        if (move_uploaded_file($_FILES['image']['tmp_name'], $target)) {
+        if (
+            $_FILES['image']['error'] === UPLOAD_ERR_OK &&
+            move_uploaded_file($_FILES['image']['tmp_name'], $target)
+        ) {
             $imagePath = 'images/blog/' . $filename;
+        } else {
+            $message = "Erreur lors du téléversement de l'image";
         }
     }
     if ($title && $content) {

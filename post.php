@@ -21,7 +21,7 @@ $description = mb_substr(strip_tags($post['content']), 0, 160);
     <link rel="canonical" href="<?php echo htmlspecialchars($canonical, ENT_QUOTES); ?>">
     <meta property="og:title" content="<?php echo htmlspecialchars($post['title']); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($description); ?>">
-    <meta property="og:image" content="<?php echo htmlspecialchars($base_url . '/images/logo/ALG6.png', ENT_QUOTES); ?>">
+    <meta property="og:image" content="<?php echo htmlspecialchars($base_url . '/' . ($post['image'] ?? 'images/logo/ALG6.png'), ENT_QUOTES); ?>">
     <meta property="og:url" content="<?php echo htmlspecialchars($canonical, ENT_QUOTES); ?>">
     <meta property="og:type" content="article">
     <meta name="theme-color" content="#8B9A7B">
@@ -213,6 +213,15 @@ $description = mb_substr(strip_tags($post['content']), 0, 160);
         .container {
             max-width: 1200px;
             margin: 0 auto;
+        }
+
+        .post-image {
+            width: 100%;
+            max-height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            margin-bottom: 2rem;
+            box-shadow: var(--shadow);
         }
         
         .tarifs-intro {
@@ -621,6 +630,9 @@ $description = mb_substr(strip_tags($post['content']), 0, 160);
     <div class="container">
         <h1><?php echo htmlspecialchars($post['title']); ?></h1>
         <p class="blog-date"><?php echo date('d/m/Y', strtotime($post['created_at'])); ?></p>
+        <?php if(!empty($post['image'])): ?>
+            <img src="<?php echo htmlspecialchars($post['image']); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>" class="post-image">
+        <?php endif; ?>
         <div><?php echo nl2br($post['content']); ?></div>
     </div>
 </section>

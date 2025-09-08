@@ -404,6 +404,53 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             font-weight: 500;
             letter-spacing: 1px;
         }
+
+        /* Blog cards */
+        .blog-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .blog-card {
+            background-color: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+        }
+
+        .blog-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        .blog-content {
+            padding: 1.5rem;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+        }
+
+        .blog-title {
+            margin: 0.5rem 0;
+            font-size: 1.3rem;
+            color: var(--primary-color);
+        }
+
+        .blog-excerpt {
+            flex-grow: 1;
+            margin-bottom: 1rem;
+        }
+
+        .blog-link {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
         
         .forfait-header {
             background-color: var(--primary-color);
@@ -613,9 +660,12 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 <body>
 <?php include 'partials/header.php'; ?>
 <section class="section">
-    <div class="container">
+    <div class="container blog-grid">
         <?php foreach($posts as $post): ?>
-            <article class="blog-card" style="margin-bottom:2rem;">
+            <article class="blog-card">
+                <?php if(!empty($post['image'])): ?>
+                    <img src="<?php echo htmlspecialchars($post['image']); ?>" alt="<?php echo htmlspecialchars($post['title']); ?>">
+                <?php endif; ?>
                 <div class="blog-content">
                     <span class="blog-date"><?php echo date('d/m/Y', strtotime($post['created_at'])); ?></span>
                     <h3 class="blog-title"><?php echo htmlspecialchars($post['title']); ?></h3>

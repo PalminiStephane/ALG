@@ -732,7 +732,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 
             <!-- Épilation Laser -->
             <div class="pricing-category">
-                <h2>Épilation Laser Médical</h2>
+                <h2>Épilation Laser</h2>
                 
                 <div class="price-table">
                     <h3>Femmes</h3>
@@ -825,7 +825,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                 </div>
                 
                 <div class="price-table" style="margin-top: 2rem;">
-                    <h3>Dermopigmentation Médicale</h3>
+                    <h3>Dermopigmentation</h3>
                     <table>
                         <tr>
                             <td>Reconstruction aréole mammaire</td>

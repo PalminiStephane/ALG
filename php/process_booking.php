@@ -43,7 +43,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Mappage des services
         $services_map = [
             'jet-peel' => 'Jet Peel - Soin non invasif',
-            'laser' => 'Épilation Laser Médical',
+            'laser' => 'Épilation Laser',
             'naturopathie' => 'Accompagnement Naturopathique',
             'led' => 'Photobiomodulation LED',
             'dermopigmentation' => 'Dermopigmentation'

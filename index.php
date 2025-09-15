@@ -106,7 +106,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             "itemOffered": {
             "@type": "Service",
             "name": "Dermopigmentation réparatrice",
-            "description": "Tatouage médical reconstructeur pour cicatrices, vergetures, aréoles mammaires"
+            "description": "Tatouage reconstructeur pour cicatrices, vergetures, aréoles mammaires"
             }
         },
         {
@@ -156,7 +156,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         "@type": "Person",
         "name": "Caroline Vedda",
         "jobTitle": "Infirmière diplômée d'État spécialisée en dermopigmentation",
-        "description": "Infirmière depuis 2006, spécialisée en dermopigmentation réparatrice à visée médicale et esthétique",
+        "description": "Infirmière depuis 2006, spécialisée en dermopigmentation réparatrice à visée esthétique",
         "knowsAbout": [
         "Dermopigmentation",
         "Épilation laser",
@@ -719,7 +719,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     <section class="hero">
         <div class="hero-content">
             <h1>Révélez votre beauté naturelle</h1>
-            <p>Soins technico-esthétiques médicaux innovants alliant expertise médicale et approche holistique</p>
+            <p>Soins technico-esthétiques / dermo-esthétiques innovants alliant expertise et approche holistique</p>
             <p>Technologie alternative aux injections et à la chirurgie</p>
             <div class="hero-buttons">
                 <a href="https://www.planity.com/alg-dermalina-13820-ensues-la-redonne" class="btn-primary">Réserver une consultation</a>
@@ -739,13 +739,13 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             </a>
             <a href="services.php#laser" class="service-card">
                 <div class="service-icon">⚡</div>
-                <h3>Laser Médical</h3>
+                <h3>Épilation Laser</h3>
                 <p>Épilation durable et sécurisée pour tous types de peaux.</p>
             </a>
             <a href="services.php#dermopigmentation" class="service-card">
                 <div class="service-icon">🎨</div>
                 <h3>Dermopigmentation</h3>
-                <p>Maquillage permanent et tatouage médical reconstructeur.</p>
+                <p>Maquillage permanent et tatouage reconstructeur.</p>
             </a>
         </div>
         <div style="text-align: center; margin-top: 3rem;">
@@ -759,7 +759,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         <div class="testimonial-slider">
             <div class="testimonial-track">
                 <div class="testimonial">
-                    <p>"Caroline est une professionnelle exceptionnelle. Son approche médicale combinée à sa douceur fait toute la différence. Les résultats du Jet Peel sont incroyables !"</p>
+                    <p>"Caroline est une professionnelle exceptionnelle. Son approche combinée à sa douceur fait toute la différence. Les résultats du Jet Peel sont incroyables !"</p>
                     <div class="testimonial-author">- Marie L.</div>
                 </div>
                 <div class="testimonial">

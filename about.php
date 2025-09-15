@@ -8,12 +8,12 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez Caroline Vedda, infirmière et naturopathe certifiée. ALG Derma Lina à Ensuès-la-Redonne, expertise médicale et approche holistique.">
+    <meta name="description" content="Découvrez Caroline Vedda, infirmière et naturopathe certifiée. ALG Derma Lina à Ensuès-la-Redonne, expertise et approche holistique.">
     <meta name="keywords" content="Caroline Vedda, infirmière, naturopathe, ALG Derma Lina, Ensuès-la-Redonne">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
     <meta property="og:title" content="À propos - Caroline Vedda | ALG Derma Lina">
-    <meta property="og:description" content="Découvrez Caroline Vedda, infirmière et naturopathe certifiée. ALG Derma Lina à Ensuès-la-Redonne, expertise médicale et approche holistique.">
+    <meta property="og:description" content="Découvrez Caroline Vedda, infirmière et naturopathe certifiée. ALG Derma Lina à Ensuès-la-Redonne, expertise et approche holistique.">
     <meta property="og:image" content="<?= htmlspecialchars($base_url . '/images/logo/ALG6.png', ENT_QUOTES); ?>">
     <meta property="og:url" content="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
     <meta property="og:type" content="website">
@@ -669,9 +669,9 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         <div class="about-hero-content">
             <div class="about-text">
                 <h1>Caroline Vedda</h1>
-                <p>Infirmière diplômée d’Etat spécialisée en dermopigmentation réparatrice à visée médicale et esthétique - Experte en soins du visage et épilation définitive au laser.</p>
+                <p>Infirmière diplômée d’Etat spécialisée en dermopigmentation réparatrice à visée esthétique - Experte en soins du visage et épilation définitive au laser.</p>
                 <p>Installée à Ensuès-la-Redonne, dans un cadre paisible entre mer et nature, je vous accueille dans un espace dédié à votre sérénité et à votre épanouissement.</p>
-                <p>Mon approche unique allie rigueur médicale et vision holistique pour des soins personnalisés qui révèlent votre beauté naturelle.</p>
+                <p>Mon approche unique allie rigueur et vision holistique pour des soins personnalisés qui révèlent votre beauté naturelle.</p>
             </div>
             <div class="about-image">
                 <img src="images/carolineVedda.jpg" alt="Photo de Caroline Vedda Ensuès-la-Redonne">
@@ -687,7 +687,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             <p>Soigner, écouter, accompagner : cela a toujours été au cœur de ma vocation. Mais après 20 ans à évoluer dans ce milieu, j’ai ressenti le besoin de prendre une autre direction, tout en restant fidèle à ce qui m’anime profondément : prendre soin des autres.</p>
             <p>En 2016, je me forme en naturopathie, avec l’envie d’intégrer une approche plus naturelle du soin – un tournant personnel, après la naissance de mes deux premiers enfants.</p>
             <p>En 2023, je réalise un autre rêve : devenir infirmière puéricultrice, afin d’être au plus près des tout-petits. Mais à ce moment-là, une évidence s’impose à moi : je ne me reconnais plus dans la prise en charge de la maladie. Je ressens le besoin de contribuer autrement au bien-être des personnes.</p>
-            <p>C’est lors d’un séminaire à Nice sur l’esthétique à visée médicale et esthétique que le déclic a lieu. Je découvre un univers où je peux continuer à aider, accompagner, redonner confiance – mais à travers une approche différente : celle de l’esthétique et du soin de soi.</p>
+            <p>C’est lors d’un séminaire à Nice sur l’esthétique à visée esthétique que le déclic a lieu. Je découvre un univers où je peux continuer à aider, accompagner, redonner confiance – mais à travers une approche différente : celle de l’esthétique et du soin de soi.</p>
             <p>Je me forme alors à la dermopigmentation réparatrice,au maquillage permanent, aux soins du visage, à l’épilation laser, et je me prépare aujourd’hui à ouvrir mon propre espace de bien-être et d’esthétique, en septembre 2025.</p>
 
             <h3>ALG DermaLina, une histoire de cœur</h3>
@@ -733,7 +733,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h3>Formation esthétique sur la dermopigmentation; l’épilation au laser; soins du visage</h3>
-                        <p>Spécialisations en dermopigmentation, laser médical, et technologies esthétiques avancées. Une expertise technique au service de la beauté.</p>
+                        <p>Spécialisations en dermopigmentation, épilation laser, et technologies esthétiques avancées. Une expertise technique au service de la beauté.</p>
                     </div>
                     <div class="timeline-year">2025</div>
                 </div>
@@ -741,7 +741,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                 <div class="timeline-item">
                     <div class="timeline-content">
                         <h3>Création d'ALG Derma Lina</h3>
-                        <p>Ouverture de mon cabinet à Ensuès-la-Redonne, concrétisant ma vision d'un lieu unique alliant expertise médicale et bien-être holistique.</p>
+                        <p>Ouverture de mon cabinet à Ensuès-la-Redonne, concrétisant ma vision d'un lieu unique alliant expertise et bien-être holistique.</p>
                     </div>
                     <div class="timeline-year">2025</div>
                 </div>
@@ -763,7 +763,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                 
                 <div class="value-card">
                     <div class="value-icon">⚕️</div>
-                    <h3>Rigueur Médicale</h3>
+                    <h3>Rigueur</h3>
                     <p>Mon parcours d'infirmière garantit des soins sécurisés, avec des protocoles stricts d'hygiène et une expertise technique irréprochable.</p>
                 </div>
                 
@@ -808,14 +808,14 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                     <div class="cert-icon">✨</div>
                     <div class="cert-content">
                         <h3>Formation Dermopigmentation</h3>
-                        <p>Techniques avancées de maquillage permanent et tatouage médical</p>
+                        <p>Techniques avancées de maquillage permanent et tatouage reconstructeur</p>
                     </div>
                 </div>
                 
                 <div class="certification-item">
                     <div class="cert-icon">⚡</div>
                     <div class="cert-content">
-                        <h3>Certification Laser Médical</h3>
+                        <h3>Certification Laser</h3>
                         <p>Utilisation sécurisée des lasers médicaux pour l'épilation définitive</p>
                     </div>
                 </div>

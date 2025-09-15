@@ -8,7 +8,7 @@ Site vitrine professionnel pour ALG Derma Lina, centre de soins technico-esthét
 
 ALG Derma Lina propose une gamme complète de soins technico-esthétiques médicaux innovants :
 - Jet Peel (soin non invasif)
-- Épilation laser médicale
+- Épilation laser
 - Dermopigmentation
 - Photobiomodulation LED
 - Accompagnement naturopathique

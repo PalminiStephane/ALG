@@ -736,7 +736,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                         <select id="service" name="service" required>
                             <option value="">Sélectionnez un service</option>
                             <option value="jet-peel">Jet Peel</option>
-                            <option value="laser">Épilation Laser Médical</option>
+                            <option value="laser">Épilation Laser</option>
                             <option value="naturopathie">Accompagnement Naturopathique</option>
                             <option value="led">Photobiomodulation LED</option>
                             <option value="dermopigmentation">Dermopigmentation</option>

@@ -628,7 +628,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 </section>
 
 <section class="services-intro">
-    <p>Caroline Vedda met son expertise médicale et son approche holistique au service de votre beauté naturelle. Chaque prestation est réalisée dans le respect de votre peau et de vos besoins spécifiques.</p>
+    <p>Caroline Vedda met son expertise et son approche holistique au service de votre beauté naturelle. Chaque prestation est réalisée dans le respect de votre peau et de vos besoins spécifiques.</p>
 </section>
 
 <section id="jet-peel" class="service-detail">
@@ -655,11 +655,11 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             <img src="images/epilation.png" alt="Épilation laser Ensuès-la-Redonne">
         </div>
         <div class="service-text">
-            <h2>Épilation Laser Médicale</h2>
-            <p>Procédé sûr et efficace pour une épilation durable. Equipement de pointe utilisé. Garantit un traitement rapide et moins douloureux grâce à un système de refroidissement de contact intégré.</p>
+            <h2>Épilation Laser</h2>
+            <p>Procédé sûr et efficace pour une épilation définitive. Equipement de pointe utilisé. Garantit un traitement rapide et moins douloureux grâce à un système de refroidissement de contact intégré.</p>
             <h3>Bienfaits</h3>
             <ul class="benefits-list">
-                <li>Réduction progressive et durable de la pilosité</li>
+                <li>Réduction progressive et définitive de la pilosité</li>
                 <li>Confort optimal, séances indolores</li>
                 <li>Convient à tout types de peaux</li>
             </ul>
@@ -674,7 +674,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         </div>
         <div class="service-text">
             <h2>Dermopigmentation correctrice/réparatrice</h2>
-            <p>Elle a pour but de camoufler des cicatrices, des vergetures, des taches ou de reconstruire l'aréole mammaire après une chirurgie. Ayant l'expertise médicale dans ma profession d'infirmière, je vous garantis une hygiène irréprochable dans mes soins et un haut niveau d'exigence qualitative.</p>
+            <p>Elle a pour but de camoufler des cicatrices, des vergetures, des taches ou de reconstruire l'aréole mammaire après une chirurgie. Ayant l'expertise dans ma profession d'infirmière, je vous garantis une hygiène irréprochable dans mes soins et un haut niveau d'exigence qualitative.</p>
             <h3>Bienfaits</h3>
             <ul class="benefits-list">
                 <li>Atténue cicatrices et imperfections</li>

@@ -1090,14 +1090,14 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                     <h3>Épreuve dermatique de santé</h3>
                     <p class="description">Bilan naturopathique complet pour faire le point sur votre hygiène de vie et vos objectifs.</p>
                     <div class="price"><span class="currency">€</span>50</div>
-                    <p class="price-info">Tarif horaire</p>
+                    <p class="price-info">1 heure</p>
                 </div>
 
                 <div class="price-card">
                     <h3>Suivi naturopathique</h3>
                     <p class="description">Séance d'accompagnement personnalisée pour ajuster votre programme et suivre vos progrès.</p>
                     <div class="price"><span class="currency">€</span>40</div>
-                    <p class="price-info">Tarif horaire</p>
+                    <p class="price-info">1 heure</p>
                 </div>
             </div>
 

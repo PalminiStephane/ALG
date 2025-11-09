@@ -848,7 +848,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                 
                 <details>
                     <summary>Quels sont les moyens de paiement acceptés ?</summary>
-                    <p>Nous acceptons les paiements en espèces, par chèque et par carte bancaire. Le règlement s'effectue à la fin de chaque séance.</p>
+                    <p>Nous acceptons les paiements en espèces et par chèque. Le règlement s'effectue à la fin de chaque séance.</p>
                 </details>
             </div>
         </div>

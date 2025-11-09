@@ -228,28 +228,63 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         }
 
         .launch-offers {
-            background-color: var(--secondary-color);
-            padding: 2rem;
-            border-radius: 10px;
+            background: linear-gradient(135deg, rgba(255, 245, 245, 0.95), rgba(232, 221, 212, 0.95));
+            padding: 2.5rem 2rem;
+            border-radius: 16px;
             text-align: center;
             margin: 3rem 0;
             box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+            border: 1px solid rgba(212, 165, 116, 0.2);
+        }
+
+        .launch-offers::before,
+        .launch-offers::after {
+            content: '❄';
+            position: absolute;
+            font-size: 3.5rem;
+            opacity: 0.15;
+            color: var(--primary-color);
+        }
+
+        .launch-offers::before {
+            top: 10px;
+            left: 20px;
+        }
+
+        .launch-offers::after {
+            bottom: 15px;
+            right: 25px;
         }
 
         .launch-offers h2 {
             color: var(--primary-color);
             font-weight: 300;
-            margin-bottom: 1rem;
+            margin-bottom: 1.5rem;
+            font-size: 2.2rem;
+            position: relative;
+        }
+
+        .launch-offers .festive-decor {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            font-size: 2rem;
+            margin-bottom: 1.5rem;
         }
 
         .launch-offers ul {
             list-style: none;
             padding: 0;
             margin: 0;
+            display: grid;
+            gap: 1rem;
         }
 
         .launch-offers li {
-            margin: 0.5rem 0;
+            margin: 0;
+            line-height: 1.6;
         }
 
         .launch-offers .highlight {
@@ -257,10 +292,16 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             font-weight: 600;
         }
 
+        .launch-offers .gift-info {
+            margin-top: 1.5rem;
+            font-weight: 500;
+            color: var(--primary-color);
+        }
+
         .launch-offers .validity {
             margin-top: 1rem;
             font-style: italic;
-            opacity: 0.8;
+            opacity: 0.85;
         }
 
         /* Pricing Cards */
@@ -680,17 +721,20 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         </div>
 
         <div class="launch-offers">
-            <h2>Offres de lancement</h2>
+            <h2>Offres spéciales de Noël</h2>
+            <div class="festive-decor" aria-hidden="true">
+                <span>🎄</span>
+                <span>❄️</span>
+                <span>🎁</span>
+            </div>
             <ul>
-                <li><span class="highlight">JetPeel visage + cou</span> : 90€ au lieu de 150€</li>
-                <li><span class="highlight">Épilation Laser</span>
-                    <ul>
-                        <li>Pour deux zones réservées : <span class="highlight">-20%</span> sur toutes les séances</li>
-                        <li>Pour trois zones réservées : <span class="highlight">-30%</span> sur toutes les séances</li>
-                    </ul>
-                </li>
+                <li><span class="highlight">Jet Peel</span> : 100€ au lieu de 150€ pour une cure de 3 ou 6 séances, soit <span class="highlight">-30%</span> sur la totalité de la cure.</li>
+                <li><span class="highlight">Laser</span> : pour une zone achetée, la deuxième est offerte (la moins chère des deux).</li>
+                <li><span class="highlight">Dermopigmentation correctrice</span> : <span class="highlight">-30%</span> pour la correction des cicatrices et vergetures.</li>
+                <li><span class="highlight">Consultation naturopathie</span> : <span class="highlight">-15%</span>.</li>
             </ul>
-            <p class="validity">Offre valable du 1<sup>er</sup> au 30 septembre pour un bilan réservé pendant cette période.</p>
+            <p class="validity">Offre valable à partir d'aujourd'hui.</p>
+            <p class="gift-info">🎁 Possibilité de réaliser des chèques cadeaux pour offrir nos soins.</p>
             <div class="booking-container">
                 <a href="https://www.planity.com/alg-dermalina-13820-ensues-la-redonne" class="cta-button">Réserver</a>
             </div>

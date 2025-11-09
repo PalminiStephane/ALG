@@ -307,8 +307,8 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(rgba(250, 249, 247, 0.4), rgba(232, 221, 212, 0.8)),
-                        url('images/ALGlevres.png');
+            background: linear-gradient(rgba(250, 249, 247, 0.5), rgba(232, 221, 212, 0.8)),
+                        url('images/caroline-accueil.jpg');
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -719,7 +719,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     <section class="hero">
         <div class="hero-content">
             <h1>Révélez votre beauté naturelle</h1>
-            <p>Soins technico-esthétiques / dermo-esthétiques innovants alliant expertise et approche holistique</p>
+            <p>Soins dermo esthétiques innovants alliant expertise et approche holistique</p>
             <p>Technologie alternative aux injections et à la chirurgie</p>
             <div class="hero-buttons">
                 <a href="https://www.planity.com/alg-dermalina-13820-ensues-la-redonne" class="btn-primary">Réserver une consultation</a>

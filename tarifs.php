@@ -739,7 +739,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                 <span>🎁</span>
             </div>
             <ul>
-                <li><span class="highlight">Jet Peel</span> : 100€ au lieu de 150€ pour une cure de 3 ou 6 séances, soit <span class="highlight">-30%</span> sur la totalité de la cure.</li>
+                <li><span class="highlight">Jet Peel</span> : 100€ au lieu de 150€. Pour une cure de 3 ou 6 séances, soit <span class="highlight">-30%</span> sur la totalité de la cure.</li>
                 <li><span class="highlight">Laser</span> : pour une zone achetée, la deuxième est offerte (la moins chère des deux).</li>
                 <li><span class="highlight">Dermopigmentation correctrice</span> : <span class="highlight">-30%</span> pour la correction des cicatrices et vergetures.</li>
                 <li><span class="highlight">Consultation naturopathie</span> : <span class="highlight">-15%</span>.</li>

@@ -434,6 +434,17 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             font-weight: 500;
             white-space: nowrap;
         }
+
+        .price-table .price-red {
+            color: #C0392B;
+        }
+
+        .price-note {
+            margin-top: 1rem;
+            font-size: 0.95rem;
+            color: rgba(44, 62, 44, 0.8);
+            line-height: 1.5;
+        }
         
         /* Forfaits */
         .forfaits-section {
@@ -1033,6 +1044,64 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                     </tbody>
                 </table>
             </div>
+        </div>
+
+        <div class="pricing-category">
+            <h2>Dermopigmentation correctrice</h2>
+
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Maquillage correcteur</h3>
+                    <p class="description">Séance de maquillage correcteur personnalisée pour harmoniser la zone traitée.</p>
+                    <div class="price"><span class="currency">€</span>150</div>
+                    <p class="price-info">Tarif horaire</p>
+                </div>
+            </div>
+
+            <div class="price-table">
+                <h3>Camouflage des cicatrices</h3>
+                <table>
+                    <tbody>
+                        <tr><td>Camouflage cicatrice jusqu'à 3&nbsp;cm</td><td class="price-red">120€</td></tr>
+                        <tr><td>Camouflage cicatrice jusqu'à 8&nbsp;cm</td><td class="price-red">180€</td></tr>
+                        <tr><td>Camouflage cicatrice jusqu'à 15&nbsp;cm</td><td class="price-red">220€</td></tr>
+                    </tbody>
+                </table>
+                <p class="price-info">Prix à la séance – prévoir entre 2 et 4 séances.</p>
+            </div>
+
+            <div class="price-table">
+                <h3>Camouflage des vergetures</h3>
+                <table>
+                    <tbody>
+                        <tr><td>Camouflage vergeture</td><td>Sur devis</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <p class="price-note">Une retouche fixatrice est comprise dans le prix. Elle se réalise 4 mois après la dermopigmentation. Valable pour les camouflages de cicatrices et de vergetures.</p>
+        </div>
+
+        <div class="pricing-category">
+            <h2>Consultations naturopathie</h2>
+
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Épreuve dermatique de santé</h3>
+                    <p class="description">Bilan naturopathique complet pour faire le point sur votre hygiène de vie et vos objectifs.</p>
+                    <div class="price"><span class="currency">€</span>50</div>
+                    <p class="price-info">Tarif horaire</p>
+                </div>
+
+                <div class="price-card">
+                    <h3>Suivi naturopathique</h3>
+                    <p class="description">Séance d'accompagnement personnalisée pour ajuster votre programme et suivre vos progrès.</p>
+                    <div class="price"><span class="currency">€</span>40</div>
+                    <p class="price-info">Tarif horaire</p>
+                </div>
+            </div>
+
+            <p class="price-note">Consultations réalisables en présentiel ou en visio selon vos disponibilités.</p>
         </div>
 
         <div class="pricing-category">

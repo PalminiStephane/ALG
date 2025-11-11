@@ -1079,7 +1079,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                 </table>
             </div>
 
-            <p class="price-note">Une retouche fixatrice est comprise dans le prix. Elle se réalise 4 mois après la dermopigmentation. Valable pour les camouflages de cicatrices et de vergetures.</p>
+            <p class="price-note">Une retouche fixatrice est comprise dans le prix. Elle se réalise 1 mois après la dermopigmentation. Valable pour les camouflages de cicatrices et de vergetures.</p>
         </div>
 
         <div class="pricing-category">

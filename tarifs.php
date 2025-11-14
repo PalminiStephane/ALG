@@ -329,6 +329,14 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             height: 2px;
             background-color: var(--accent-color);
         }
+
+        .pricing-category h2 span {
+            display: block;
+            font-size: 1rem;
+            color: var(--text-dark);
+            opacity: 0.75;
+            margin-top: 0.75rem;
+        }
         
         .pricing-grid {
             display: grid;
@@ -391,6 +399,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             font-size: 0.9rem;
             color: var(--text-dark);
             opacity: 0.7;
+            margin-top: 1rem;
         }
         
         /* Tables de prix */
@@ -1047,7 +1056,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         </div>
 
         <div class="pricing-category">
-            <h2>Maquillage permanent sourcils</h2>
+        <h2>Maquillage permanent sourcils<span>Consultation personnalisée offerte (30 min) pour déterminer les zones à effectuer et le pigment choisi.</span></h2>
 
             <div class="price-table">
                 <h3>Séance de Tatouage Sourcils</h3>
@@ -1061,7 +1070,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         </div>
 
         <div class="pricing-category">
-            <h2>Dermopigmentation correctrice</h2>
+        <h2>Dermopigmentation correctrice<span>Consultation personnalisée offerte (30 min) pour déterminer les zones à effectuer et le pigment choisi.</span></h2>
 
             <div class="price-table">
                 <h3>Camouflage des cicatrices</h3>

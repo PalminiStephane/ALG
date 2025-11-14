@@ -1047,24 +1047,16 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         </div>
 
         <div class="pricing-category">
-            <h2>Maquillage permanent correcteur</h2>
-
-            <div class="pricing-grid">
-                <div class="price-card">
-                    <h3>Sourcils PowderBrows</h3>
-                    <p class="description">Séance de tatouage sourcils, méthode PowderBrows pour un résultat naturel et poudré.</p>
-                    <div class="price"><span class="currency">€</span>400</div>
-                    <p class="price-info">1<sup>re</sup> retouche offerte jusqu'à 3 mois</p>
-                </div>
-            </div>
+            <h2>Maquillage permanent sourcils</h2>
 
             <div class="price-table">
-                <h3>Retouches</h3>
+                <h3>Séance de Tatouage Sourcils</h3>
                 <table>
                     <tbody>
-                        <tr><td>Retouche supplémentaire</td><td class="price-red">150€</td></tr>
+                        <tr><td>Méthode microshading (ombrage) ou micropowder (poudré) pour un résultat naturel et fondu.</td><td class="price-red">150€</td></tr>
                     </tbody>
                 </table>
+                <p class="price-info">Tarif horaire - 1<sup>re</sup> retouche offerte jusqu'à 3 mois après le tatouage.</p>
             </div>
         </div>
 
@@ -1091,9 +1083,6 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                     </tbody>
                 </table>
             </div>
-
-            <p class="price-note">Les retouches et tarifs sont personnalisés après diagnostic à l'institut. Une retouche jusqu'à 3 mois après la prestation (maquillage permanent et dermopigmentation correctrice) est offerte pour déterminer les zones cicatrisées, retoucher les zones si besoin et garantir un résultat durable.</p>
-            <p class="price-info">Consultation diagnostic : 30 min.</p>
         </div>
 
         <div class="pricing-category">

@@ -670,7 +670,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 <section id="accompagnement-nutritionnel" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/caroline-accueil2.jpg" alt="Accompagnement nutritionnel à Ensuès-la-Redonne">
+            <img src="images/AccompagnementNutritionnel.png" alt="Accompagnement nutritionnel à Ensuès-la-Redonne">
         </div>
         <div class="service-text">
             <h2>Accompagnement nutritionnel</h2>

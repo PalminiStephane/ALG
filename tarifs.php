@@ -976,7 +976,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                     </div>
                     <div class="forfait-content">
                         <ul>
-                            <li>5 séances combinées (Jet Peel + LED)</li>
+                            <li>5 séances Jet Peel</li>
                             <li>Économie de 100€</li>
                             <li>Validité 8 mois</li>
                             <li>Diagnostic peau offert</li>
@@ -1056,41 +1056,15 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         </div>
 
         <div class="pricing-category">
-        <h2>Maquillage permanent sourcils<span>Consultation personnalisée offerte (30 min) pour déterminer les zones à effectuer et le pigment choisi.</span></h2>
+            <h2>Accompagnement nutritionnel</h2>
 
-            <div class="price-table">
-                <h3>Séance de Tatouage Sourcils</h3>
-                <table>
-                    <tbody>
-                        <tr><td>Méthode microshading (ombrage) ou micropowder (poudré) pour un résultat naturel et fondu.</td><td class="price-red">150€</td></tr>
-                    </tbody>
-                </table>
-                <p class="price-info">Tarif horaire - 1<sup>re</sup> retouche offerte jusqu'à 3 mois après le tatouage.</p>
-            </div>
-        </div>
-
-        <div class="pricing-category">
-        <h2>Dermopigmentation correctrice<span>Consultation personnalisée offerte (30 min) pour déterminer les zones à effectuer et le pigment choisi.</span></h2>
-
-            <div class="price-table">
-                <h3>Camouflage des cicatrices</h3>
-                <table>
-                    <tbody>
-                        <tr><td>Camouflage cicatrice jusqu'à 3&nbsp;cm</td><td class="price-red">120€</td></tr>
-                        <tr><td>Camouflage cicatrice jusqu'à 8&nbsp;cm</td><td class="price-red">180€</td></tr>
-                        <tr><td>Camouflage cicatrice jusqu'à 15&nbsp;cm</td><td class="price-red">220€</td></tr>
-                    </tbody>
-                </table>
-                <p class="price-info">Prix à la séance – prévoir entre 2 et 4 séances.</p>
-            </div>
-
-            <div class="price-table">
-                <h3>Camouflage des vergetures</h3>
-                <table>
-                    <tbody>
-                        <tr><td>Camouflage vergeture</td><td>Sur devis</td></tr>
-                    </tbody>
-                </table>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Bilan nutritionnel offert</h3>
+                    <p class="description">Un premier rendez-vous pour définir vos objectifs (perte de poids, regain d'énergie ou performance sportive) et établir un plan d'action.</p>
+                    <div class="price">Offert</div>
+                    <p class="price-info">Accompagnement personnalisé sur devis selon vos besoins.</p>
+                </div>
             </div>
         </div>
 

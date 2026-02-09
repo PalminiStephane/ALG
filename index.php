@@ -8,12 +8,12 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="ALG Derma Lina - Soins technico-esthétiques médicaux à Ensuès-la-Redonne. Jet Peel, épilation laser, dermopigmentation et accompagnement naturopathique par Caroline Vedda.">
-    <meta name="keywords" content="soins esthétiques médicaux, jet peel, épilation laser, dermopigmentation, naturopathie, Marseille, Ensuès-la-Redonne, Martigues, Bouches-du-Rhône">
+    <meta name="description" content="ALG Derma Lina - Soins technico-esthétiques médicaux à Ensuès-la-Redonne. Jet Peel, épilation laser, accompagnement nutritionnel et accompagnement naturopathique par Caroline Vedda.">
+    <meta name="keywords" content="soins esthétiques médicaux, jet peel, épilation laser, accompagnement nutritionnel, naturopathie, Marseille, Ensuès-la-Redonne, Martigues, Bouches-du-Rhône">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
-    <meta property="og:title" content="ALG Derma Lina | Dermopigmentation & Soins Esthétiques Médicaux à Ensuès-la-Redonne">
-    <meta property="og:description" content="ALG Derma Lina - Soins technico-esthétiques médicaux à Ensuès-la-Redonne. Jet Peel, épilation laser, dermopigmentation et accompagnement naturopathique par Caroline Vedda.">
+    <meta property="og:title" content="ALG Derma Lina | Soins Esthétiques & Accompagnement Nutritionnel à Ensuès-la-Redonne">
+    <meta property="og:description" content="ALG Derma Lina - Soins technico-esthétiques médicaux à Ensuès-la-Redonne. Jet Peel, épilation laser, accompagnement nutritionnel et accompagnement naturopathique par Caroline Vedda.">
     <meta property="og:image" content="<?= htmlspecialchars($base_url . '/images/logo/ALG6.png', ENT_QUOTES); ?>">
     <meta property="og:url" content="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
     <meta name="theme-color" content="#8B9A7B">
@@ -34,7 +34,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     "@context": "https://schema.org",
     "@type": "MedicalBusiness",
     "name": "ALG Derma Lina",
-    "description": "ALG Derma Lina - Soins technico-esthétiques médicaux à Ensuès-la-Redonne. Jet Peel, épilation laser, dermopigmentation et accompagnement naturopathique par Caroline Vedda.",
+    "description": "ALG Derma Lina - Soins technico-esthétiques médicaux à Ensuès-la-Redonne. Jet Peel, épilation laser, accompagnement nutritionnel et accompagnement naturopathique par Caroline Vedda.",
     "url": "https://algdermalina.fr",
     "logo": "https://algdermalina.fr/images/logo/ALG6.png",
     "image": "https://algdermalina.fr/images/ALGlevres.png",
@@ -105,8 +105,8 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             "@type": "Offer",
             "itemOffered": {
             "@type": "Service",
-            "name": "Dermopigmentation réparatrice",
-            "description": "Tatouage reconstructeur pour cicatrices, vergetures, aréoles mammaires"
+            "name": "Accompagnement nutritionnel",
+            "description": "Objectifs de perte de poids, regain d'énergie ou performance sportive"
             }
         },
         {
@@ -129,22 +129,6 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             "@type": "Offer",
             "itemOffered": {
             "@type": "Service",
-            "name": "Maquillage permanent",
-            "description": "Redessine et sublime sourcils, yeux et lèvres durablement"
-            }
-        },
-        {
-            "@type": "Offer",
-            "itemOffered": {
-            "@type": "Service",
-            "name": "Photobiomodulation LED",
-            "description": "Luminothérapie pour stimuler le fonctionnement cellulaire naturel"
-            }
-        },
-        {
-            "@type": "Offer",
-            "itemOffered": {
-            "@type": "Service",
             "name": "Accompagnement naturopathique",
             "description": "Approche holistique pour rééquilibrer l'organisme naturellement"
             }
@@ -155,17 +139,15 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     "founder": {
         "@type": "Person",
         "name": "Caroline Vedda",
-        "jobTitle": "Infirmière diplômée d'État spécialisée en dermopigmentation",
-        "description": "Infirmière depuis 2006, spécialisée en dermopigmentation réparatrice à visée esthétique",
+        "jobTitle": "Infirmière diplômée d'État spécialisée en soins technico-esthétiques",
+        "description": "Infirmière depuis 2006, spécialisée en soins technico-esthétiques à visée esthétique",
         "knowsAbout": [
-        "Dermopigmentation",
         "Épilation laser",
         "Soins esthétiques médicaux",
         "Naturopathie",
         "Puériculture",
         "Jet Peel",
-        "Photobiomodulation LED",
-        "Maquillage permanent"
+        "Accompagnement nutritionnel"
         ]
     },
     
@@ -186,7 +168,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     }
     </script>
 
-    <title>ALG Derma Lina | Dermopigmentation & Soins Esthétiques Médicaux à Ensuès-la-Redonne</title>
+    <title>ALG Derma Lina | Soins Esthétiques & Accompagnement Nutritionnel à Ensuès-la-Redonne</title>
     <link rel="icon" type="image/png" href="./images/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -742,10 +724,10 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                 <h3>Épilation Laser</h3>
                 <p>Épilation durable et sécurisée pour tous types de peaux.</p>
             </a>
-            <a href="services.php#dermopigmentation" class="service-card">
-                <div class="service-icon">🎨</div>
-                <h3>Dermopigmentation</h3>
-                <p>Maquillage permanent et tatouage reconstructeur.</p>
+            <a href="services.php#accompagnement-nutritionnel" class="service-card">
+                <div class="service-icon">🥗</div>
+                <h3>Accompagnement nutritionnel</h3>
+                <p>Objectifs de perte de poids, regain d'énergie ou performance sportive, avec bilan nutritionnel offert.</p>
             </a>
         </div>
         <div style="text-align: center; margin-top: 3rem;">

@@ -8,19 +8,19 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Découvrez toutes les prestations d'ALG Derma Lina à Ensuès-la-Redonne : Jet Peel, épilation laser, dermopigmentation, photobiomodulation LED, naturopathie et accompagnement à la parentalité.">
-    <meta name="keywords" content="Jet Peel, épilation laser, dermopigmentation, photobiomodulation, naturopathie, parentalité">
+    <meta name="description" content="Découvrez toutes les prestations d'ALG Derma Lina à Ensuès-la-Redonne : Jet Peel, épilation laser, accompagnement nutritionnel, naturopathie et accompagnement à la parentalité.">
+    <meta name="keywords" content="Jet Peel, épilation laser, accompagnement nutritionnel, naturopathie, parentalité">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
-    <meta property="og:title" content="Dermopigmentation, Épilation Laser & Soins Anti-Âge | ALG Derma Lina Ensuès">
-    <meta property="og:description" content="Découvrez toutes les prestations d'ALG Derma Lina : Jet Peel, épilation laser, dermopigmentation, photobiomodulation LED, naturopathie et accompagnement à la parentalité.">
+    <meta property="og:title" content="Épilation Laser, Accompagnement Nutritionnel & Soins Anti-Âge | ALG Derma Lina Ensuès">
+    <meta property="og:description" content="Découvrez toutes les prestations d'ALG Derma Lina : Jet Peel, épilation laser, accompagnement nutritionnel, naturopathie et accompagnement à la parentalité.">
     <meta property="og:image" content="<?= htmlspecialchars($base_url . '/images/logo/ALG6.png', ENT_QUOTES); ?>">
     <meta property="og:url" content="<?= htmlspecialchars($canonical, ENT_QUOTES); ?>">
     <meta property="og:type" content="website">
     <meta name="theme-color" content="#8B9A7B">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-    <title>Dermopigmentation, Épilation Laser & Soins Anti-Âge | ALG Derma Lina Ensuès</title>
+    <title>Épilation Laser, Accompagnement Nutritionnel & Soins Anti-Âge | ALG Derma Lina Ensuès</title>
     <link rel="icon" type="image/png" href="./images/logo/ALG6.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -667,58 +667,19 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     </div>
 </section>
 
-<section id="dermopigmentation" class="service-detail">
+<section id="accompagnement-nutritionnel" class="service-detail">
     <div class="service-content">
         <div class="service-image">
-            <img src="images/cicatrice.png" alt="Dermopigmentation correctrice et réparatrice à Ensuès-la-Redonne">
+            <img src="images/caroline-accueil2.jpg" alt="Accompagnement nutritionnel à Ensuès-la-Redonne">
         </div>
         <div class="service-text">
-            <h2>Dermopigmentation correctrice/réparatrice</h2>
-            <p>Elle a pour but de camoufler des cicatrices, des vergetures, des taches ou de reconstruire l'aréole mammaire après une chirurgie. Ayant l'expertise dans ma profession d'infirmière, je vous garantis une hygiène irréprochable dans mes soins et un haut niveau d'exigence qualitative.</p>
+            <h2>Accompagnement nutritionnel</h2>
+            <p>Un accompagnement personnalisé pour vous aider à atteindre vos objectifs de perte de poids, de regain d'énergie ou d'augmentation de performance physique chez les sportifs. Le parcours débute par un <strong>bilan nutritionnel offert</strong> afin d'identifier vos besoins et de construire un plan d'action durable.</p>
             <h3>Bienfaits</h3>
             <ul class="benefits-list">
-                <li>Atténue cicatrices et imperfections</li>
-                <li>Rééquilibre la pigmentation de la peau</li>
-                <li>Améliore la confiance en soi</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section id="maquillage-permanent" class="service-detail">
-    <div class="service-content">
-        <div class="service-image">
-            <img src="images/dermopigmentation.png" alt="Maquillage permanent Ensuès-la-Redonne">
-        </div>
-        <div class="service-text">
-            <h2>Maquillage permanent</h2>
-            <p>Formée par Myriam Dugelay, dotée de ses décennies d'expérience et d'expertise. Technique esthétique qui redessine et sublime durablement les sourcils, yeux ou lèvres. Et ceci pour un résultat naturel, harmonieux et pratique au quotidien qui vous fera gagner du temps chaque jour. Ce sont des pigments organiques de haute technologie qui sont implantés dans les couches superficielles de la peau.</p>
-            <h3>Bienfaits</h3>
-            <ul class="benefits-list">
-                <li>Résultat naturel et longue durée</li>
-                <li>Sourcils et lèvres toujours nets</li>
-                <li>Gain de temps chaque matin</li>
-            </ul>
-        </div>
-    </div>
-</section>
-
-<section id="led" class="service-detail">
-    <div class="service-content">
-        <div class="service-image">
-            <img src="images/photobiomodulationLED.png" alt="Photobiomodulation LED Ensuès-la-Redonne">
-            <div class="coming-soon">Bientôt disponible</div>
-        </div>
-        <div class="service-text">
-            <h2>Photobiomodulation LED</h2>
-            <p>Technique innovante qui utilise une lumière émise par des LED. Totalement indolore et agit au coeur des cellules pour stimuler leur fonctionnement naturel.</p>
-            <h3>Bienfaits</h3>
-            <ul class="benefits-list">
-                <li>La régénération et la réparation des tissus</li>
-                <li>La réduction de l'inflammation</li>
-                <li>Le soulagement de certaines douleurs</li>
-                <li>L'amélioration de la circulation, de la fermeté et de la texture de la peau</li>
-                <li>Améliore la cicatrisation et élimine les rougeurs</li>
+                <li>Plan alimentaire adapté à votre mode de vie</li>
+                <li>Suivi ciblé pour optimiser énergie et performances</li>
+                <li>Conseils concrets pour ancrer des habitudes durables</li>
             </ul>
         </div>
     </div>

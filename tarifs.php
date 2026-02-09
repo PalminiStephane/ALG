@@ -741,16 +741,16 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
         </div>
 
         <div class="launch-offers">
-            <h2>Offres spéciales de Noël</h2>
+            <h2>Offres spéciales Saint-Valentin</h2>
             <div class="festive-decor" aria-hidden="true">
-                <span>🎄</span>
-                <span>❄️</span>
-                <span>🎁</span>
+                <span>💘</span>
+                <span>🌹</span>
+                <span>💕</span>
             </div>
             <ul>
                 <li><span class="highlight">Jet Peel</span> : 100€ au lieu de 150€. Pour une cure de 3 ou 6 séances <span class="highlight">-30%</span> sur la totalité de la cure.</li>
                 <li><span class="highlight">Laser</span> : pour une zone achetée, la deuxième est offerte (la moins chère des deux).</li>
-                <li><span class="highlight">Dermopigmentation correctrice</span> : <span class="highlight">-30%</span> pour la correction des cicatrices et vergetures.</li>
+                <li><span class="highlight">Bilan nutritionnel</span> : <span class="highlight">Offert !</span></li>
                 <li><span class="highlight">Consultation naturopathie</span> : <span class="highlight">-15%</span>.</li>
             </ul>
             <p class="validity">Offre valable à partir d'aujourd'hui.</p>

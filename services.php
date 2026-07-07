@@ -631,7 +631,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     <p>Caroline Vedda met son expertise et son approche holistique au service de votre beauté naturelle. Chaque prestation est réalisée dans le respect de votre peau et de vos besoins spécifiques.</p>
 </section>
 
-<section id="jet-peel" class="service-detail">
+<!-- <section id="jet-peel" class="service-detail">
     <div class="service-content">
         <div class="service-image">
             <img src="images/jetpeel.png" alt="Jet Peel Ensuès-la-Redonne">
@@ -647,7 +647,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             </ul>
         </div>
     </div>
-</section>
+</section> -->
 
 <section id="laser" class="service-detail">
     <div class="service-content">

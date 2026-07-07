@@ -714,11 +714,11 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
     <section class="services-preview">
         <h2>Nos Services</h2>
         <div class="services-grid">
-            <a href="services.php#jet-peel" class="service-card">
+            <!-- <a href="services.php#jet-peel" class="service-card">
                 <div class="service-icon">💧</div>
                 <h3>Jet Peel</h3>
                 <p>Soin non invasif pour nettoyer, hydrater et régénérer votre peau en profondeur.</p>
-            </a>
+            </a> -->
             <a href="services.php#laser" class="service-card">
                 <div class="service-icon">⚡</div>
                 <h3>Épilation Laser</h3>

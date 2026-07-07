@@ -740,7 +740,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             <p>Chez ALG Derma Lina, nous pratiquons des tarifs transparents et adaptés à la qualité de nos soins. Découvrez nos différentes prestations et forfaits avantageux.</p>
         </div>
 
-        <div class="launch-offers">
+        <!-- <div class="launch-offers">
             <h2>Offres spéciales Saint-Valentin</h2>
             <div class="festive-decor" aria-hidden="true">
                 <span>💘</span>
@@ -758,7 +758,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
             <div class="booking-container">
                 <a href="https://www.planity.com/alg-dermalina-13820-ensues-la-redonne" class="cta-button">Réserver</a>
             </div>
-        </div>
+        </div> -->
 <?php /*
             <!-- Soins du Visage -->
             <div class="pricing-category">
@@ -1022,7 +1022,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
 </section>
 */ ?>
 
-        <div class="pricing-category">
+        <!-- <div class="pricing-category">
             <h2>Soins du Visage</h2>
 
             <div class="pricing-grid">
@@ -1053,7 +1053,7 @@ $canonical = $base_url . $_SERVER['REQUEST_URI'];
                     </tbody>
                 </table>
             </div>
-        </div>
+        </div> -->
 
         <div class="pricing-category">
             <h2>Accompagnement nutritionnel</h2>
